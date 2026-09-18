@@ -1,0 +1,22 @@
+{
+  "genes": {
+    "files": [
+      {
+        "filePath": "cds.fna",
+        "fileType": "CDS_NUCLEOTIDE_FASTA",
+        "uncompressedLengthBytes": "26698"
+      },
+      {
+        "filePath": "data_report.jsonl",
+        "fileType": "DATA_REPORT",
+        "uncompressedLengthBytes": "37304"
+      },
+      {
+        "filePath": "product_report.jsonl",
+        "fileType": "DATA_REPORT",
+        "uncompressedLengthBytes": "57984"
+      }
+    ]
+  },
+  "apiVersion": "V2"
+}

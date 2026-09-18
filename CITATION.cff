@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "TP53 Mutation Analysis: Sequence, Structure, and Machine Learning"
+message: "If you use this repository, please cite it as below."
+authors:
+  - family-names: "TP53 Mutation Analysis contributors"
+    given-names: ""
+repository-code: "TP53-Mutation-Analysis"
+license: MIT
+keywords:
+  - TP53
+  - computational biology
+  - AlphaFold
+  - structural bioinformatics
+  - machine learning

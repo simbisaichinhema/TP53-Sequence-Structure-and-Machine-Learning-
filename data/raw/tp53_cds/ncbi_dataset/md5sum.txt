@@ -1,0 +1,4 @@
+ac8136ff2a317470f148fce079330330  ncbi_dataset/data/cds.fna
+d981456de832a140dd1ad80352e28350  ncbi_dataset/data/data_report.jsonl
+932843e9742357e1c4c946fa57d203b7  ncbi_dataset/data/product_report.jsonl
+a4be3955de9b2ce7dcf63c3be057a83d  ncbi_dataset/data/dataset_catalog.json

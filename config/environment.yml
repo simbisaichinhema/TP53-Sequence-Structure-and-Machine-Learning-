@@ -1,0 +1,12 @@
+name: tp53-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - biopython
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pyyaml

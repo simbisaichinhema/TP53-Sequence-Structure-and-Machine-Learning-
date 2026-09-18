@@ -1,0 +1,16 @@
+# Analysis configuration (single source of truth for scripts)
+
+gene: TP53
+organism: Homo sapiens
+ncbi_gene_id: 7157
+transcript: NM_001126112.3
+cds_coordinates: [140, 1321]
+orf:
+  from: 1
+  to: 1182
+  min_length_aa: 100
+  genetic_code: Standard
+wt_protein_length: 393
+uniprot_reference: P04637
+experimental_benchmark: 2OCJ  # candidate; retrieval pending
+random_seed: 42

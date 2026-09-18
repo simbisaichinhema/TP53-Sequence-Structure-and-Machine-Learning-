@@ -1,0 +1,261 @@
+{
+ "wt_length": 393,
+ "chains_2ocj": {
+  "A": {
+   "n_residues": 194,
+   "range": [
+    96,
+    289
+   ],
+   "numbering_matches_wt": true
+  },
+  "B": {
+   "n_residues": 194,
+   "range": [
+    96,
+    289
+   ],
+   "numbering_matches_wt": true
+  },
+  "C": {
+   "n_residues": 194,
+   "range": [
+    96,
+    289
+   ],
+   "numbering_matches_wt": true
+  },
+  "D": {
+   "n_residues": 194,
+   "range": [
+    96,
+    289
+   ],
+   "numbering_matches_wt": true
+  }
+ },
+ "models": {
+  "model_0": {
+   "A": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.392,
+    "sequence_identity": "194/194"
+   },
+   "B": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.373,
+    "sequence_identity": "194/194"
+   },
+   "C": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.378,
+    "sequence_identity": "194/194"
+   },
+   "D": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.614,
+    "sequence_identity": "194/194"
+   }
+  },
+  "model_1": {
+   "A": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.382,
+    "sequence_identity": "194/194"
+   },
+   "B": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.37,
+    "sequence_identity": "194/194"
+   },
+   "C": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.374,
+    "sequence_identity": "194/194"
+   },
+   "D": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.63,
+    "sequence_identity": "194/194"
+   }
+  },
+  "model_2": {
+   "A": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.416,
+    "sequence_identity": "194/194"
+   },
+   "B": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.394,
+    "sequence_identity": "194/194"
+   },
+   "C": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.398,
+    "sequence_identity": "194/194"
+   },
+   "D": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.633,
+    "sequence_identity": "194/194"
+   }
+  },
+  "model_3": {
+   "A": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.393,
+    "sequence_identity": "194/194"
+   },
+   "B": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.38,
+    "sequence_identity": "194/194"
+   },
+   "C": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.393,
+    "sequence_identity": "194/194"
+   },
+   "D": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.646,
+    "sequence_identity": "194/194"
+   }
+  },
+  "model_4": {
+   "A": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.401,
+    "sequence_identity": "194/194"
+   },
+   "B": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.389,
+    "sequence_identity": "194/194"
+   },
+   "C": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.407,
+    "sequence_identity": "194/194"
+   },
+   "D": {
+    "n_aligned_ca": 194,
+    "range": [
+     96,
+     289
+    ],
+    "rmsd_angstrom": 0.666,
+    "sequence_identity": "194/194"
+   }
+  }
+ },
+ "regions": {
+  "model_0": {
+   "N_term_1_93": 36.9,
+   "core_94_292": 97.79,
+   "C_term_293_393": 52.56
+  },
+  "model_1": {
+   "N_term_1_93": 36.54,
+   "core_94_292": 97.85,
+   "C_term_293_393": 51.63
+  },
+  "model_2": {
+   "N_term_1_93": 39.04,
+   "core_94_292": 97.85,
+   "C_term_293_393": 52.05
+  },
+  "model_3": {
+   "N_term_1_93": 37.5,
+   "core_94_292": 97.87,
+   "C_term_293_393": 52.32
+  },
+  "model_4": {
+   "N_term_1_93": 37.68,
+   "core_94_292": 97.89,
+   "C_term_293_393": 52.06
+  }
+ },
+ "representative_model": {
+  "model": "model_4",
+  "rationale": "Highest mean per-residue pLDDT over the experimentally covered core region (94-292).",
+  "core_plddt": 97.89
+ }
+}

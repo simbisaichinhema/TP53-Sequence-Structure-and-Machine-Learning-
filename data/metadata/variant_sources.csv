@@ -1,0 +1,2 @@
+record_id,database,version_or_release,accession_criteria,retrieval_date,local_file,notes,status
+VAR01,[PENDING — SOURCE VERIFICATION REQUIRED],NA,NA,NA,data/raw/variants/ (empty),"No variant source selected yet. Do NOT invent mutations. Candidate curated sources: ClinVar / COSMIC / IARC TP53 Database / cBioPortal — decision with filtering criteria must be recorded here before dataset construction.",NOT STARTED
