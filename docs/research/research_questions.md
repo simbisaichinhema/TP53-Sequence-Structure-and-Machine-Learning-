@@ -22,22 +22,29 @@ quantitatively compared with experimentally determined TP53 data?
   is consistency, not blind validation; PyMOL cross-check pending. Evidence:
   `results/structure/wt_validation.md`.
 
-## RQ3 — Variant effects (NOT STARTED)
+## RQ3 — Variant effects (ANSWERED 2026-09-24, prototype)
 
 How do selected TP53 variants alter sequence-derived and structure-derived
 features relative to the WT reference?
 
-- Blocked on: WT baseline finalisation + documented variant source.
+- 388 ClinVar missense variants featurized vs verified WT; demo comparison
+  (R175H/R248Q/R248W/R273H/Y220C/G245S vs P72R) in
+  `results/mutations/wt_vs_mutant.md`. Pathogenic core variants sit in
+  high-pLDDT regions with large physicochemical shifts; association only.
 
-## RQ4 — ML classification (NOT STARTED)
+## RQ4 — ML classification (ANSWERED 2026-09-24, prototype)
 
 Can sequence and structural features provide useful information for
 computational classification of curated TP53 variant annotations?
 
-- Framed as an information/classification question, not a causal claim.
+- Yes at prototype scope: random forest test F1 0.88 / ROC-AUC 0.94 (n=78
+  held out). Framed as association with ClinVar annotations, not causality
+  or clinical validity.
 
-## RQ5 — Explainability (NOT STARTED)
+## RQ5 — Explainability (ANSWERED 2026-09-24, prototype)
 
 Which features contribute most strongly to the model's predictions?
 
-- Association only; feature importance must never be reported as mechanism.
+- WT pLDDT context, Zn-ligand distance, position/core flags
+  (`figures/machine_learning/feature_importance.png`). Association only;
+  never reported as mechanism.

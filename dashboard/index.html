@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TP53 Variant Predictor — Research Prototype</title>
+<style>
+  :root {
+    --navy: #1b2a4a; --navy-dark: #121d33;
+    --teal: #0e7c7b; --teal-dark: #0a5e5d;
+    --ink: #243145; --muted: #5d6b82; --line: #dfe5ee;
+    --bg: #f4f6fa; --card: #ffffff;
+    --red: #b4232a; --red-bg: #fdf0f0;
+    --green: #1c7a3d; --green-bg: #eef8f0;
+    --amber-bg: #fff8e8; --amber-line: #e3c26a;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: var(--ink); background: var(--bg);
+    font-family: Georgia, "Times New Roman", serif; font-size: 16px; line-height: 1.55; }
+  body input, body select, body button { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .topbar { background: var(--navy-dark); color: #fff; }
+  .topbar .inner { max-width: 1120px; margin: 0 auto; padding: 26px 24px 24px; display: flex; gap: 18px; align-items: center; }
+  .crest { flex: 0 0 auto; width: 58px; height: 58px; border-radius: 12px; background: #fff; color: var(--navy);
+    display: grid; place-items: center; font-weight: 800; font-size: 22px;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .topbar h1 { margin: 0; font-size: 27px; }
+  .topbar .sub { margin: 4px 0 0; font-size: 14.5px; color: #b9c4d8; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .proto { display: inline-block; margin-top: 10px; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase;
+    color: var(--navy-dark); background: #ffd97a; border-radius: 4px; padding: 4px 12px; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 26px 24px 56px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 24px 26px; box-shadow: 0 1px 3px rgba(27,42,74,0.10); }
+  .eyebrow { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 12px;
+    font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: var(--teal); margin: 0 0 2px; }
+  .card h2 { margin: 0 0 6px; font-size: 22px; color: var(--navy); }
+  .card p.desc { margin: 0 0 6px; color: var(--muted); font-size: 14.5px; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 12px; }
+  .field label { display: block; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 12.5px; font-weight: 600; color: var(--muted); margin-bottom: 6px; }
+  input[type="number"], select { width: 100%; padding: 10px 11px; font-size: 16px; color: var(--ink);
+    background: #fff; border: 1px solid #b9c2d2; border-radius: 6px; outline: none; }
+  input[type="number"]:focus, select:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(14,124,123,0.15); }
+  .btn { width: 100%; margin-top: 18px; padding: 13px; font-size: 15.5px; font-weight: 700; color: #fff;
+    background: var(--teal); border: none; border-radius: 6px; cursor: pointer; }
+  .btn:hover { background: var(--teal-dark); }
+  .btn:disabled { opacity: 0.65; cursor: wait; }
+  .chips-label { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 12.5px; color: var(--muted); margin: 16px 0 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600;
+    padding: 6px 13px; border-radius: 20px; border: 1px solid #9fb3c8; color: var(--navy);
+    background: #eef2f8; cursor: pointer; }
+  .chip:hover { background: #dde6f2; border-color: var(--navy); }
+  .chip.benign { border-color: #9cc3a8; color: var(--green); background: var(--green-bg); }
+  /* Pipeline stepper */
+  .steps { list-style: none; margin: 14px 0 0; padding: 0; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 13.5px; }
+  .steps li { display: flex; gap: 10px; align-items: baseline; padding: 7px 0; color: #aab4c6; border-bottom: 1px dashed var(--line); }
+  .steps li:last-child { border-bottom: none; }
+  .steps li .dot { flex: 0 0 auto; width: 11px; height: 11px; border-radius: 50%; background: #cfd7e3; transform: translateY(1px); }
+  .steps li.active { color: var(--navy); font-weight: 600; }
+  .steps li.active .dot { background: var(--teal); box-shadow: 0 0 0 4px rgba(14,124,123,0.18); }
+  .steps li.done { color: var(--muted); }
+  .steps li.done .dot { background: var(--green); }
+  /* Result */
+  .result-empty { color: var(--muted); text-align: center; padding: 40px 12px; font-size: 15px; }
+  .hgvs { font-size: 32px; font-weight: 700; color: var(--navy); margin: 8px 0; }
+  .verdict { display: inline-block; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 14.5px; font-weight: 700; padding: 8px 18px; border-radius: 6px; border: 1.5px solid; }
+  .verdict.patho { color: var(--red); background: var(--red-bg); border-color: var(--red); }
+  .verdict.benign { color: var(--green); background: var(--green-bg); border-color: var(--green); }
+  table.kv { width: 100%; border-collapse: collapse; margin: 16px 0 4px; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 14px; }
+  table.kv th, table.kv td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); }
+  table.kv th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.8px; width: 44%; }
+  .meter { margin-top: 14px; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .meter .top { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  .meter .top b { color: var(--navy); font-size: 16px; }
+  .track { height: 12px; border-radius: 6px; background: #e4e9f1; border: 1px solid var(--line); overflow: hidden; }
+  .fill { height: 100%; width: 0%; background: var(--navy); transition: width 0.8s ease; }
+  .scale { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+  .err { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; background: var(--red-bg);
+    border: 1px solid var(--red); color: var(--red); border-radius: 6px; padding: 12px 14px; font-size: 14px; font-weight: 600; }
+  /* Structural viewers */
+  section.block { margin-top: 20px; }
+  #viewer3d { width: 100%; height: 380px; border: 1px solid var(--line); border-radius: 8px; background: #0f1830; cursor: grab; touch-action: none; }
+  #viewer3d:active { cursor: grabbing; }
+  .vtoolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 10px 0 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 12.5px; color: var(--muted); }
+  .vtoolbar button { font-size: 12.5px; font-weight: 600; padding: 5px 12px; border-radius: 16px;
+    border: 1px solid #9fb3c8; background: #fff; color: var(--navy); cursor: pointer; }
+  .vtoolbar button.on { background: var(--navy); color: #fff; border-color: var(--navy); }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 12px; color: var(--muted); }
+  .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 5px; transform: translateY(1px); }
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  @media (max-width: 700px) { .charts { grid-template-columns: 1fr; } }
+  .chartbox h4 { margin: 0 0 6px; font-size: 15px; color: var(--navy); font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .chartbox p { margin: 0 0 6px; font-size: 12.5px; color: var(--muted); font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .chartbox canvas { width: 100%; height: 190px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+  dl.specs { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; margin: 10px 0 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 14px; }
+  dl.specs dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.8px; margin-top: 12px; }
+  dl.specs dd { margin: 2px 0 0; font-weight: 700; color: var(--navy); font-size: 16px; }
+  dl.specs dd span { font-weight: 400; color: var(--muted); font-size: 13px; }
+  .stats .stat { background:#fff; border:1px solid var(--line); border-radius:8px; padding:10px 12px;
+    font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  .stats .stat small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:0.8px; }
+  .stats .stat div { font-size:20px; font-weight:800; color:var(--navy); }
+  #mistable table { width:100%; border-collapse:collapse; }
+  #mistable th, #mistable td { text-align:left; padding:6px 9px; border-bottom:1px solid var(--line); }
+  #mistable th { color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:0.7px; }
+  #mistable tr.data { cursor:pointer; }
+  #mistable tr.data:hover td { background:#eef2f8; }
+  .feat { font-size: 14.5px; color: #3c4a63; margin: 12px 0 0; }
+  .feat b { color: var(--navy); }
+  .disclaimer { margin-top: 20px; padding: 16px 20px; border-radius: var(--radius); background: var(--amber-bg);
+    border: 1px solid var(--amber-line); font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 13.5px; line-height: 1.6; color: #5c4a00; }
+  .foot { text-align: center; color: var(--muted); font-size: 12.5px; margin-top: 20px;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="inner">
+    <div class="crest">p53</div>
+    <div>
+      <h1>TP53 Variant Predictor</h1>
+      <p class="sub">Machine-learning structural analysis of disease-associated TP53 missense variants</p>
+      <span class="proto">Research prototype</span>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="grid">
+    <section class="card">
+      <p class="eyebrow">Input</p>
+      <h2>Variant query</h2>
+      <p class="desc">Single amino-acid substitution on canonical 393-aa TP53 (UniProt P04637).</p>
+      <div class="row3">
+        <div class="field"><label for="pos">Position (1–393)</label><input id="pos" type="number" min="1" max="393" value="175"></div>
+        <div class="field"><label for="ref">Reference AA</label><select id="ref"></select></div>
+        <div class="field"><label for="alt">Alternate AA</label><select id="alt"></select></div>
+      </div>
+      <button class="btn" id="go" onclick="predict()">Predict classification</button>
+      <div class="chips-label" style="font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-size:12.5px;color:var(--muted);margin:16px 0 8px;">Demonstration variants (click to run):</div>
+      <div class="chips" id="chips"></div>
+      <ul class="steps" id="steps" style="display:none">
+        <li data-s="0"><span class="dot"></span>Validating variant against WT reference…</li>
+        <li data-s="1"><span class="dot"></span>Extracting 21 sequence / structural features…</li>
+        <li data-s="2"><span class="dot"></span>Random-forest inference (400 trees)…</li>
+        <li data-s="3"><span class="dot"></span>Mapping residue onto WT structure…</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">Prediction</p>
+      <h2>Model result</h2>
+      <div id="out"><div class="result-empty">No query submitted yet.<br>Results will appear here.</div></div>
+    </section>
+  </div>
+
+  <section class="card block">
+    <p class="eyebrow">Structural context</p>
+    <h2>Residue in the WT structure</h2>
+    <p class="desc">Interactive CA trace of the validated AlphaFold WT model (model_4, 393 residues) with experimental 2OCJ coverage shown. Queried residue highlighted — drag to rotate, scroll to zoom.</p>
+    <canvas id="viewer3d" width="900" height="380"></canvas>
+    <div class="vtoolbar">
+      <span>Colour:</span>
+      <button id="cPld" class="on" onclick="setColor('plddt')">pLDDT confidence</button>
+      <button id="cDom" onclick="setColor('domain')">Domain</button>
+      <button id="rotB" class="on" onclick="toggleRot()">Pause rotation</button>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="charts">
+      <div class="chartbox">
+        <h4>Local confidence profile (pLDDT ±12)</h4>
+        <p>Ordered core ≈ 98 · disordered termini ≈ 40–50. Marker = queried residue.</p>
+        <canvas id="chWin" width="520" height="190"></canvas>
+      </div>
+      <div class="chartbox">
+        <h4>Whole-protein pLDDT distribution</h4>
+        <p>Where the queried residue sits vs all 393 positions.</p>
+        <canvas id="chHist" width="520" height="190"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section class="card block">
+    <p class="eyebrow">Cohort results</p>
+    <h2>All 388 variants, audited</h2>
+    <p class="desc">Every dataset variant run through the trained model (same split as training, seed 42). Test metrics reproduce exactly — no selection, no hand-picked wins.</p>
+    <div class="stats" id="cohortStats" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px;"></div>
+    <div class="charts" style="grid-template-columns:1fr 1fr 1fr;">
+      <div class="chartbox"><h4>Pathogenic fraction by position</h4><img src="/fig/position_enrichment.png" alt="Pathogenic fraction by position" style="width:100%;border:1px solid var(--line);border-radius:8px;"></div>
+      <div class="chartbox"><h4>pLDDT: pathogenic vs benign</h4><img src="/fig/plddt_by_class.png" alt="pLDDT by class" style="width:100%;border:1px solid var(--line);border-radius:8px;"></div>
+      <div class="chartbox"><h4>Confusion matrix (test, n=78)</h4><img src="/fig/confusion_matrix.png" alt="Confusion matrix" style="width:100%;border:1px solid var(--line);border-radius:8px;"></div>
+    </div>
+    <h4 style="font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--navy);margin:16px 0 6px;">Held-out mistakes (12) — click any row to inspect it</h4>
+    <div id="mistable" style="font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-size:13.5px;"></div>
+  </section>
+
+  <section class="card block">
+    <p class="eyebrow">Model</p>
+    <h2>Model information</h2>
+    <dl class="specs">
+      <div><dt>Algorithm</dt><dd>Random forest <span>(400 trees, balanced weights)</span></dd></div>
+      <div><dt>Held-out performance</dt><dd>F1 0.880 <span>· ROC-AUC 0.937 · acc 0.846 (n = 78)</span></dd></div>
+      <div><dt>Training data</dt><dd>388 ClinVar variants <span>(232 pathogenic / 156 benign)</span></dd></div>
+      <div><dt>Target</dt><dd>Germline classification <span>(1 = P/LP, 0 = B/LB; VUS excluded)</span></dd></div>
+    </dl>
+    <p class="feat"><b>Features (21):</b> protein position, UniProt domain, distance to zinc ligands, Grantham-1974 distance, hydropathy / volume / charge / polarity deltas, WT-residue context, AlphaFold WT pLDDT at the site (±5 window), literature DNA-contact flag. Stratified 80/20 split, seed 42; scaling fit on train only.</p>
+  </section>
+
+  <div class="disclaimer">
+    <b>Disclaimer.</b> This is an academic research prototype trained on curated ClinVar annotations (n = 388). It is <b>not a clinical diagnostic tool</b> and must not guide medical decisions.
+  </div>
+  <div class="foot">TP53 Mutation Analysis &nbsp;·&nbsp; WT verified vs UniProt P04637 &nbsp;·&nbsp; AlphaFold validated vs PDB 2OCJ &nbsp;·&nbsp; Reproducible pipeline</div>
+</div>
+
+<script>
+const AAS = "ARNDCQEGHILKMFPSTWYV".split("");
+const refSel = document.getElementById("ref"), altSel = document.getElementById("alt");
+AAS.forEach(a => { refSel.add(new Option(a, a)); altSel.add(new Option(a, a)); });
+refSel.value = "R"; altSel.value = "H";
+
+const DEMOS = [["R",175,"H","R175H · hotspot"],["R",248,"Q","R248Q · hotspot"],
+  ["R",273,"H","R273H · hotspot"],["Y",220,"C","Y220C"],["P",72,"R","P72R · benign control",true]];
+const chips = document.getElementById("chips");
+DEMOS.forEach(([r,p,a,label,ben]) => {
+  const b = document.createElement("button");
+  b.className = "chip" + (ben ? " benign" : ""); b.textContent = label;
+  b.onclick = () => { document.getElementById("pos").value = p; refSel.value = r; altSel.value = a; predict(); };
+  chips.appendChild(b);
+});
+
+/* ---------- WT CA trace (real AlphaFold model_4 coordinates) ---------- */
+let TRACE = [], QB = {cx:0, cy:0, cz:0, r:1};
+let V = {ax: 0.6, ay: 0.8, zoom: 1, auto: true, color: "plddt", hi: null};
+const ZN = new Set([176, 179, 238, 242]);
+const DNA = new Set([120, 241, 248, 273, 280, 282]);
+const DOMS = [[1,42,"TAD1","#8fa3bf"],[43,61,"TAD2","#7d90b5"],[62,93,"PRR","#a8b6cc"],
+  [94,292,"DBD","#1b2a4a"],[293,325,"hinge","#a8b6cc"],[326,356,"TET","#7d90b5"],[357,393,"CTD","#8fa3bf"]];
+function domOf(p){ for (const [lo,hi,n] of DOMS) if (p>=lo && p<=hi) return n; return ""; }
+
+fetch("/ca_trace.json").then(r => r.json()).then(j => {
+  TRACE = j.residues;
+  let sx=0, sy=0, sz=0;
+  TRACE.forEach(o => { sx+=o.x; sy+=o.y; sz+=o.z; });
+  QB = {cx: sx/TRACE.length, cy: sy/TRACE.length, cz: sz/TRACE.length, r: 1};
+  let m = 0;
+  TRACE.forEach(o => { m = Math.max(m, Math.hypot(o.x-QB.cx, o.y-QB.cy, o.z-QB.cz)); });
+  QB.r = m;
+  drawLegend(); drawHist(null); drawWindow(null);
+  requestAnimationFrame(frame);
+}).catch(() => {});
+
+/* ---------- cohort audit (precomputed, real predictions) ---------- */
+fetch("/cohort").then(r => r.json()).then(c => {
+  const t = c.test;
+  document.getElementById("cohortStats").innerHTML =
+    `<div class="stat"><small>Test accuracy</small><div>${t.accuracy}</div></div>` +
+    `<div class="stat"><small>Test F1</small><div>${t.f1}</div></div>` +
+    `<div class="stat"><small>Test ROC-AUC</small><div>${t.roc_auc}</div></div>` +
+    `<div class="stat"><small>Misclassified</small><div>${c.n_misclassified} <span style="font-size:12px;color:var(--muted);">of 388</span></div></div>`;
+  const rows = c.misclassified.filter(m => m.split === "test").map(m => {
+    const mt = m.hgvs_p.match(/p\.([A-Z])(\d+)([A-Z])/);
+    return `<tr class="data" data-ref="${mt[1]}" data-pos="${mt[2]}" data-alt="${mt[3]}">` +
+      `<td><b>${m.hgvs_p}</b></td><td>${m.classification}</td><td>${m.proba_pathogenic}</td></tr>`;
+  }).join("");
+  document.getElementById("mistable").innerHTML =
+    `<table><tr><th>Variant</th><th>ClinVar truth</th><th>Model P(pathogenic)</th></tr>${rows}</table>`;
+  document.querySelectorAll("#mistable tr.data").forEach(tr => tr.onclick = () => {
+    document.getElementById("pos").value = tr.dataset.pos;
+    refSel.value = tr.dataset.ref; altSel.value = tr.dataset.alt;
+    window.scrollTo({top: 0, behavior: "smooth"});
+    predict();
+  });
+}).catch(() => {});
+
+function plddtColor(v){
+  if (v >= 90) return "#0e7c7b";
+  if (v >= 70) return "#4d9e9d";
+  if (v >= 50) return "#c9a227";
+  return "#9aa3b2";
+}
+function domColor(p){
+  for (const [lo,hi,,c] of DOMS) if (p>=lo && p<=hi) return c;
+  return "#666";
+}
+function drawLegend(){
+  const L = document.getElementById("legend");
+  if (V.color === "plddt")
+    L.innerHTML = `<span><i style="background:#0e7c7b"></i>high pLDDT (≥90)</span>
+      <span><i style="background:#c9a227"></i>medium (50–70)</span>
+      <span><i style="background:#9aa3b2"></i>low (&lt;50, disordered)</span>
+      <span><i style="background:#b4232a"></i>queried residue</span>
+      <span><i style="background:#1c7a3d"></i>Zn ligands (176/179/238/242)</span>`;
+  else
+    L.innerHTML = DOMS.map(d => `<span><i style="background:${d[3]}"></i>${d[2]} ${d[0]}–${d[1]}</span>`).join("") +
+      `<span><i style="background:#b4232a"></i>queried residue</span>`;
+}
+function setColor(m){ V.color = m;
+  document.getElementById("cPld").className = m==="plddt" ? "on" : "";
+  document.getElementById("cDom").className = m==="domain" ? "on" : "";
+  drawLegend();
+}
+function toggleRot(){ V.auto = !V.auto;
+  document.getElementById("rotB").textContent = V.auto ? "Pause rotation" : "Resume rotation";
+  document.getElementById("rotB").className = V.auto ? "on" : ""; }
+
+const cv = document.getElementById("viewer3d"), ctx = cv.getContext("2d");
+function fitCanvas(c){ const d = window.devicePixelRatio || 1, r = c.getBoundingClientRect();
+  c.width = r.width * d; c.height = r.height * d; return d; }
+let dragging = false, lx = 0, ly = 0;
+cv.addEventListener("pointerdown", e => { dragging = true; lx = e.clientX; ly = e.clientY; cv.setPointerCapture(e.pointerId); });
+cv.addEventListener("pointermove", e => { if (!dragging) return;
+  V.ay += (e.clientX - lx) * 0.008; V.ax += (e.clientY - ly) * 0.008; lx = e.clientX; ly = e.clientY; });
+cv.addEventListener("pointerup", () => dragging = false);
+cv.addEventListener("wheel", e => { e.preventDefault(); V.zoom = Math.min(3, Math.max(0.5, V.zoom * (e.deltaY < 0 ? 1.1 : 0.9))); }, {passive:false});
+
+function project(o){
+  const ca = Math.cos(V.ax), sa = Math.sin(V.ax), cb = Math.cos(V.ay), sb = Math.sin(V.ay);
+  let x = o.x - QB.cx, y = o.y - QB.cy, z = o.z - QB.cz;
+  let y1 = y*ca - z*sa, z1 = y*sa + z*ca;
+  let x2 = x*cb + z1*sb, z2 = -x*sb + z1*cb;
+  return [x2, y1, z2];
+}
+function frame(){
+  const d = fitCanvas(cv), W = cv.width, H = cv.height;
+  ctx.clearRect(0, 0, W, H);
+  if (TRACE.length){
+    if (V.auto && !dragging) V.ay += 0.004;
+    const pts = TRACE.map(o => { const [x,y,z] = project(o); return {o, x, y, z}; });
+    const s = Math.min(W, H) / 2 * 0.92 / QB.r * V.zoom;
+    const cx = W/2, cy = H/2;
+    const sorted = pts.slice().sort((a,b) => a.z - b.z);
+    // backbone
+    for (let pass = 0; pass < 2; pass++){
+      for (let i = 0; i < sorted.length - 1; i++){
+        const a = sorted[i], b = sorted[i+1];
+        if ((a.o.pos + 1 !== b.o.pos) && (b.o.pos + 1 !== a.o.pos)) continue;
+        const back = (a.z + b.z) / 2 < -QB.r * 0.15;
+        if ((pass === 0) !== back) continue;
+        ctx.strokeStyle = V.color === "plddt" ? plddtColor((a.o.plddt + b.o.plddt)/2) : domColor(a.o.pos);
+        ctx.globalAlpha = back ? 0.30 : 0.95;
+        ctx.lineWidth = (back ? 1 : 2) * d;
+        ctx.beginPath();
+        ctx.moveTo(cx + a.x*s, cy - a.y*s);
+        ctx.lineTo(cx + b.x*s, cy - b.y*s);
+        ctx.stroke();
+      }
+    }
+    ctx.globalAlpha = 1;
+    const dot = (o, r, col) => { const [x,y] = project(o);
+      ctx.fillStyle = col; ctx.beginPath();
+      ctx.arc(cx + x*s, cy - y*s, r*d, 0, 7); ctx.fill(); };
+    TRACE.forEach(o => { if (ZN.has(o.pos)) dot(o, 3.2, "#1c7a3d"); });
+    if (V.hi != null){
+      const o = TRACE[V.hi - 1];
+      if (o){ dot(o, 6, "#b4232a");
+        ctx.fillStyle = "#fff"; ctx.font = `${12*d}px sans-serif`;
+        const [x,y] = project(o);
+        ctx.fillText("p." + V.hiLbl, cx + x*s + 9*d, cy - y*s - 8*d); }
+    }
+    // 2OCJ coverage bar
+    ctx.fillStyle = "rgba(255,255,255,0.55)"; ctx.font = `${11*d}px sans-serif`;
+    ctx.fillText("2OCJ experimental coverage: residues 96–289 (core domain)", 12*d, H - 12*d);
+  }
+  requestAnimationFrame(frame);
+}
+
+/* ---------- charts ---------- */
+function setupCanvas(id){ const c = document.getElementById(id), d = window.devicePixelRatio || 1;
+  const r = c.getBoundingClientRect(); c.width = r.width*d; c.height = 190*d;
+  const g = c.getContext("2d"); g.scale(d, d); return [g, r.width, 190]; }
+
+function drawWindow(hi){
+  const [g, W, H] = setupCanvas("chWin");
+  g.clearRect(0, 0, W, H);
+  if (!TRACE.length || hi == null){
+    g.fillStyle = "#5d6b82"; g.font = "13px sans-serif";
+    g.fillText("Run a prediction to inspect the residue neighbourhood.", 12, 30); return; }
+  const lo = Math.max(1, hi-12), up = Math.min(393, hi+12);
+  const vals = TRACE.slice(lo-1, up).map(o => o.plddt);
+  const bw = W / vals.length;
+  vals.forEach((v, i) => {
+    const h = (H-40) * v/100, x = i*bw+1, y = H-24-h;
+    g.fillStyle = (lo+i === hi) ? "#b4232a" : (v>=90 ? "#0e7c7b" : v>=50 ? "#c9a227" : "#9aa3b2");
+    g.fillRect(x, y, bw-2, h);
+  });
+  g.fillStyle = "#5d6b82"; g.font = "11px sans-serif";
+  g.fillText(lo, 2, H-8); g.fillText(up, W-24, H-8);
+  g.fillText("pLDDT", 2, 12);
+}
+function drawHist(mark){
+  const [g, W, H] = setupCanvas("chHist");
+  g.clearRect(0, 0, W, H);
+  if (!TRACE.length) return;
+  const B = 20, bins = new Array(B).fill(0);
+  TRACE.forEach(o => bins[Math.min(B-1, Math.floor(o.plddt/100*B))]++);
+  const mx = Math.max(...bins), bw = W/B;
+  bins.forEach((n, i) => { const h = (H-40)*n/mx;
+    g.fillStyle = "#1b2a4a"; g.fillRect(i*bw+1, H-24-h, bw-2, h); });
+  g.fillStyle = "#5d6b82"; g.font = "11px sans-serif";
+  g.fillText("0", 2, H-8); g.fillText("100", W-26, H-8); g.fillText("pLDDT", 2, 12);
+  if (mark != null){
+    const x = (mark/100)*W;
+    g.strokeStyle = "#b4232a"; g.lineWidth = 2.5;
+    g.beginPath(); g.moveTo(x, 4); g.lineTo(x, H-24); g.stroke();
+    g.fillStyle = "#b4232a"; g.font = "bold 12px sans-serif";
+    g.fillText(mark.toFixed(1), Math.min(W-44, x+5), 18);
+  }
+}
+
+/* ---------- prediction with staged pipeline ---------- */
+const wait = ms => new Promise(r => setTimeout(r, ms));
+function setStep(i){
+  document.querySelectorAll("#steps li").forEach(li => {
+    const s = +li.dataset.s;
+    li.className = s < i ? "done" : s === i ? "active" : "";
+  });
+}
+async function predict(){
+  const out = document.getElementById("out"), btn = document.getElementById("go");
+  const steps = document.getElementById("steps");
+  btn.disabled = true;
+  steps.style.display = "block"; setStep(0);
+  out.innerHTML = `<div class="result-empty">Running the prediction pipeline…</div>`;
+  // The REAL request fires immediately; the stepper narrates the actual stages.
+  const req = fetch("/predict", {method:"POST", headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({pos: document.getElementById("pos").value, ref: refSel.value, alt: altSel.value})});
+  await wait(450); setStep(1); await wait(450); setStep(2);
+  let d;
+  try { d = await (await req).json(); }
+  catch(e){ out.innerHTML = `<div class="err">Cannot reach the prediction server. Start it with: <code>python3 dashboard/server.py</code></div>`;
+    steps.style.display = "none"; btn.disabled = false; return; }
+  await wait(350); setStep(3); await wait(350); setStep(4);
+  if (d.error){ out.innerHTML = `<div class="err">${d.error}</div>`; btn.disabled = false; return; }
+  const patho = d.prediction === 1, c = d.context || {};
+  const pct = d.probability_pathogenic * 100;
+  out.innerHTML =
+    `<div class="hgvs">p.${d.input.ref}${d.input.pos}${d.input.alt}</div>` +
+    `<span class="verdict ${patho ? "patho" : "benign"}">${d.result}</span>` +
+    `<table class="kv">` +
+    `<tr><th>Position / domain</th><td>${d.input.pos} · ${(c.domain||"—")} ${c.in_core ? "(core DBD)" : "(outside core)"}</td></tr>` +
+    `<tr><th>Substitution</th><td>${d.input.ref} → ${d.input.alt} · Grantham ${c.grantham ?? "—"} · Δcharge ${c.d_charge ?? "—"}</td></tr>` +
+    `<tr><th>WT pLDDT at site</th><td>${c.plddt_at_pos ?? "—"} ${c.dna_contact ? "· DNA-contact position" : ""}</td></tr>` +
+    `<tr><th>Model</th><td>Random forest (21 features)</td></tr>` +
+    `</table>` +
+    `<div class="meter"><div class="top"><span>Probability, pathogenic-associated</span><b>${d.probability_pathogenic}</b></div>` +
+    `<div class="track"><div class="fill" id="fill"></div></div>` +
+    `<div class="scale"><span>0 — benign-like</span><span>threshold 0.5</span><span>1 — pathogenic-like</span></div></div>`;
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    document.getElementById("fill").style.width = pct.toFixed(1) + "%"; }));
+  V.hi = d.input.pos; V.hiLbl = `${d.input.ref}${d.input.pos}${d.input.alt}`;
+  drawWindow(d.input.pos);
+  drawHist(c.plddt_at_pos);
+  btn.disabled = false;
+}
+</script>
+</body>
+</html>

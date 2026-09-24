@@ -1,0 +1,92 @@
+{
+ "seed": 42,
+ "n_train": 310,
+ "n_test": 78,
+ "features": [
+  "pos_norm",
+  "in_core",
+  "dom_TAD1",
+  "dom_TAD2",
+  "dom_PRR",
+  "dom_DBD",
+  "dom_hinge",
+  "dom_TET",
+  "dom_CTD",
+  "dist_to_zn",
+  "grantham",
+  "d_hydro",
+  "d_volume",
+  "d_charge",
+  "d_polarity",
+  "ref_hydro",
+  "ref_volume",
+  "ref_charge",
+  "plddt_at_pos",
+  "plddt_window5",
+  "dna_contact"
+ ],
+ "models": {
+  "logistic_regression": {
+   "accuracy": 0.7436,
+   "precision": 0.7547,
+   "recall": 0.8511,
+   "f1": 0.8,
+   "roc_auc": 0.8346,
+   "confusion_matrix": [
+    [
+     18,
+     13
+    ],
+    [
+     7,
+     40
+    ]
+   ],
+   "cv_f1_mean": 0.8797,
+   "cv_f1_std": 0.0449
+  },
+  "random_forest": {
+   "accuracy": 0.8462,
+   "precision": 0.8302,
+   "recall": 0.9362,
+   "f1": 0.88,
+   "roc_auc": 0.9369,
+   "confusion_matrix": [
+    [
+     22,
+     9
+    ],
+    [
+     3,
+     44
+    ]
+   ],
+   "cv_f1_mean": 0.9296,
+   "cv_f1_std": 0.0208
+  }
+ },
+ "selected_model": "random_forest",
+ "feature_importance_ranking": [
+  "plddt_at_pos",
+  "plddt_window5",
+  "dist_to_zn",
+  "pos_norm",
+  "in_core",
+  "dom_DBD",
+  "grantham",
+  "d_volume",
+  "d_hydro",
+  "d_polarity",
+  "ref_volume",
+  "ref_hydro",
+  "d_charge",
+  "ref_charge",
+  "dom_TET",
+  "dom_PRR",
+  "dom_hinge",
+  "dom_TAD1",
+  "dna_contact",
+  "dom_CTD",
+  "dom_TAD2"
+ ]
+}

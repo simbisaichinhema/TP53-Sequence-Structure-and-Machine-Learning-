@@ -29,23 +29,23 @@ representative model_4 (nominal — all models equivalent). Full record:
 Caveat recorded: templates were enabled at prediction, so agreement is
 consistency with known structural data, not independent blind validation.
 
-## Mutation analysis (NOT STARTED — scaffold only)
+## Mutation analysis (COMPLETED 2026-09-24 — ClinVar build)
 
-Variant source undecided (record in `data/metadata/variant_sources.csv`
-first). Mutant generation: apply substitution to verified WT only after
-confirming the expected WT residue at that position (see
-`scripts/mutation/generate_mutants.py`); abort on mismatch. Mutant structure
-prediction mirrors WT standards; WT-vs-mutant comparison uses RMSD, local
-displacement, confidence/solvent-accessibility changes — never visual
-inspection alone.
+Variant source: ClinVar TP53 via E-utilities (`scripts/mutation/
+fetch_clinvar_tp53.py`, recorded in `data/metadata/variant_sources.csv`).
+Multi-isoform protein tokens resolved to the canonical 393-aa WT by residue
+match + MANE NM_000546.6 cDNA tiebreak; every variant WT-verified, VCV IDs
+retained, VUS/conflicting excluded with counts. Mutant structure prediction
+was deferred by design: structural features reuse the validated WT pLDDT
+context + sequence-derived deltas (see feature definitions).
 
-## Machine learning (NOT STARTED — scaffold only)
+## Machine learning (COMPLETED 2026-09-24 — prototype)
 
-Dataset only from validated features. Document target, definitions, class
-balance, missingness, scaling/encoding, feature selection, and a leak-free
-train/validation/test split (preprocessing statistics from train only;
-consider position-aware splits). Baselines (logistic regression, random
-forest, gradient boosting, SVM) before complex models; fixed seeds and
-versions recorded. Metrics beyond accuracy (precision, recall, F1, ROC-AUC,
-PR-AUC, confusion matrix); explainability via permutation/SHAP/coefficients,
-reported as association, not causation.
+Dataset: 388 ClinVar missense (232 P/LP vs 156 B/LB), 21 documented features,
+no label-derived statistics. Stratified 80/20 split (seed 42); scaler fit on
+train only (Pipeline); balanced class weights. Baselines: logistic
+regression + random forest (fixed seeds). Test (n=78): RF acc 0.846,
+F1 0.880, ROC-AUC 0.937. Explainability: RF importances, association only.
+Inference (`predict.py`) shares featurization with training; dashboard
+(`dashboard/`) serves the real model. Known limits: n=388, hotspot position
+signal, no position-aware split or independent test set yet.

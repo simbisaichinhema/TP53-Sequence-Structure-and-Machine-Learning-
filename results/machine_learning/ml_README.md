@@ -1,8 +1,6 @@
 # Results: machine learning
 
-Status: NOT STARTED.
-
-No ML dataset exists yet. No metrics, feature importances, or conclusions may
-be reported here until the WT baseline, variant dataset, and validated
-features are complete. See `docs/methods/methods.md` for the planned
-dataset, modelling, evaluation, and explainability standards.
+Status: COMPLETED (prototype) 2026-09-24. See `evaluation.md` (generated from
+`metrics.json` by `scripts/machine_learning/write_results_docs.py`) and
+`figures/machine_learning/`. Model artefact `model.joblib` regenerable via
+`scripts/machine_learning/train.py` (git-ignored by policy).

@@ -1,6 +1,6 @@
 # Project status
 
-Date of last update: 2026-09-18.
+Date of last update: 2026-09-24.
 
 ## Verified state (COMPLETED)
 
@@ -27,8 +27,19 @@ Date of last update: 2026-09-18.
   synthetic rotation-recovery self-test and corrected. Method retained with
   the self-test as regression guard.
 
+## Variant + ML + predictor (COMPLETED 2026-09-24, prototype scope)
+
+- ClinVar TP53 build: 4034 records -> 388 missense (232 P/LP, 156 B/LB),
+  VCV-traceable, WT-verified (`data/processed/mutations/`).
+- 21 leak-free features; stratified 80/20 split (seed 42); random forest
+  test acc 0.846 / F1 0.880 / ROC-AUC 0.937 (`results/machine_learning/`).
+- Inference + HTML dashboard backed by the real model (`dashboard/`),
+  verified end-to-end incl. invalid-input handling.
+- RQ3-RQ5 answered at prototype scope. Remaining: PyMOL cartoon figures,
+  larger multi-source data, position-aware splits, independent testing.
+
 ## Pending / next
 
-- PyMOL cross-check of the superposition — PENDING
+- PyMOL cross-check of the superposition — PENDING (unchanged)
 - Structural comparison figures — PENDING
 - Variant dataset, mutants, features, ML — NOT STARTED (next workstream)

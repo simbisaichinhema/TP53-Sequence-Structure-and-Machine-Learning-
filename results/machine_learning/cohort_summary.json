@@ -1,0 +1,107 @@
+{
+ "train": {
+  "n": 310,
+  "accuracy": 1.0,
+  "f1": 1.0,
+  "roc_auc": 1.0
+ },
+ "test": {
+  "n": 78,
+  "accuracy": 0.8462,
+  "f1": 0.88,
+  "roc_auc": 0.9369
+ },
+ "all": {
+  "n": 388,
+  "accuracy": 0.9691,
+  "f1": 0.9745,
+  "roc_auc": 0.9939
+ },
+ "misclassified": [
+  {
+   "hgvs_p": "p.E326V",
+   "variant_id": "VCV002578514",
+   "classification": "Likely pathogenic",
+   "split": "test",
+   "proba_pathogenic": 0.0625
+  },
+  {
+   "hgvs_p": "p.L344R",
+   "variant_id": "VCV002758378",
+   "classification": "Likely pathogenic",
+   "split": "test",
+   "proba_pathogenic": 0.4725
+  },
+  {
+   "hgvs_p": "p.R337L",
+   "variant_id": "VCV000142828",
+   "classification": "Likely pathogenic",
+   "split": "test",
+   "proba_pathogenic": 0.49
+  },
+  {
+   "hgvs_p": "p.G293W",
+   "variant_id": "VCV000127826",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.5075
+  },
+  {
+   "hgvs_p": "p.R333C",
+   "variant_id": "VCV000184745",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.515
+  },
+  {
+   "hgvs_p": "p.C124S",
+   "variant_id": "VCV000182926",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.66
+  },
+  {
+   "hgvs_p": "p.E287G",
+   "variant_id": "VCV004757808",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.675
+  },
+  {
+   "hgvs_p": "p.V157I",
+   "variant_id": "VCV000185404",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.7975
+  },
+  {
+   "hgvs_p": "p.L111V",
+   "variant_id": "VCV001730178",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.8175
+  },
+  {
+   "hgvs_p": "p.G108S",
+   "variant_id": "VCV000142431",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.8375
+  },
+  {
+   "hgvs_p": "p.E204D",
+   "variant_id": "VCV003460304",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.8625
+  },
+  {
+   "hgvs_p": "p.M160I",
+   "variant_id": "VCV000230758",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.9375
+  }
+ ],
+ "n_misclassified": 12
+}

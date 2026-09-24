@@ -23,6 +23,60 @@ Status labels: COMPLETED | IN PROGRESS | PENDING | NOT STARTED | BLOCKED
 - PyMOL cross-check of the superposition; structural comparison figures — PENDING
 - Variant dataset sourcing, mutant sequences/structures, features, ML — NOT STARTED
 
+## [2026-09-24] — Variant proteins + cohort audit + dashboard visuals
+
+### Added
+- `scripts/mutation/build_mutant_sequences.py`: 388 real mutant protein
+  sequences (WT-validated single substitutions, all 393 aa, all unique) +
+  length/MD5 ledger.
+- `scripts/machine_learning/audit_predictions.py`: full-cohort audit
+  (`all_predictions.csv`, `cohort_summary.json`; test metrics reproduce
+  exactly) + 3 figures (position enrichment, pLDDT by class, substitutions).
+- `scripts/mutation/write_variant_protein_results.py`:
+  `results/mutations/variant_proteins.md` — WT-vs-mutant ±7 windows for demo
+  variants + honest test error analysis (12 mistakes with reasons).
+- `scripts/structure/export_ca_trace.py` → `dashboard/ca_trace.json`
+  (393 real CA coordinates + pLDDT from model_4).
+- Dashboard: interactive 3D WT viewer (rotate/zoom, residue highlight,
+  pLDDT/domain colouring), per-query pLDDT charts, staged pipeline stepper,
+  cohort-results section (stats + figures + clickable misclassified table
+  served via new `/cohort` and `/fig/<name>` endpoints).
+- `/predict` now also returns a `context` block (domain, pLDDT, Grantham,
+  charge delta) from the same training featurization.
+
+## [2026-09-24] — Variant dataset + ML prototype + HTML predictor completed
+
+### Added
+- `scripts/mutation/fetch_clinvar_tp53.py`: live ClinVar build (4034 TP53
+  records → 388 missense with P/LP-or-B/LB labels, WT-verified, VCV-traceable;
+  VUS/conflicting excluded with logged counts). Multi-isoform tokens resolved
+  via WT match + MANE cDNA tiebreak.
+- `scripts/machine_learning/make_features.py`: 21 leak-free features
+  (domain, Zn-distance, Grantham 1974 with rho=50.723 scale, physicochemical
+  deltas, WT AlphaFold pLDDT context, literature DNA-contact flag).
+  pLDDT parser self-validated (core mean 97.89 reproduces reported value).
+- `scripts/machine_learning/train.py`: stratified 80/20 split (seed 42),
+  scaler-in-Pipeline, balanced weights, 5-fold CV + held-out test. Random
+  forest test acc 0.846 / F1 0.880 / ROC-AUC 0.937; logistic regression
+  0.744 / 0.800 / 0.835. Figures in `figures/machine_learning/`.
+- `scripts/machine_learning/predict.py`: single-source inference (imports
+  featurization from make_features; user-safe errors, no stack traces).
+- `dashboard/server.py` + `dashboard/index.html`: predictor UI backed by the
+  real model (verified: R175H/R248Q/R273H/Y220C/G245S→pathogenic,
+  P72R→benign; invalid inputs return clean 400 JSON).
+- `results/machine_learning/evaluation.md`,
+  `results/mutations/wt_vs_mutant.md` (generated from artefacts, no
+  hand-copied numbers); README/CHANGELOG/docs updated; RQ3–RQ5 answered
+  (prototype scope).
+
+### Fixed
+- Grantham distance constants corrected to rho*sqrt(alpha*dc^2+...) per
+  Grantham 1974 Table 2 scale (R-H sanity 28.6 ≈ 29); model retrained after fix.
+
+### Changed
+- `data/raw/variants/clinvar_tp53_esummary.json` (~16 MB) git-ignored as
+  regenerable; IDs + clean dataset + script remain versioned.
+
 ## [2026-09-18] — WT structural baseline completed
 
 ### Added
