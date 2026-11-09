@@ -192,15 +192,15 @@
 
   <section class="card block">
     <p class="eyebrow">Cohort results</p>
-    <h2>All 388 variants, audited</h2>
+    <h2>All variants, audited</h2>
     <p class="desc">Every dataset variant run through the trained model (same split as training, seed 42). Test metrics reproduce exactly — no selection, no hand-picked wins.</p>
     <div class="stats" id="cohortStats" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px;"></div>
     <div class="charts" style="grid-template-columns:1fr 1fr 1fr;">
       <div class="chartbox"><h4>Pathogenic fraction by position</h4><img src="/fig/position_enrichment.png" alt="Pathogenic fraction by position" style="width:100%;border:1px solid var(--line);border-radius:8px;"></div>
       <div class="chartbox"><h4>pLDDT: pathogenic vs benign</h4><img src="/fig/plddt_by_class.png" alt="pLDDT by class" style="width:100%;border:1px solid var(--line);border-radius:8px;"></div>
-      <div class="chartbox"><h4>Confusion matrix (test, n=78)</h4><img src="/fig/confusion_matrix.png" alt="Confusion matrix" style="width:100%;border:1px solid var(--line);border-radius:8px;"></div>
+      <div class="chartbox"><h4 id="cmTitle">Confusion matrix (test)</h4><img src="/fig/confusion_matrix.png" alt="Confusion matrix" style="width:100%;border:1px solid var(--line);border-radius:8px;"></div>
     </div>
-    <h4 style="font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--navy);margin:16px 0 6px;">Held-out mistakes (12) — click any row to inspect it</h4>
+    <h4 style="font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--navy);margin:16px 0 6px;" id="mistHead">Held-out mistakes — click any row to inspect it</h4>
     <div id="mistable" style="font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-size:13.5px;"></div>
   </section>
 
@@ -209,15 +209,15 @@
     <h2>Model information</h2>
     <dl class="specs">
       <div><dt>Algorithm</dt><dd>Random forest <span>(400 trees, balanced weights)</span></dd></div>
-      <div><dt>Held-out performance</dt><dd>F1 0.880 <span>· ROC-AUC 0.937 · acc 0.846 (n = 78)</span></dd></div>
-      <div><dt>Training data</dt><dd>388 ClinVar variants <span>(232 pathogenic / 156 benign)</span></dd></div>
+      <div><dt>Held-out performance</dt><dd id="heldPerf">F1 / ROC-AUC / acc</dd></div>
+      <div><dt>Training data</dt><dd id="trainData">ClinVar variants</dd></div>
       <div><dt>Target</dt><dd>Germline classification <span>(1 = P/LP, 0 = B/LB; VUS excluded)</span></dd></div>
     </dl>
     <p class="feat"><b>Features (21):</b> protein position, UniProt domain, distance to zinc ligands, Grantham-1974 distance, hydropathy / volume / charge / polarity deltas, WT-residue context, AlphaFold WT pLDDT at the site (±5 window), literature DNA-contact flag. Stratified 80/20 split, seed 42; scaling fit on train only.</p>
   </section>
 
   <div class="disclaimer">
-    <b>Disclaimer.</b> This is an academic research prototype trained on curated ClinVar annotations (n = 388). It is <b>not a clinical diagnostic tool</b> and must not guide medical decisions.
+    <b>Disclaimer.</b> This is an academic research prototype trained on curated ClinVar annotations (n = <span id="discN">…</span>). It is <b>not a clinical diagnostic tool</b> and must not guide medical decisions.
   </div>
   <div class="foot">TP53 Mutation Analysis &nbsp;·&nbsp; WT verified vs UniProt P04637 &nbsp;·&nbsp; AlphaFold validated vs PDB 2OCJ &nbsp;·&nbsp; Reproducible pipeline</div>
 </div>
@@ -262,12 +262,23 @@ fetch("/ca_trace.json").then(r => r.json()).then(j => {
 /* ---------- cohort audit (precomputed, real predictions) ---------- */
 fetch("/cohort").then(r => r.json()).then(c => {
   const t = c.test;
+  const nAll = c.n_total || (c.all && c.all.n) || "…";
+  const nTest = (t && t.n) || "…";
+  document.getElementById("cmTitle").textContent = `Confusion matrix (test, n=${nTest})`;
+  document.getElementById("discN").textContent = nAll;
+  document.getElementById("trainData").innerHTML =
+    `${nAll} ClinVar variants <span>(${c.n_pos ?? "…"} pathogenic / ${c.n_neg ?? "…"} benign)</span>`;
+  document.getElementById("heldPerf").innerHTML =
+    `F1 ${t.f1} <span>· ROC-AUC ${t.roc_auc} · acc ${t.accuracy} (n = ${nTest})</span>`;
   document.getElementById("cohortStats").innerHTML =
     `<div class="stat"><small>Test accuracy</small><div>${t.accuracy}</div></div>` +
     `<div class="stat"><small>Test F1</small><div>${t.f1}</div></div>` +
     `<div class="stat"><small>Test ROC-AUC</small><div>${t.roc_auc}</div></div>` +
-    `<div class="stat"><small>Misclassified</small><div>${c.n_misclassified} <span style="font-size:12px;color:var(--muted);">of 388</span></div></div>`;
-  const rows = c.misclassified.filter(m => m.split === "test").map(m => {
+    `<div class="stat"><small>Misclassified</small><div>${c.n_misclassified} <span style="font-size:12px;color:var(--muted);">of ${nAll}</span></div></div>`;
+  const testMis = c.misclassified.filter(m => m.split === "test");
+  document.getElementById("mistHead").textContent =
+    `Held-out mistakes (${testMis.length}) — click any row to inspect it`;
+  const rows = testMis.map(m => {
     const mt = m.hgvs_p.match(/p\.([A-Z])(\d+)([A-Z])/);
     return `<tr class="data" data-ref="${mt[1]}" data-pos="${mt[2]}" data-alt="${mt[3]}">` +
       `<td><b>${m.hgvs_p}</b></td><td>${m.classification}</td><td>${m.proba_pathogenic}</td></tr>`;

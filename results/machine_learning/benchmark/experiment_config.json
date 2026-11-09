@@ -1,0 +1,58 @@
+{
+  "stage": "baseline",
+  "generated_at_utc": "2026-11-09T19:05:35.052400+00:00",
+  "seed": 42,
+  "test_size": 0.2,
+  "n_splits": 5,
+  "feature_csv": "data/processed/structural_features/tp53_features.csv",
+  "features": [
+    "pos_norm",
+    "in_core",
+    "dom_TAD1",
+    "dom_TAD2",
+    "dom_PRR",
+    "dom_DBD",
+    "dom_hinge",
+    "dom_TET",
+    "dom_CTD",
+    "dist_to_zn",
+    "grantham",
+    "d_hydro",
+    "d_volume",
+    "d_charge",
+    "d_polarity",
+    "ref_hydro",
+    "ref_volume",
+    "ref_charge",
+    "plddt_at_pos",
+    "plddt_window5",
+    "dna_contact"
+  ],
+  "n_features": 21,
+  "n_samples": 818,
+  "n_train": 654,
+  "n_test": 164,
+  "n_pathogenic": 405,
+  "n_benign": 413,
+  "target": "ClinVar pathogenicity (1=P/LP, 0=B/LB)",
+  "models_run": [
+    "extra_trees",
+    "random_forest",
+    "catboost"
+  ],
+  "missing_optional_packages": [],
+  "selection_metric": "cv_roc_auc_mean (train CV only)",
+  "test_set_used_for_selection": false,
+  "script": "scripts/machine_learning/benchmark_models.py",
+  "elapsed_seconds": 27.46,
+  "class_balance_mode": {
+    "extra_trees": "class_weight",
+    "random_forest": "class_weight",
+    "catboost": "sample_weight"
+  },
+  "scaling": {
+    "extra_trees": "none (tree/ensemble)",
+    "random_forest": "none (tree/ensemble)",
+    "catboost": "none (tree/ensemble)"
+  }
+}

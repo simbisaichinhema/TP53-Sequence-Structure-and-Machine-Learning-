@@ -1,0 +1,13 @@
+# Core (existing pipeline + multi-model benchmark)
+numpy
+pandas
+scikit-learn>=1.4
+matplotlib
+joblib
+pyyaml
+scipy
+
+# Optional boosters — benchmark_models.py skips any that are missing
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2

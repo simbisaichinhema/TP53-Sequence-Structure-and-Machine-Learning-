@@ -7,7 +7,8 @@ structures claimed — sequences only.
 
 Inputs:  data/processed/protein/WT_TP53_ORF1_393aa.fasta
          data/processed/mutations/tp53_variant_dataset.csv
-Outputs: data/processed/mutations/mutant_sequences.fasta (multi-FASTA, 388)
+Outputs: data/processed/mutations/mutant_sequences.fasta (multi-FASTA, one
+  per labelled variant)
          data/processed/mutations/mutant_sequences.csv (id, hgvs, len, md5)
 
 Usage: python3 scripts/mutation/build_mutant_sequences.py

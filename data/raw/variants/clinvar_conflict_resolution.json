@@ -1,0 +1,8530 @@
+{
+ "policy": "Clear germline P/LP or B/LB kept as-is; conflicting germline classifications resolved by strict majority of submitter ClinicalAssertion GermlineClassification values from VCV XML; ties/VUS majorities dropped.",
+ "n_conflicts_considered": 438,
+ "n_conflicts_resolved_added": 430,
+ "n_total": 818,
+ "n_pathogenic": 405,
+ "n_benign": 413,
+ "audit": [
+  {
+   "uid": "490172",
+   "accession": "VCV000490172",
+   "title": "NM_000546.6(TP53):c.4G>A (p.Glu2Lys)",
+   "pos": 2,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "858236",
+   "accession": "VCV000858236",
+   "title": "NM_000546.6(TP53):c.7G>A (p.Glu3Lys)",
+   "pos": 3,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406582",
+   "accession": "VCV000406582",
+   "title": "NM_000546.6(TP53):c.11C>G (p.Pro4Arg)",
+   "pos": 4,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "233248",
+   "accession": "VCV000233248",
+   "title": "NM_000546.6(TP53):c.14A>G (p.Gln5Arg)",
+   "pos": 5,
+   "ref": "Q",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "142689",
+   "accession": "VCV000142689",
+   "title": "NM_000546.6(TP53):c.19G>C (p.Asp7His)",
+   "pos": 7,
+   "ref": "D",
+   "alt": "H",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "664710",
+   "accession": "VCV000664710",
+   "title": "NM_000546.6(TP53):c.22C>A (p.Pro8Thr)",
+   "pos": 8,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "496047",
+   "accession": "VCV000496047",
+   "title": "NM_000546.6(TP53):c.27C>G (p.Ser9Arg)",
+   "pos": 9,
+   "ref": "S",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458531",
+   "accession": "VCV000458531",
+   "title": "NM_000546.6(TP53):c.26G>A (p.Ser9Asn)",
+   "pos": 9,
+   "ref": "S",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "968647",
+   "accession": "VCV000968647",
+   "title": "NM_000546.6(TP53):c.28G>T (p.Val10Phe)",
+   "pos": 10,
+   "ref": "V",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "822501",
+   "accession": "VCV000822501",
+   "title": "NM_000546.6(TP53):c.29T>G (p.Val10Gly)",
+   "pos": 10,
+   "ref": "V",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "418693",
+   "accession": "VCV000418693",
+   "title": "NM_000546.6(TP53):c.31G>A (p.Glu11Lys)",
+   "pos": 11,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "41723",
+   "accession": "VCV000041723",
+   "title": "NM_000546.6(TP53):c.31G>C (p.Glu11Gln)",
+   "pos": 11,
+   "ref": "E",
+   "alt": "Q",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Benign",
+    "Likely benign",
+    "Benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "not provided"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "663876",
+   "accession": "VCV000663876",
+   "title": "NM_000546.6(TP53):c.35C>G (p.Pro12Arg)",
+   "pos": 12,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528258",
+   "accession": "VCV000528258",
+   "title": "NM_000546.6(TP53):c.35C>T (p.Pro12Leu)",
+   "pos": 12,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1735038",
+   "accession": "VCV001735038",
+   "title": "NM_000546.6(TP53):c.37C>G (p.Pro13Ala)",
+   "pos": 13,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "485028",
+   "accession": "VCV000485028",
+   "title": "NM_000546.6(TP53):c.38C>G (p.Pro13Arg)",
+   "pos": 13,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "237949",
+   "accession": "VCV000237949",
+   "title": "NM_000546.6(TP53):c.38C>T (p.Pro13Leu)",
+   "pos": 13,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "2026528",
+   "accession": "VCV002026528",
+   "title": "NM_000546.6(TP53):c.41T>A (p.Leu14Gln)",
+   "pos": 14,
+   "ref": "L",
+   "alt": "Q",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "577290",
+   "accession": "VCV000577290",
+   "title": "NM_000546.6(TP53):c.40C>G (p.Leu14Val)",
+   "pos": 14,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "835067",
+   "accession": "VCV000835067",
+   "title": "NM_000546.6(TP53):c.47A>G (p.Gln16Arg)",
+   "pos": 16,
+   "ref": "Q",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "2694309",
+   "accession": "VCV002694309",
+   "title": "NM_000546.6(TP53):c.63C>G (p.Asp21Glu)",
+   "pos": 21,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1505620",
+   "accession": "VCV001505620",
+   "title": "NM_000546.6(TP53):c.79C>G (p.Pro27Ala)",
+   "pos": 27,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "481176",
+   "accession": "VCV000481176",
+   "title": "NM_000546.6(TP53):c.80C>T (p.Pro27Leu)",
+   "pos": 27,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "406600",
+   "accession": "VCV000406600",
+   "title": "NM_000546.6(TP53):c.79C>A (p.Pro27Thr)",
+   "pos": 27,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "185581",
+   "accession": "VCV000185581",
+   "title": "NM_000546.6(TP53):c.83A>T (p.Glu28Val)",
+   "pos": 28,
+   "ref": "E",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "127827",
+   "accession": "VCV000127827",
+   "title": "NM_000546.6(TP53):c.91G>A (p.Val31Ile)",
+   "pos": 31,
+   "ref": "V",
+   "alt": "I",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "not provided",
+    "Likely pathogenic",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Benign",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "649861",
+   "accession": "VCV000649861",
+   "title": "NM_000546.6(TP53):c.98C>T (p.Ser33Phe)",
+   "pos": 33,
+   "ref": "S",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "482211",
+   "accession": "VCV000482211",
+   "title": "NM_000546.6(TP53):c.98C>A (p.Ser33Tyr)",
+   "pos": 33,
+   "ref": "S",
+   "alt": "Y",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "935999",
+   "accession": "VCV000935999",
+   "title": "NM_000546.6(TP53):c.100C>T (p.Pro34Ser)",
+   "pos": 34,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "628478",
+   "accession": "VCV000628478",
+   "title": "NM_000546.6(TP53):c.101C>G (p.Pro34Arg)",
+   "pos": 34,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "186313",
+   "accession": "VCV000186313",
+   "title": "NM_000546.6(TP53):c.100C>G (p.Pro34Ala)",
+   "pos": 34,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "185157",
+   "accession": "VCV000185157",
+   "title": "NM_000546.6(TP53):c.100C>A (p.Pro34Thr)",
+   "pos": 34,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406609",
+   "accession": "VCV000406609",
+   "title": "NM_000546.6(TP53):c.103T>A (p.Leu35Met)",
+   "pos": 35,
+   "ref": "L",
+   "alt": "M",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "818331",
+   "accession": "VCV000818331",
+   "title": "NM_000546.6(TP53):c.107C>T (p.Pro36Leu)",
+   "pos": 36,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "567972",
+   "accession": "VCV000567972",
+   "title": "NM_000546.6(TP53):c.110C>T (p.Ser37Phe)",
+   "pos": 37,
+   "ref": "S",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "569629",
+   "accession": "VCV000569629",
+   "title": "NM_000546.6(TP53):c.116C>T (p.Ala39Val)",
+   "pos": 39,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "643576",
+   "accession": "VCV000643576",
+   "title": "NM_000546.6(TP53):c.118A>G (p.Met40Val)",
+   "pos": 40,
+   "ref": "M",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "142995",
+   "accession": "VCV000142995",
+   "title": "NM_000546.6(TP53):c.119T>C (p.Met40Thr)",
+   "pos": 40,
+   "ref": "M",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "863522",
+   "accession": "VCV000863522",
+   "title": "NM_000546.6(TP53):c.122A>G (p.Asp41Gly)",
+   "pos": 41,
+   "ref": "D",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "485040",
+   "accession": "VCV000485040",
+   "title": "NM_000546.6(TP53):c.121G>A (p.Asp41Asn)",
+   "pos": 41,
+   "ref": "D",
+   "alt": "N",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1471049",
+   "accession": "VCV001471049",
+   "title": "NM_000546.6(TP53):c.124G>A (p.Asp42Asn)",
+   "pos": 42,
+   "ref": "D",
+   "alt": "N",
+   "votes": [
+    "Likely benign",
+    "Likely Benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "141464",
+   "accession": "VCV000141464",
+   "title": "NM_000546.6(TP53):c.125A>G (p.Asp42Gly)",
+   "pos": 42,
+   "ref": "D",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1692471",
+   "accession": "VCV001692471",
+   "title": "NM_000546.6(TP53):c.129G>C (p.Leu43Phe)",
+   "pos": 43,
+   "ref": "L",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "3460300",
+   "accession": "VCV003460300",
+   "title": "NM_000546.6(TP53):c.130A>G (p.Met44Val)",
+   "pos": 44,
+   "ref": "M",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406565",
+   "accession": "VCV000406565",
+   "title": "NM_000546.6(TP53):c.132G>A (p.Met44Ile)",
+   "pos": 44,
+   "ref": "M",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "659842",
+   "accession": "VCV000659842",
+   "title": "NM_000546.6(TP53):c.133C>G (p.Leu45Val)",
+   "pos": 45,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "246049",
+   "accession": "VCV000246049",
+   "title": "NM_000546.6(TP53):c.134T>C (p.Leu45Pro)",
+   "pos": 45,
+   "ref": "L",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "819145",
+   "accession": "VCV000819145",
+   "title": "NM_000546.6(TP53):c.140C>G (p.Pro47Arg)",
+   "pos": 47,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406608",
+   "accession": "VCV000406608",
+   "title": "NM_000546.6(TP53):c.139C>A (p.Pro47Thr)",
+   "pos": 47,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1506044",
+   "accession": "VCV001506044",
+   "title": "NM_000546.6(TP53):c.147T>G (p.Asp49Glu)",
+   "pos": 49,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "231133",
+   "accession": "VCV000231133",
+   "title": "NM_000546.6(TP53):c.146A>G (p.Asp49Gly)",
+   "pos": 49,
+   "ref": "D",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1775891",
+   "accession": "VCV001775891",
+   "title": "NM_000546.6(TP53):c.158G>T (p.Trp53Leu)",
+   "pos": 53,
+   "ref": "W",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "481098",
+   "accession": "VCV000481098",
+   "title": "NM_000546.6(TP53):c.160T>C (p.Phe54Leu)",
+   "pos": 54,
+   "ref": "F",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "142863",
+   "accession": "VCV000142863",
+   "title": "NM_000546.6(TP53):c.171C>A (p.Asp57Glu)",
+   "pos": 57,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "947099",
+   "accession": "VCV000947099",
+   "title": "NM_000546.6(TP53):c.172C>A (p.Pro58Thr)",
+   "pos": 58,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "127804",
+   "accession": "VCV000127804",
+   "title": "NM_000546.6(TP53):c.173C>G (p.Pro58Arg)",
+   "pos": 58,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "not provided",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "820098",
+   "accession": "VCV000820098",
+   "title": "NM_000546.6(TP53):c.179C>T (p.Pro60Leu)",
+   "pos": 60,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1347666",
+   "accession": "VCV001347666",
+   "title": "NM_000546.6(TP53):c.182A>T (p.Asp61Val)",
+   "pos": 61,
+   "ref": "D",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "950660",
+   "accession": "VCV000950660",
+   "title": "NM_000546.6(TP53):c.182A>G (p.Asp61Gly)",
+   "pos": 61,
+   "ref": "D",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "820144",
+   "accession": "VCV000820144",
+   "title": "NM_000546.6(TP53):c.183T>A (p.Asp61Glu)",
+   "pos": 61,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1388326",
+   "accession": "VCV001388326",
+   "title": "NM_000546.6(TP53):c.185A>C (p.Glu62Ala)",
+   "pos": 62,
+   "ref": "E",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "859320",
+   "accession": "VCV000859320",
+   "title": "NM_000546.6(TP53):c.184G>A (p.Glu62Lys)",
+   "pos": 62,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "820372",
+   "accession": "VCV000820372",
+   "title": "NM_000546.6(TP53):c.193A>G (p.Arg65Gly)",
+   "pos": 65,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480745",
+   "accession": "VCV000480745",
+   "title": "NM_000546.6(TP53):c.198G>A (p.Met66Ile)",
+   "pos": 66,
+   "ref": "M",
+   "alt": "I",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "575773",
+   "accession": "VCV000575773",
+   "title": "NM_000546.6(TP53):c.205G>A (p.Ala69Thr)",
+   "pos": 69,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528260",
+   "accession": "VCV000528260",
+   "title": "NM_000546.6(TP53):c.206C>T (p.Ala69Val)",
+   "pos": 69,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "577431",
+   "accession": "VCV000577431",
+   "title": "NM_000546.6(TP53):c.211C>G (p.Pro71Ala)",
+   "pos": 71,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "572378",
+   "accession": "VCV000572378",
+   "title": "NM_000546.6(TP53):c.211C>T (p.Pro71Ser)",
+   "pos": 71,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "864652",
+   "accession": "VCV000864652",
+   "title": "NM_000546.6(TP53):c.215C>T (p.Pro72Leu)",
+   "pos": 72,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "485023",
+   "accession": "VCV000485023",
+   "title": "NM_000546.6(TP53):c.214C>T (p.Pro72Ser)",
+   "pos": 72,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "232750",
+   "accession": "VCV000232750",
+   "title": "NM_000546.6(TP53):c.214C>A (p.Pro72Thr)",
+   "pos": 72,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1787901",
+   "accession": "VCV001787901",
+   "title": "NM_000546.6(TP53):c.221C>G (p.Ala74Gly)",
+   "pos": 74,
+   "ref": "A",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1171287",
+   "accession": "VCV001171287",
+   "title": "NM_000546.6(TP53):c.226G>A (p.Ala76Thr)",
+   "pos": 76,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1718262",
+   "accession": "VCV001718262",
+   "title": "NM_000546.6(TP53):c.229C>G (p.Pro77Ala)",
+   "pos": 77,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528266",
+   "accession": "VCV000528266",
+   "title": "NM_000546.6(TP53):c.229C>T (p.Pro77Ser)",
+   "pos": 77,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458528",
+   "accession": "VCV000458528",
+   "title": "NM_000546.6(TP53):c.229C>A (p.Pro77Thr)",
+   "pos": 77,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1401526",
+   "accession": "VCV001401526",
+   "title": "NM_000546.6(TP53):c.233C>T (p.Ala78Val)",
+   "pos": 78,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "230368",
+   "accession": "VCV000230368",
+   "title": "NM_000546.6(TP53):c.233C>G (p.Ala78Gly)",
+   "pos": 78,
+   "ref": "A",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "583101",
+   "accession": "VCV000583101",
+   "title": "NM_000546.6(TP53):c.242C>T (p.Thr81Ile)",
+   "pos": 81,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1021579",
+   "accession": "VCV001021579",
+   "title": "NM_000546.6(TP53):c.244C>T (p.Pro82Ser)",
+   "pos": 82,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "482216",
+   "accession": "VCV000482216",
+   "title": "NM_000546.6(TP53):c.244C>G (p.Pro82Ala)",
+   "pos": 82,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "141956",
+   "accession": "VCV000141956",
+   "title": "NM_000546.6(TP53):c.248C>A (p.Ala83Glu)",
+   "pos": 83,
+   "ref": "A",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1792511",
+   "accession": "VCV001792511",
+   "title": "NM_000546.6(TP53):c.251C>T (p.Ala84Val)",
+   "pos": 84,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1793227",
+   "accession": "VCV001793227",
+   "title": "NM_000546.6(TP53):c.256G>C (p.Ala86Pro)",
+   "pos": 86,
+   "ref": "A",
+   "alt": "P",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "654187",
+   "accession": "VCV000654187",
+   "title": "NM_000546.6(TP53):c.257C>T (p.Ala86Val)",
+   "pos": 86,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "141967",
+   "accession": "VCV000141967",
+   "title": "NM_000546.6(TP53):c.256G>A (p.Ala86Thr)",
+   "pos": 86,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "2861491",
+   "accession": "VCV002861491",
+   "title": "NM_000546.6(TP53):c.259C>G (p.Pro87Ala)",
+   "pos": 87,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "942021",
+   "accession": "VCV000942021",
+   "title": "NM_000546.6(TP53):c.260C>T (p.Pro87Leu)",
+   "pos": 87,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "4800660",
+   "accession": "VCV004800660",
+   "title": "NM_000546.6(TP53):c.262G>A (p.Ala88Thr)",
+   "pos": 88,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480734",
+   "accession": "VCV000480734",
+   "title": "NM_000546.6(TP53):c.263C>T (p.Ala88Val)",
+   "pos": 88,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "821636",
+   "accession": "VCV000821636",
+   "title": "NM_000546.6(TP53):c.265C>A (p.Pro89Thr)",
+   "pos": 89,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "182923",
+   "accession": "VCV000182923",
+   "title": "NM_000546.6(TP53):c.266C>T (p.Pro89Leu)",
+   "pos": 89,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480733",
+   "accession": "VCV000480733",
+   "title": "NM_000546.6(TP53):c.275C>T (p.Pro92Leu)",
+   "pos": 92,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "12350",
+   "accession": "VCV000012350",
+   "title": "NM_000546.6(TP53):c.755T>C (p.Leu252Pro)",
+   "pos": 93,
+   "ref": "L",
+   "alt": "P",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "458532",
+   "accession": "VCV000458532",
+   "title": "NM_000546.6(TP53):c.289G>T (p.Val97Phe)",
+   "pos": 97,
+   "ref": "V",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "182962",
+   "accession": "VCV000182962",
+   "title": "NM_000546.6(TP53):c.289G>C (p.Val97Leu)",
+   "pos": 97,
+   "ref": "V",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528236",
+   "accession": "VCV000528236",
+   "title": "NM_000546.6(TP53):c.293C>T (p.Pro98Leu)",
+   "pos": 98,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "582041",
+   "accession": "VCV000582041",
+   "title": "NM_000546.6(TP53):c.304A>T (p.Thr102Ser)",
+   "pos": 102,
+   "ref": "T",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "186132",
+   "accession": "VCV000186132",
+   "title": "NM_000546.6(TP53):c.305C>T (p.Thr102Ile)",
+   "pos": 102,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "945802",
+   "accession": "VCV000945802",
+   "title": "NM_000546.6(TP53):c.311A>T (p.Gln104Leu)",
+   "pos": 104,
+   "ref": "Q",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "634708",
+   "accession": "VCV000634708",
+   "title": "NM_000546.6(TP53):c.314G>T (p.Gly105Val)",
+   "pos": 105,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "629791",
+   "accession": "VCV000629791",
+   "title": "NM_000546.6(TP53):c.317G>T (p.Ser106Ile)",
+   "pos": 106,
+   "ref": "S",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "641482",
+   "accession": "VCV000641482",
+   "title": "NM_000546.6(TP53):c.319T>G (p.Tyr107Asp)",
+   "pos": 107,
+   "ref": "Y",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1487358",
+   "accession": "VCV001487358",
+   "title": "NM_000546.6(TP53):c.322G>T (p.Gly108Cys)",
+   "pos": 108,
+   "ref": "G",
+   "alt": "C",
+   "votes": [
+    "Likely Benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "389644",
+   "accession": "VCV000389644",
+   "title": "NM_000546.6(TP53):c.325T>G (p.Phe109Val)",
+   "pos": 109,
+   "ref": "F",
+   "alt": "V",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "492575",
+   "accession": "VCV000492575",
+   "title": "NM_000546.6(TP53):c.334G>A (p.Gly112Ser)",
+   "pos": 112,
+   "ref": "G",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458536",
+   "accession": "VCV000458536",
+   "title": "NM_000546.6(TP53):c.341T>C (p.Leu114Ser)",
+   "pos": 114,
+   "ref": "L",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480741",
+   "accession": "VCV000480741",
+   "title": "NM_000546.6(TP53):c.343C>A (p.His115Asn)",
+   "pos": 115,
+   "ref": "H",
+   "alt": "N",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "649358",
+   "accession": "VCV000649358",
+   "title": "NM_000546.6(TP53):c.346T>G (p.Ser116Ala)",
+   "pos": 116,
+   "ref": "S",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "949408",
+   "accession": "VCV000949408",
+   "title": "NM_000546.6(TP53):c.356C>G (p.Ala119Gly)",
+   "pos": 119,
+   "ref": "A",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "141098",
+   "accession": "VCV000141098",
+   "title": "NM_000546.6(TP53):c.358A>G (p.Lys120Glu)",
+   "pos": 120,
+   "ref": "K",
+   "alt": "E",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376666",
+   "accession": "VCV000376666",
+   "title": "NM_000546.6(TP53):c.373A>C (p.Thr125Pro)",
+   "pos": 125,
+   "ref": "T",
+   "alt": "P",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "183748",
+   "accession": "VCV000183748",
+   "title": "NM_000546.6(TP53):c.374C>T (p.Thr125Met)",
+   "pos": 125,
+   "ref": "T",
+   "alt": "M",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely Pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1734755",
+   "accession": "VCV001734755",
+   "title": "NM_000546.6(TP53):c.376T>C (p.Tyr126His)",
+   "pos": 126,
+   "ref": "Y",
+   "alt": "H",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "458541",
+   "accession": "VCV000458541",
+   "title": "NM_000546.6(TP53):c.377A>G (p.Tyr126Cys)",
+   "pos": 126,
+   "ref": "Y",
+   "alt": "C",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "428871",
+   "accession": "VCV000428871",
+   "title": "NM_000546.6(TP53):c.376T>A (p.Tyr126Asn)",
+   "pos": 126,
+   "ref": "Y",
+   "alt": "N",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1718564",
+   "accession": "VCV001718564",
+   "title": "NM_000546.6(TP53):c.383C>G (p.Pro128Arg)",
+   "pos": 128,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480743",
+   "accession": "VCV000480743",
+   "title": "NM_000546.6(TP53):c.382C>A (p.Pro128Thr)",
+   "pos": 128,
+   "ref": "P",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "824314",
+   "accession": "VCV000824314",
+   "title": "NM_000546.6(TP53):c.385G>T (p.Ala129Ser)",
+   "pos": 129,
+   "ref": "A",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "482217",
+   "accession": "VCV000482217",
+   "title": "NM_000546.6(TP53):c.385G>A (p.Ala129Thr)",
+   "pos": 129,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458543",
+   "accession": "VCV000458543",
+   "title": "NM_000546.6(TP53):c.388C>G (p.Leu130Val)",
+   "pos": 130,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "216466",
+   "accession": "VCV000216466",
+   "title": "NM_000546.6(TP53):c.388C>T (p.Leu130Phe)",
+   "pos": 130,
+   "ref": "L",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "141988",
+   "accession": "VCV000141988",
+   "title": "NM_000546.6(TP53):c.391A>T (p.Asn131Tyr)",
+   "pos": 131,
+   "ref": "N",
+   "alt": "Y",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376629",
+   "accession": "VCV000376629",
+   "title": "NM_000546.6(TP53):c.395A>T (p.Lys132Met)",
+   "pos": 132,
+   "ref": "K",
+   "alt": "M",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376628",
+   "accession": "VCV000376628",
+   "title": "NM_000546.6(TP53):c.394A>C (p.Lys132Gln)",
+   "pos": 132,
+   "ref": "K",
+   "alt": "Q",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376627",
+   "accession": "VCV000376627",
+   "title": "NM_000546.6(TP53):c.395A>C (p.Lys132Thr)",
+   "pos": 132,
+   "ref": "K",
+   "alt": "T",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376626",
+   "accession": "VCV000376626",
+   "title": "NM_000546.6(TP53):c.394A>G (p.Lys132Glu)",
+   "pos": 132,
+   "ref": "K",
+   "alt": "E",
+   "votes": [
+    "Uncertain Significance",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "421437",
+   "accession": "VCV000421437",
+   "title": "NM_000546.6(TP53):c.399G>A (p.Met133Ile)",
+   "pos": 133,
+   "ref": "M",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "988615",
+   "accession": "VCV000988615",
+   "title": "NM_000546.6(TP53):c.400T>G (p.Phe134Val)",
+   "pos": 134,
+   "ref": "F",
+   "alt": "V",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "871293",
+   "accession": "VCV000871293",
+   "title": "NM_000546.6(TP53):c.402T>A (p.Phe134Leu)",
+   "pos": 134,
+   "ref": "F",
+   "alt": "L",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "480953",
+   "accession": "VCV000480953",
+   "title": "NM_000546.6(TP53):c.400T>A (p.Phe134Ile)",
+   "pos": 134,
+   "ref": "F",
+   "alt": "I",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "80710",
+   "accession": "VCV000080710",
+   "title": "NM_000546.6(TP53):c.400T>C (p.Phe134Leu)",
+   "pos": 134,
+   "ref": "F",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376561",
+   "accession": "VCV000376561",
+   "title": "NM_000546.6(TP53):c.405C>G (p.Cys135Trp)",
+   "pos": 135,
+   "ref": "C",
+   "alt": "W",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "141762",
+   "accession": "VCV000141762",
+   "title": "NM_000546.6(TP53):c.404G>A (p.Cys135Tyr)",
+   "pos": 135,
+   "ref": "C",
+   "alt": "Y",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "580807",
+   "accession": "VCV000580807",
+   "title": "NM_000546.6(TP53):c.407A>C (p.Gln136Pro)",
+   "pos": 136,
+   "ref": "Q",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "480751",
+   "accession": "VCV000480751",
+   "title": "NM_000546.6(TP53):c.406C>G (p.Gln136Glu)",
+   "pos": 136,
+   "ref": "Q",
+   "alt": "E",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "185918",
+   "accession": "VCV000185918",
+   "title": "NM_000546.6(TP53):c.419C>A (p.Thr140Asn)",
+   "pos": 140,
+   "ref": "T",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "376568",
+   "accession": "VCV000376568",
+   "title": "NM_000546.6(TP53):c.422G>T (p.Cys141Phe)",
+   "pos": 141,
+   "ref": "C",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376565",
+   "accession": "VCV000376565",
+   "title": "NM_000546.6(TP53):c.421T>C (p.Cys141Arg)",
+   "pos": 141,
+   "ref": "C",
+   "alt": "R",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "864520",
+   "accession": "VCV000864520",
+   "title": "NM_000546.6(TP53):c.425C>T (p.Pro142Leu)",
+   "pos": 142,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "186594",
+   "accession": "VCV000186594",
+   "title": "NM_000546.6(TP53):c.431A>C (p.Gln144Pro)",
+   "pos": 144,
+   "ref": "Q",
+   "alt": "P",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "2774652",
+   "accession": "VCV002774652",
+   "title": "NM_000546.6(TP53):c.433C>G (p.Leu145Val)",
+   "pos": 145,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1027110",
+   "accession": "VCV001027110",
+   "title": "NM_000546.6(TP53):c.434T>G (p.Leu145Arg)",
+   "pos": 145,
+   "ref": "L",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "480760",
+   "accession": "VCV000480760",
+   "title": "NM_000546.6(TP53):c.434T>A (p.Leu145Gln)",
+   "pos": 145,
+   "ref": "L",
+   "alt": "Q",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "142050",
+   "accession": "VCV000142050",
+   "title": "NM_000546.6(TP53):c.434T>C (p.Leu145Pro)",
+   "pos": 145,
+   "ref": "L",
+   "alt": "P",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "4800656",
+   "accession": "VCV004800656",
+   "title": "NM_000546.6(TP53):c.436T>C (p.Trp146Arg)",
+   "pos": 146,
+   "ref": "W",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1351017",
+   "accession": "VCV001351017",
+   "title": "NM_000546.6(TP53):c.440T>A (p.Val147Asp)",
+   "pos": 147,
+   "ref": "V",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "485032",
+   "accession": "VCV000485032",
+   "title": "NM_000546.6(TP53):c.443A>C (p.Asp148Ala)",
+   "pos": 148,
+   "ref": "D",
+   "alt": "A",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "428863",
+   "accession": "VCV000428863",
+   "title": "NM_000546.6(TP53):c.442G>T (p.Asp148Tyr)",
+   "pos": 148,
+   "ref": "D",
+   "alt": "Y",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1350373",
+   "accession": "VCV001350373",
+   "title": "NM_000546.6(TP53):c.449C>T (p.Thr150Ile)",
+   "pos": 150,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Pathogenic",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    0
+   ],
+   "resolved_label": null
+  },
+  {
+   "uid": "482230",
+   "accession": "VCV000482230",
+   "title": "NM_000546.6(TP53):c.454C>T (p.Pro152Ser)",
+   "pos": 152,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "422563",
+   "accession": "VCV000422563",
+   "title": "NM_000546.6(TP53):c.457C>T (p.Pro153Ser)",
+   "pos": 153,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "651769",
+   "accession": "VCV000651769",
+   "title": "NM_000546.6(TP53):c.461G>T (p.Gly154Val)",
+   "pos": 154,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "2768025",
+   "accession": "VCV002768025",
+   "title": "NM_000546.6(TP53):c.463A>C (p.Thr155Pro)",
+   "pos": 155,
+   "ref": "T",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1005876",
+   "accession": "VCV001005876",
+   "title": "NM_000546.6(TP53):c.464C>T (p.Thr155Ile)",
+   "pos": 155,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "458544",
+   "accession": "VCV000458544",
+   "title": "NM_000546.6(TP53):c.463A>G (p.Thr155Ala)",
+   "pos": 155,
+   "ref": "T",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "186179",
+   "accession": "VCV000186179",
+   "title": "NM_000546.6(TP53):c.464C>G (p.Thr155Ser)",
+   "pos": 155,
+   "ref": "T",
+   "alt": "S",
+   "votes": [
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1517870",
+   "accession": "VCV001517870",
+   "title": "NM_000546.6(TP53):c.466C>G (p.Arg156Gly)",
+   "pos": 156,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "127810",
+   "accession": "VCV000127810",
+   "title": "NM_000546.6(TP53):c.466C>T (p.Arg156Cys)",
+   "pos": 156,
+   "ref": "R",
+   "alt": "C",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "482231",
+   "accession": "VCV000482231",
+   "title": "NM_000546.6(TP53):c.470T>A (p.Val157Asp)",
+   "pos": 157,
+   "ref": "V",
+   "alt": "D",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "428887",
+   "accession": "VCV000428887",
+   "title": "NM_000546.6(TP53):c.470T>C (p.Val157Ala)",
+   "pos": 157,
+   "ref": "V",
+   "alt": "A",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1909172",
+   "accession": "VCV001909172",
+   "title": "NM_000546.6(TP53):c.475G>A (p.Ala159Thr)",
+   "pos": 159,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "182929",
+   "accession": "VCV000182929",
+   "title": "NM_000546.6(TP53):c.475G>C (p.Ala159Pro)",
+   "pos": 159,
+   "ref": "A",
+   "alt": "P",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "444396",
+   "accession": "VCV000444396",
+   "title": "NM_000546.6(TP53):c.478A>G (p.Met160Val)",
+   "pos": 160,
+   "ref": "M",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "422295",
+   "accession": "VCV000422295",
+   "title": "NM_000546.6(TP53):c.482C>A (p.Ala161Asp)",
+   "pos": 161,
+   "ref": "A",
+   "alt": "D",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1408611",
+   "accession": "VCV001408611",
+   "title": "NM_000546.6(TP53):c.485T>A (p.Ile162Asn)",
+   "pos": 162,
+   "ref": "I",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "948225",
+   "accession": "VCV000948225",
+   "title": "NM_000546.6(TP53):c.484A>T (p.Ile162Phe)",
+   "pos": 162,
+   "ref": "I",
+   "alt": "F",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "127813",
+   "accession": "VCV000127813",
+   "title": "NM_000546.6(TP53):c.485T>G (p.Ile162Ser)",
+   "pos": 162,
+   "ref": "I",
+   "alt": "S",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376679",
+   "accession": "VCV000376679",
+   "title": "NM_000546.6(TP53):c.487T>A (p.Tyr163Asn)",
+   "pos": 163,
+   "ref": "Y",
+   "alt": "N",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "187052",
+   "accession": "VCV000187052",
+   "title": "NM_000546.6(TP53):c.487T>G (p.Tyr163Asp)",
+   "pos": 163,
+   "ref": "Y",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "3634431",
+   "accession": "VCV003634431",
+   "title": "NM_000546.6(TP53):c.493C>G (p.Gln165Glu)",
+   "pos": 165,
+   "ref": "Q",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "482232",
+   "accession": "VCV000482232",
+   "title": "NM_000546.6(TP53):c.493C>A (p.Gln165Lys)",
+   "pos": 165,
+   "ref": "Q",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "428866",
+   "accession": "VCV000428866",
+   "title": "NM_000546.6(TP53):c.503A>G (p.His168Arg)",
+   "pos": 168,
+   "ref": "H",
+   "alt": "R",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "836761",
+   "accession": "VCV000836761",
+   "title": "NM_000546.6(TP53):c.515T>A (p.Val172Asp)",
+   "pos": 172,
+   "ref": "V",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "428909",
+   "accession": "VCV000428909",
+   "title": "NM_000546.6(TP53):c.514G>T (p.Val172Phe)",
+   "pos": 172,
+   "ref": "V",
+   "alt": "F",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376669",
+   "accession": "VCV000376669",
+   "title": "NM_000546.6(TP53):c.518T>A (p.Val173Glu)",
+   "pos": 173,
+   "ref": "V",
+   "alt": "E",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376016",
+   "accession": "VCV000376016",
+   "title": "NM_000546.6(TP53):c.518T>G (p.Val173Gly)",
+   "pos": 173,
+   "ref": "V",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "423887",
+   "accession": "VCV000423887",
+   "title": "NM_000546.6(TP53):c.521G>A (p.Arg174Lys)",
+   "pos": 174,
+   "ref": "R",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "4189264",
+   "accession": "VCV004189264",
+   "title": "NM_000546.6(TP53):c.523C>A (p.Arg175Ser)",
+   "pos": 175,
+   "ref": "R",
+   "alt": "S",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376572",
+   "accession": "VCV000376572",
+   "title": "NM_000546.6(TP53):c.528C>G (p.Cys176Trp)",
+   "pos": 176,
+   "ref": "C",
+   "alt": "W",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376571",
+   "accession": "VCV000376571",
+   "title": "NM_000546.6(TP53):c.526T>G (p.Cys176Gly)",
+   "pos": 176,
+   "ref": "C",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely Pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376570",
+   "accession": "VCV000376570",
+   "title": "NM_000546.6(TP53):c.526T>A (p.Cys176Ser)",
+   "pos": 176,
+   "ref": "C",
+   "alt": "S",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "406583",
+   "accession": "VCV000406583",
+   "title": "NM_000546.6(TP53):c.530C>T (p.Pro177Leu)",
+   "pos": 177,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "485030",
+   "accession": "VCV000485030",
+   "title": "NM_000546.6(TP53):c.533A>C (p.His178Pro)",
+   "pos": 178,
+   "ref": "H",
+   "alt": "P",
+   "votes": [
+    "Pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376611",
+   "accession": "VCV000376611",
+   "title": "NM_000546.6(TP53):c.536A>C (p.His179Pro)",
+   "pos": 179,
+   "ref": "H",
+   "alt": "P",
+   "votes": [
+    "Likely pathogenic",
+    "Likely Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376609",
+   "accession": "VCV000376609",
+   "title": "NM_000546.6(TP53):c.535C>A (p.His179Asn)",
+   "pos": 179,
+   "ref": "H",
+   "alt": "N",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376608",
+   "accession": "VCV000376608",
+   "title": "NM_000546.6(TP53):c.536A>T (p.His179Leu)",
+   "pos": 179,
+   "ref": "H",
+   "alt": "L",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "39420",
+   "accession": "VCV000039420",
+   "title": "NM_000546.6(TP53):c.542G>T (p.Arg181Leu)",
+   "pos": 181,
+   "ref": "R",
+   "alt": "L",
+   "votes": [
+    "risk factor",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "480735",
+   "accession": "VCV000480735",
+   "title": "NM_000546.6(TP53):c.548C>T (p.Ser183Leu)",
+   "pos": 183,
+   "ref": "S",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "840399",
+   "accession": "VCV000840399",
+   "title": "NM_000546.6(TP53):c.559G>A (p.Gly187Ser)",
+   "pos": 187,
+   "ref": "G",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "635392",
+   "accession": "VCV000635392",
+   "title": "NM_000546.6(TP53):c.559G>C (p.Gly187Arg)",
+   "pos": 187,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "12382",
+   "accession": "VCV000012382",
+   "title": "NM_000546.6(TP53):c.566C>T (p.Ala189Val)",
+   "pos": 189,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Pathogenic",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "234061",
+   "accession": "VCV000234061",
+   "title": "NM_000546.6(TP53):c.569C>G (p.Pro190Arg)",
+   "pos": 190,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1036209",
+   "accession": "VCV001036209",
+   "title": "NM_000546.6(TP53):c.575A>C (p.Gln192Pro)",
+   "pos": 192,
+   "ref": "Q",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "182931",
+   "accession": "VCV000182931",
+   "title": "NM_000546.6(TP53):c.575A>G (p.Gln192Arg)",
+   "pos": 192,
+   "ref": "Q",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "825975",
+   "accession": "VCV000825975",
+   "title": "NM_000546.6(TP53):c.579T>A (p.His193Gln)",
+   "pos": 193,
+   "ref": "H",
+   "alt": "Q",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376613",
+   "accession": "VCV000376613",
+   "title": "NM_000546.6(TP53):c.577C>G (p.His193Asp)",
+   "pos": 193,
+   "ref": "H",
+   "alt": "D",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "185822",
+   "accession": "VCV000185822",
+   "title": "NM_000546.6(TP53):c.578A>T (p.His193Leu)",
+   "pos": 193,
+   "ref": "H",
+   "alt": "L",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376619",
+   "accession": "VCV000376619",
+   "title": "NM_000546.6(TP53):c.584T>G (p.Ile195Ser)",
+   "pos": 195,
+   "ref": "I",
+   "alt": "S",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376618",
+   "accession": "VCV000376618",
+   "title": "NM_000546.6(TP53):c.584T>A (p.Ile195Asn)",
+   "pos": 195,
+   "ref": "I",
+   "alt": "N",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376617",
+   "accession": "VCV000376617",
+   "title": "NM_000546.6(TP53):c.583A>T (p.Ile195Phe)",
+   "pos": 195,
+   "ref": "I",
+   "alt": "F",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "232344",
+   "accession": "VCV000232344",
+   "title": "NM_000546.6(TP53):c.586C>G (p.Arg196Gly)",
+   "pos": 196,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "100814",
+   "accession": "VCV000100814",
+   "title": "NM_000546.6(TP53):c.587G>T (p.Arg196Leu)",
+   "pos": 196,
+   "ref": "R",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "826051",
+   "accession": "VCV000826051",
+   "title": "NM_000546.6(TP53):c.590T>G (p.Val197Gly)",
+   "pos": 197,
+   "ref": "V",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "634757",
+   "accession": "VCV000634757",
+   "title": "NM_000546.6(TP53):c.590T>A (p.Val197Glu)",
+   "pos": 197,
+   "ref": "V",
+   "alt": "E",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "231661",
+   "accession": "VCV000231661",
+   "title": "NM_000546.6(TP53):c.604C>G (p.Arg202Gly)",
+   "pos": 202,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "135358",
+   "accession": "VCV000135358",
+   "title": "NM_000546.6(TP53):c.605G>A (p.Arg202His)",
+   "pos": 202,
+   "ref": "R",
+   "alt": "H",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "not provided",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "127818",
+   "accession": "VCV000127818",
+   "title": "NM_000546.6(TP53):c.604C>T (p.Arg202Cys)",
+   "pos": 202,
+   "ref": "R",
+   "alt": "C",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "376684",
+   "accession": "VCV000376684",
+   "title": "NM_000546.6(TP53):c.613T>A (p.Tyr205Asn)",
+   "pos": 205,
+   "ref": "Y",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "2679229",
+   "accession": "VCV002679229",
+   "title": "NM_000546.6(TP53):c.617T>G (p.Leu206Trp)",
+   "pos": 206,
+   "ref": "L",
+   "alt": "W",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "439319",
+   "accession": "VCV000439319",
+   "title": "NM_000546.6(TP53):c.617T>C (p.Leu206Ser)",
+   "pos": 206,
+   "ref": "L",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "2969522",
+   "accession": "VCV002969522",
+   "title": "NM_000546.6(TP53):c.619G>A (p.Asp207Asn)",
+   "pos": 207,
+   "ref": "D",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1752332",
+   "accession": "VCV001752332",
+   "title": "NM_000546.6(TP53):c.622G>A (p.Asp208Asn)",
+   "pos": 208,
+   "ref": "D",
+   "alt": "N",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1350980",
+   "accession": "VCV001350980",
+   "title": "NM_000546.6(TP53):c.622G>T (p.Asp208Tyr)",
+   "pos": 208,
+   "ref": "D",
+   "alt": "Y",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1036023",
+   "accession": "VCV001036023",
+   "title": "NM_000546.6(TP53):c.623A>T (p.Asp208Val)",
+   "pos": 208,
+   "ref": "D",
+   "alt": "V",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "2450746",
+   "accession": "VCV002450746",
+   "title": "NM_000546.6(TP53):c.627A>C (p.Arg209Ser)",
+   "pos": 209,
+   "ref": "R",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "627819",
+   "accession": "VCV000627819",
+   "title": "NM_000546.6(TP53):c.625A>G (p.Arg209Gly)",
+   "pos": 209,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1503185",
+   "accession": "VCV001503185",
+   "title": "NM_000546.6(TP53):c.632C>T (p.Thr211Ile)",
+   "pos": 211,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "528235",
+   "accession": "VCV000528235",
+   "title": "NM_000546.6(TP53):c.631A>C (p.Thr211Pro)",
+   "pos": 211,
+   "ref": "T",
+   "alt": "P",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376651",
+   "accession": "VCV000376651",
+   "title": "NM_000546.6(TP53):c.637C>G (p.Arg213Gly)",
+   "pos": 213,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376650",
+   "accession": "VCV000376650",
+   "title": "NM_000546.6(TP53):c.638G>T (p.Arg213Leu)",
+   "pos": 213,
+   "ref": "R",
+   "alt": "L",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "140943",
+   "accession": "VCV000140943",
+   "title": "NM_000546.6(TP53):c.642T>G (p.His214Gln)",
+   "pos": 214,
+   "ref": "H",
+   "alt": "Q",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "376662",
+   "accession": "VCV000376662",
+   "title": "NM_000546.6(TP53):c.644G>A (p.Ser215Asn)",
+   "pos": 215,
+   "ref": "S",
+   "alt": "N",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376660",
+   "accession": "VCV000376660",
+   "title": "NM_000546.6(TP53):c.644G>T (p.Ser215Ile)",
+   "pos": 215,
+   "ref": "S",
+   "alt": "I",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "265337",
+   "accession": "VCV000265337",
+   "title": "NM_000546.6(TP53):c.643A>G (p.Ser215Gly)",
+   "pos": 215,
+   "ref": "S",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "142012",
+   "accession": "VCV000142012",
+   "title": "NM_000546.6(TP53):c.644G>C (p.Ser215Thr)",
+   "pos": 215,
+   "ref": "S",
+   "alt": "T",
+   "votes": [
+    "Uncertain Significance",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "406596",
+   "accession": "VCV000406596",
+   "title": "NM_000546.6(TP53):c.646G>C (p.Val216Leu)",
+   "pos": 216,
+   "ref": "V",
+   "alt": "L",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376671",
+   "accession": "VCV000376671",
+   "title": "NM_000546.6(TP53):c.647T>G (p.Val216Gly)",
+   "pos": 216,
+   "ref": "V",
+   "alt": "G",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376670",
+   "accession": "VCV000376670",
+   "title": "NM_000546.6(TP53):c.646G>T (p.Val216Leu)",
+   "pos": 216,
+   "ref": "V",
+   "alt": "L",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1386154",
+   "accession": "VCV001386154",
+   "title": "NM_000546.6(TP53):c.649G>T (p.Val217Leu)",
+   "pos": 217,
+   "ref": "V",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "183071",
+   "accession": "VCV000183071",
+   "title": "NM_000546.6(TP53):c.649G>A (p.Val217Met)",
+   "pos": 217,
+   "ref": "V",
+   "alt": "M",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528249",
+   "accession": "VCV000528249",
+   "title": "NM_000546.6(TP53):c.653T>G (p.Val218Gly)",
+   "pos": 218,
+   "ref": "V",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "237952",
+   "accession": "VCV000237952",
+   "title": "NM_000546.6(TP53):c.652G>A (p.Val218Met)",
+   "pos": 218,
+   "ref": "V",
+   "alt": "M",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "245673",
+   "accession": "VCV000245673",
+   "title": "NM_000546.6(TP53):c.655C>T (p.Pro219Ser)",
+   "pos": 219,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376689",
+   "accession": "VCV000376689",
+   "title": "NM_000546.6(TP53):c.658T>G (p.Tyr220Asp)",
+   "pos": 220,
+   "ref": "Y",
+   "alt": "D",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376688",
+   "accession": "VCV000376688",
+   "title": "NM_000546.6(TP53):c.658T>A (p.Tyr220Asn)",
+   "pos": 220,
+   "ref": "Y",
+   "alt": "N",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "406592",
+   "accession": "VCV000406592",
+   "title": "NM_000546.6(TP53):c.664C>T (p.Pro222Ser)",
+   "pos": 222,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "161397",
+   "accession": "VCV000161397",
+   "title": "NM_000546.6(TP53):c.665C>T (p.Pro222Leu)",
+   "pos": 222,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "635390",
+   "accession": "VCV000635390",
+   "title": "NM_000546.6(TP53):c.672G>T (p.Glu224Asp)",
+   "pos": 224,
+   "ref": "E",
+   "alt": "D",
+   "votes": [
+    "Likely Benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "850916",
+   "accession": "VCV000850916",
+   "title": "NM_000546.6(TP53):c.674T>A (p.Val225Asp)",
+   "pos": 225,
+   "ref": "V",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480736",
+   "accession": "VCV000480736",
+   "title": "NM_000546.6(TP53):c.673G>A (p.Val225Ile)",
+   "pos": 225,
+   "ref": "V",
+   "alt": "I",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458556",
+   "accession": "VCV000458556",
+   "title": "NM_000546.6(TP53):c.677G>T (p.Gly226Val)",
+   "pos": 226,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "954848",
+   "accession": "VCV000954848",
+   "title": "NM_000546.6(TP53):c.684C>A (p.Asp228Glu)",
+   "pos": 228,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "926556",
+   "accession": "VCV000926556",
+   "title": "NM_000546.6(TP53):c.684C>G (p.Asp228Glu)",
+   "pos": 228,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "582302",
+   "accession": "VCV000582302",
+   "title": "NM_000546.6(TP53):c.686G>C (p.Cys229Ser)",
+   "pos": 229,
+   "ref": "C",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "420137",
+   "accession": "VCV000420137",
+   "title": "NM_000546.6(TP53):c.685T>C (p.Cys229Arg)",
+   "pos": 229,
+   "ref": "C",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "not provided",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "419040",
+   "accession": "VCV000419040",
+   "title": "NM_000546.6(TP53):c.686G>A (p.Cys229Tyr)",
+   "pos": 229,
+   "ref": "C",
+   "alt": "Y",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "2827498",
+   "accession": "VCV002827498",
+   "title": "NM_000546.6(TP53):c.694A>T (p.Ile232Phe)",
+   "pos": 232,
+   "ref": "I",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "482214",
+   "accession": "VCV000482214",
+   "title": "NM_000546.6(TP53):c.694A>C (p.Ile232Leu)",
+   "pos": 232,
+   "ref": "I",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "246388",
+   "accession": "VCV000246388",
+   "title": "NM_000546.6(TP53):c.698A>G (p.His233Arg)",
+   "pos": 233,
+   "ref": "H",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "376690",
+   "accession": "VCV000376690",
+   "title": "NM_000546.6(TP53):c.701A>C (p.Tyr234Ser)",
+   "pos": 234,
+   "ref": "Y",
+   "alt": "S",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "919580",
+   "accession": "VCV000919580",
+   "title": "NM_000546.6(TP53):c.703A>G (p.Asn235Asp)",
+   "pos": 235,
+   "ref": "N",
+   "alt": "D",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376694",
+   "accession": "VCV000376694",
+   "title": "NM_000546.6(TP53):c.706T>A (p.Tyr236Asn)",
+   "pos": 236,
+   "ref": "Y",
+   "alt": "N",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "182966",
+   "accession": "VCV000182966",
+   "title": "NM_000546.6(TP53):c.707A>C (p.Tyr236Ser)",
+   "pos": 236,
+   "ref": "Y",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "142183",
+   "accession": "VCV000142183",
+   "title": "NM_000546.6(TP53):c.706T>G (p.Tyr236Asp)",
+   "pos": 236,
+   "ref": "Y",
+   "alt": "D",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "182934",
+   "accession": "VCV000182934",
+   "title": "NM_000546.6(TP53):c.709A>G (p.Met237Val)",
+   "pos": 237,
+   "ref": "M",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "2748594",
+   "accession": "VCV002748594",
+   "title": "NM_000546.6(TP53):c.716A>T (p.Asn239Ile)",
+   "pos": 239,
+   "ref": "N",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376638",
+   "accession": "VCV000376638",
+   "title": "NM_000546.6(TP53):c.716A>C (p.Asn239Thr)",
+   "pos": 239,
+   "ref": "N",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "234036",
+   "accession": "VCV000234036",
+   "title": "NM_000546.6(TP53):c.715A>G (p.Asn239Asp)",
+   "pos": 239,
+   "ref": "N",
+   "alt": "D",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1036853",
+   "accession": "VCV001036853",
+   "title": "NM_000546.6(TP53):c.719G>T (p.Ser240Ile)",
+   "pos": 240,
+   "ref": "S",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "826894",
+   "accession": "VCV000826894",
+   "title": "NM_000546.6(TP53):c.718A>C (p.Ser240Arg)",
+   "pos": 240,
+   "ref": "S",
+   "alt": "R",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "647334",
+   "accession": "VCV000647334",
+   "title": "NM_000546.6(TP53):c.725G>C (p.Cys242Ser)",
+   "pos": 242,
+   "ref": "C",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "449512",
+   "accession": "VCV000449512",
+   "title": "NM_000546.6(TP53):c.724T>C (p.Cys242Arg)",
+   "pos": 242,
+   "ref": "C",
+   "alt": "R",
+   "votes": [
+    "Pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376581",
+   "accession": "VCV000376581",
+   "title": "NM_000546.6(TP53):c.724T>G (p.Cys242Gly)",
+   "pos": 242,
+   "ref": "C",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376579",
+   "accession": "VCV000376579",
+   "title": "NM_000546.6(TP53):c.724T>A (p.Cys242Ser)",
+   "pos": 242,
+   "ref": "C",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376578",
+   "accession": "VCV000376578",
+   "title": "NM_000546.6(TP53):c.725G>T (p.Cys242Phe)",
+   "pos": 242,
+   "ref": "C",
+   "alt": "F",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "840505",
+   "accession": "VCV000840505",
+   "title": "NM_000546.6(TP53):c.729G>A (p.Met243Ile)",
+   "pos": 243,
+   "ref": "M",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406567",
+   "accession": "VCV000406567",
+   "title": "NM_000546.6(TP53):c.727A>G (p.Met243Val)",
+   "pos": 243,
+   "ref": "M",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "182936",
+   "accession": "VCV000182936",
+   "title": "NM_000546.6(TP53):c.728T>C (p.Met243Thr)",
+   "pos": 243,
+   "ref": "M",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376599",
+   "accession": "VCV000376599",
+   "title": "NM_000546.6(TP53):c.730G>T (p.Gly244Cys)",
+   "pos": 244,
+   "ref": "G",
+   "alt": "C",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic",
+    "Pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376604",
+   "accession": "VCV000376604",
+   "title": "NM_000546.6(TP53):c.733G>C (p.Gly245Arg)",
+   "pos": 245,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "265357",
+   "accession": "VCV000265357",
+   "title": "NM_000546.6(TP53):c.734G>C (p.Gly245Ala)",
+   "pos": 245,
+   "ref": "G",
+   "alt": "A",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "428886",
+   "accession": "VCV000428886",
+   "title": "NM_000546.6(TP53):c.737T>C (p.Met246Thr)",
+   "pos": 246,
+   "ref": "M",
+   "alt": "T",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "186737",
+   "accession": "VCV000186737",
+   "title": "NM_000546.6(TP53):c.736A>C (p.Met246Leu)",
+   "pos": 246,
+   "ref": "M",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "127822",
+   "accession": "VCV000127822",
+   "title": "NM_000546.6(TP53):c.737T>G (p.Met246Arg)",
+   "pos": 246,
+   "ref": "M",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic",
+    "pathogenic",
+    "pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "406595",
+   "accession": "VCV000406595",
+   "title": "NM_000546.6(TP53):c.740A>G (p.Asn247Ser)",
+   "pos": 247,
+   "ref": "N",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "376654",
+   "accession": "VCV000376654",
+   "title": "NM_000546.6(TP53):c.745A>G (p.Arg249Gly)",
+   "pos": 249,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376653",
+   "accession": "VCV000376653",
+   "title": "NM_000546.6(TP53):c.746G>T (p.Arg249Met)",
+   "pos": 249,
+   "ref": "R",
+   "alt": "M",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "142241",
+   "accession": "VCV000142241",
+   "title": "NM_000546.6(TP53):c.746G>A (p.Arg249Lys)",
+   "pos": 249,
+   "ref": "R",
+   "alt": "K",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "141881",
+   "accession": "VCV000141881",
+   "title": "NM_000546.6(TP53):c.745A>T (p.Arg249Trp)",
+   "pos": 249,
+   "ref": "R",
+   "alt": "W",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "528254",
+   "accession": "VCV000528254",
+   "title": "NM_000546.6(TP53):c.752T>A (p.Ile251Asn)",
+   "pos": 251,
+   "ref": "I",
+   "alt": "N",
+   "votes": [
+    "Pathogenic",
+    "Uncertain Significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "439320",
+   "accession": "VCV000439320",
+   "title": "NM_000546.6(TP53):c.752T>C (p.Ile251Thr)",
+   "pos": 251,
+   "ref": "I",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "182967",
+   "accession": "VCV000182967",
+   "title": "NM_000546.6(TP53):c.752T>G (p.Ile251Ser)",
+   "pos": 251,
+   "ref": "I",
+   "alt": "S",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1759470",
+   "accession": "VCV001759470",
+   "title": "NM_000546.6(TP53):c.754C>G (p.Leu252Val)",
+   "pos": 252,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "3148769",
+   "accession": "VCV003148769",
+   "title": "NM_000546.6(TP53):c.757A>C (p.Thr253Pro)",
+   "pos": 253,
+   "ref": "T",
+   "alt": "P",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "837688",
+   "accession": "VCV000837688",
+   "title": "NM_000546.6(TP53):c.758C>T (p.Thr253Ile)",
+   "pos": 253,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "659457",
+   "accession": "VCV000659457",
+   "title": "NM_000546.6(TP53):c.761T>G (p.Ile254Ser)",
+   "pos": 254,
+   "ref": "I",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376623",
+   "accession": "VCV000376623",
+   "title": "NM_000546.6(TP53):c.764T>C (p.Ile255Thr)",
+   "pos": 255,
+   "ref": "I",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376622",
+   "accession": "VCV000376622",
+   "title": "NM_000546.6(TP53):c.764T>G (p.Ile255Ser)",
+   "pos": 255,
+   "ref": "I",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376621",
+   "accession": "VCV000376621",
+   "title": "NM_000546.6(TP53):c.763A>T (p.Ile255Phe)",
+   "pos": 255,
+   "ref": "I",
+   "alt": "F",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "232289",
+   "accession": "VCV000232289",
+   "title": "NM_000546.6(TP53):c.764T>A (p.Ile255Asn)",
+   "pos": 255,
+   "ref": "I",
+   "alt": "N",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "528269",
+   "accession": "VCV000528269",
+   "title": "NM_000546.6(TP53):c.766A>C (p.Thr256Pro)",
+   "pos": 256,
+   "ref": "T",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "827201",
+   "accession": "VCV000827201",
+   "title": "NM_000546.6(TP53):c.769C>G (p.Leu257Val)",
+   "pos": 257,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "458562",
+   "accession": "VCV000458562",
+   "title": "NM_000546.6(TP53):c.770T>C (p.Leu257Pro)",
+   "pos": 257,
+   "ref": "L",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "142134",
+   "accession": "VCV000142134",
+   "title": "NM_000546.6(TP53):c.770T>G (p.Leu257Arg)",
+   "pos": 257,
+   "ref": "L",
+   "alt": "R",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "12372",
+   "accession": "VCV000012372",
+   "title": "NM_000546.6(TP53):c.770T>A (p.Leu257Gln)",
+   "pos": 257,
+   "ref": "L",
+   "alt": "Q",
+   "votes": [
+    "Pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "2808296",
+   "accession": "VCV002808296",
+   "title": "NM_000546.6(TP53):c.773A>T (p.Glu258Val)",
+   "pos": 258,
+   "ref": "E",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1360091",
+   "accession": "VCV001360091",
+   "title": "NM_000546.6(TP53):c.774A>C (p.Glu258Asp)",
+   "pos": 258,
+   "ref": "E",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "likely pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "406590",
+   "accession": "VCV000406590",
+   "title": "NM_000546.6(TP53):c.773A>G (p.Glu258Gly)",
+   "pos": 258,
+   "ref": "E",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "485034",
+   "accession": "VCV000485034",
+   "title": "NM_000546.6(TP53):c.776A>T (p.Asp259Val)",
+   "pos": 259,
+   "ref": "D",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely Pathogenic",
+    "Pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "3708635",
+   "accession": "VCV003708635",
+   "title": "NM_000546.6(TP53):c.781A>C (p.Ser261Arg)",
+   "pos": 261,
+   "ref": "S",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1383522",
+   "accession": "VCV001383522",
+   "title": "NM_000546.6(TP53):c.781A>G (p.Ser261Gly)",
+   "pos": 261,
+   "ref": "S",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "428889",
+   "accession": "VCV000428889",
+   "title": "NM_000546.6(TP53):c.785G>T (p.Gly262Val)",
+   "pos": 262,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "association",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "142916",
+   "accession": "VCV000142916",
+   "title": "NM_000546.6(TP53):c.787A>G (p.Asn263Asp)",
+   "pos": 263,
+   "ref": "N",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "likely benign",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "233303",
+   "accession": "VCV000233303",
+   "title": "NM_000546.6(TP53):c.797G>T (p.Gly266Val)",
+   "pos": 266,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1349719",
+   "accession": "VCV001349719",
+   "title": "NM_000546.6(TP53):c.804C>G (p.Asn268Lys)",
+   "pos": 268,
+   "ref": "N",
+   "alt": "K",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "376597",
+   "accession": "VCV000376597",
+   "title": "NM_000546.6(TP53):c.809T>G (p.Phe270Cys)",
+   "pos": 270,
+   "ref": "F",
+   "alt": "C",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376596",
+   "accession": "VCV000376596",
+   "title": "NM_000546.6(TP53):c.808T>A (p.Phe270Ile)",
+   "pos": 270,
+   "ref": "F",
+   "alt": "I",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376594",
+   "accession": "VCV000376594",
+   "title": "NM_000546.6(TP53):c.809T>C (p.Phe270Ser)",
+   "pos": 270,
+   "ref": "F",
+   "alt": "S",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "406566",
+   "accession": "VCV000406566",
+   "title": "NM_000546.6(TP53):c.811G>A (p.Glu271Lys)",
+   "pos": 271,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely Pathogenic",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376673",
+   "accession": "VCV000376673",
+   "title": "NM_000546.6(TP53):c.815T>A (p.Val272Glu)",
+   "pos": 272,
+   "ref": "V",
+   "alt": "E",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "233323",
+   "accession": "VCV000233323",
+   "title": "NM_000546.6(TP53):c.815T>G (p.Val272Gly)",
+   "pos": 272,
+   "ref": "V",
+   "alt": "G",
+   "votes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376678",
+   "accession": "VCV000376678",
+   "title": "NM_000546.6(TP53):c.820G>C (p.Val274Leu)",
+   "pos": 274,
+   "ref": "V",
+   "alt": "L",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376677",
+   "accession": "VCV000376677",
+   "title": "NM_000546.6(TP53):c.821T>C (p.Val274Ala)",
+   "pos": 274,
+   "ref": "V",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376676",
+   "accession": "VCV000376676",
+   "title": "NM_000546.6(TP53):c.821T>G (p.Val274Gly)",
+   "pos": 274,
+   "ref": "V",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376675",
+   "accession": "VCV000376675",
+   "title": "NM_000546.6(TP53):c.821T>A (p.Val274Asp)",
+   "pos": 274,
+   "ref": "V",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376674",
+   "accession": "VCV000376674",
+   "title": "NM_000546.6(TP53):c.820G>T (p.Val274Phe)",
+   "pos": 274,
+   "ref": "V",
+   "alt": "F",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1414106",
+   "accession": "VCV001414106",
+   "title": "NM_000546.6(TP53):c.823T>G (p.Cys275Gly)",
+   "pos": 275,
+   "ref": "C",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "485044",
+   "accession": "VCV000485044",
+   "title": "NM_000546.6(TP53):c.825T>G (p.Cys275Trp)",
+   "pos": 275,
+   "ref": "C",
+   "alt": "W",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376584",
+   "accession": "VCV000376584",
+   "title": "NM_000546.6(TP53):c.823T>C (p.Cys275Arg)",
+   "pos": 275,
+   "ref": "C",
+   "alt": "R",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376583",
+   "accession": "VCV000376583",
+   "title": "NM_000546.6(TP53):c.824G>C (p.Cys275Ser)",
+   "pos": 275,
+   "ref": "C",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "428893",
+   "accession": "VCV000428893",
+   "title": "NM_000546.6(TP53):c.826G>C (p.Ala276Pro)",
+   "pos": 276,
+   "ref": "A",
+   "alt": "P",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "232683",
+   "accession": "VCV000232683",
+   "title": "NM_000546.6(TP53):c.827C>A (p.Ala276Asp)",
+   "pos": 276,
+   "ref": "A",
+   "alt": "D",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "458567",
+   "accession": "VCV000458567",
+   "title": "NM_000546.6(TP53):c.830G>T (p.Cys277Phe)",
+   "pos": 277,
+   "ref": "C",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "185722",
+   "accession": "VCV000185722",
+   "title": "NM_000546.6(TP53):c.830G>A (p.Cys277Tyr)",
+   "pos": 277,
+   "ref": "C",
+   "alt": "Y",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "not provided",
+    "Likely pathogenic",
+    "Uncertain Significance",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376645",
+   "accession": "VCV000376645",
+   "title": "NM_000546.6(TP53):c.832C>G (p.Pro278Ala)",
+   "pos": 278,
+   "ref": "P",
+   "alt": "A",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376644",
+   "accession": "VCV000376644",
+   "title": "NM_000546.6(TP53):c.833C>G (p.Pro278Arg)",
+   "pos": 278,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "458568",
+   "accession": "VCV000458568",
+   "title": "NM_000546.6(TP53):c.835G>A (p.Gly279Arg)",
+   "pos": 279,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376658",
+   "accession": "VCV000376658",
+   "title": "NM_000546.6(TP53):c.838A>G (p.Arg280Gly)",
+   "pos": 280,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376657",
+   "accession": "VCV000376657",
+   "title": "NM_000546.6(TP53):c.839G>A (p.Arg280Lys)",
+   "pos": 280,
+   "ref": "R",
+   "alt": "K",
+   "votes": [
+    "Likely pathogenic",
+    "Pathogenic",
+    "Pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "161517",
+   "accession": "VCV000161517",
+   "title": "NM_000546.6(TP53):c.839G>T (p.Arg280Ile)",
+   "pos": 280,
+   "ref": "R",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "237956",
+   "accession": "VCV000237956",
+   "title": "NM_000546.6(TP53):c.845G>A (p.Arg282Gln)",
+   "pos": 282,
+   "ref": "R",
+   "alt": "Q",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1,
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "1763670",
+   "accession": "VCV001763670",
+   "title": "NM_000546.6(TP53):c.850A>C (p.Thr284Pro)",
+   "pos": 284,
+   "ref": "T",
+   "alt": "P",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "964952",
+   "accession": "VCV000964952",
+   "title": "NM_000546.6(TP53):c.850A>G (p.Thr284Ala)",
+   "pos": 284,
+   "ref": "T",
+   "alt": "A",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458571",
+   "accession": "VCV000458571",
+   "title": "NM_000546.6(TP53):c.850A>T (p.Thr284Ser)",
+   "pos": 284,
+   "ref": "T",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "376591",
+   "accession": "VCV000376591",
+   "title": "NM_000546.6(TP53):c.856G>C (p.Glu286Gln)",
+   "pos": 286,
+   "ref": "E",
+   "alt": "Q",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "376590",
+   "accession": "VCV000376590",
+   "title": "NM_000546.6(TP53):c.857A>G (p.Glu286Gly)",
+   "pos": 286,
+   "ref": "E",
+   "alt": "G",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "925213",
+   "accession": "VCV000925213",
+   "title": "NM_000546.6(TP53):c.861G>T (p.Glu287Asp)",
+   "pos": 287,
+   "ref": "E",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "422130",
+   "accession": "VCV000422130",
+   "title": "NM_000546.6(TP53):c.861G>C (p.Glu287Asp)",
+   "pos": 287,
+   "ref": "E",
+   "alt": "D",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "141781",
+   "accession": "VCV000141781",
+   "title": "NM_000546.6(TP53):c.859G>A (p.Glu287Lys)",
+   "pos": 287,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1439164",
+   "accession": "VCV001439164",
+   "title": "NM_000546.6(TP53):c.865C>A (p.Leu289Ile)",
+   "pos": 289,
+   "ref": "L",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "822635",
+   "accession": "VCV000822635",
+   "title": "NM_000546.6(TP53):c.865C>T (p.Leu289Phe)",
+   "pos": 289,
+   "ref": "L",
+   "alt": "F",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "496049",
+   "accession": "VCV000496049",
+   "title": "NM_000546.6(TP53):c.865C>G (p.Leu289Val)",
+   "pos": 289,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "628970",
+   "accession": "VCV000628970",
+   "title": "NM_000546.6(TP53):c.868C>G (p.Arg290Gly)",
+   "pos": 290,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "629930",
+   "accession": "VCV000629930",
+   "title": "NM_000546.6(TP53):c.873G>C (p.Lys291Asn)",
+   "pos": 291,
+   "ref": "K",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480951",
+   "accession": "VCV000480951",
+   "title": "NM_000546.6(TP53):c.871A>G (p.Lys291Glu)",
+   "pos": 291,
+   "ref": "K",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1021706",
+   "accession": "VCV001021706",
+   "title": "NM_000546.6(TP53):c.875A>C (p.Lys292Thr)",
+   "pos": 292,
+   "ref": "K",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1006477",
+   "accession": "VCV001006477",
+   "title": "NM_000546.6(TP53):c.874A>G (p.Lys292Glu)",
+   "pos": 292,
+   "ref": "K",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "230208",
+   "accession": "VCV000230208",
+   "title": "NM_000546.6(TP53):c.877G>A (p.Gly293Arg)",
+   "pos": 293,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1001614",
+   "accession": "VCV001001614",
+   "title": "NM_000546.6(TP53):c.880G>A (p.Glu294Lys)",
+   "pos": 294,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "420974",
+   "accession": "VCV000420974",
+   "title": "NM_000546.6(TP53):c.884C>T (p.Pro295Leu)",
+   "pos": 295,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1495821",
+   "accession": "VCV001495821",
+   "title": "NM_000546.6(TP53):c.892G>C (p.Glu298Gln)",
+   "pos": 298,
+   "ref": "E",
+   "alt": "Q",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "2036477",
+   "accession": "VCV002036477",
+   "title": "NM_000546.6(TP53):c.896T>C (p.Leu299Pro)",
+   "pos": 299,
+   "ref": "L",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "481049",
+   "accession": "VCV000481049",
+   "title": "NM_000546.6(TP53):c.902C>T (p.Pro301Leu)",
+   "pos": 301,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1047514",
+   "accession": "VCV001047514",
+   "title": "NM_000546.6(TP53):c.904G>A (p.Gly302Arg)",
+   "pos": 302,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406591",
+   "accession": "VCV000406591",
+   "title": "NM_000546.6(TP53):c.905G>A (p.Gly302Glu)",
+   "pos": 302,
+   "ref": "G",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1024359",
+   "accession": "VCV001024359",
+   "title": "NM_000546.6(TP53):c.909C>G (p.Ser303Arg)",
+   "pos": 303,
+   "ref": "S",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "230695",
+   "accession": "VCV000230695",
+   "title": "NM_000546.6(TP53):c.908G>A (p.Ser303Asn)",
+   "pos": 303,
+   "ref": "S",
+   "alt": "N",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "142702",
+   "accession": "VCV000142702",
+   "title": "NM_000546.6(TP53):c.910A>G (p.Thr304Ala)",
+   "pos": 304,
+   "ref": "T",
+   "alt": "A",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458574",
+   "accession": "VCV000458574",
+   "title": "NM_000546.6(TP53):c.917G>A (p.Arg306Gln)",
+   "pos": 306,
+   "ref": "R",
+   "alt": "Q",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "2809879",
+   "accession": "VCV002809879",
+   "title": "NM_000546.6(TP53):c.919G>A (p.Ala307Thr)",
+   "pos": 307,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "666137",
+   "accession": "VCV000666137",
+   "title": "NM_000546.6(TP53):c.920C>T (p.Ala307Val)",
+   "pos": 307,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458575",
+   "accession": "VCV000458575",
+   "title": "NM_000546.6(TP53):c.925C>T (p.Pro309Ser)",
+   "pos": 309,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "651517",
+   "accession": "VCV000651517",
+   "title": "NM_000546.6(TP53):c.928A>G (p.Asn310Asp)",
+   "pos": 310,
+   "ref": "N",
+   "alt": "D",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528240",
+   "accession": "VCV000528240",
+   "title": "NM_000546.6(TP53):c.931A>C (p.Asn311His)",
+   "pos": 311,
+   "ref": "N",
+   "alt": "H",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406589",
+   "accession": "VCV000406589",
+   "title": "NM_000546.6(TP53):c.932A>G (p.Asn311Ser)",
+   "pos": 311,
+   "ref": "N",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406587",
+   "accession": "VCV000406587",
+   "title": "NM_000546.6(TP53):c.941C>T (p.Ser314Phe)",
+   "pos": 314,
+   "ref": "S",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "823268",
+   "accession": "VCV000823268",
+   "title": "NM_000546.6(TP53):c.946C>T (p.Pro316Ser)",
+   "pos": 316,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528273",
+   "accession": "VCV000528273",
+   "title": "NM_000546.6(TP53):c.947C>T (p.Pro316Leu)",
+   "pos": 316,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "581024",
+   "accession": "VCV000581024",
+   "title": "NM_000546.6(TP53):c.950A>G (p.Gln317Arg)",
+   "pos": 317,
+   "ref": "Q",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "406585",
+   "accession": "VCV000406585",
+   "title": "NM_000546.6(TP53):c.951G>T (p.Gln317His)",
+   "pos": 317,
+   "ref": "Q",
+   "alt": "H",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "492627",
+   "accession": "VCV000492627",
+   "title": "NM_000546.6(TP53):c.953C>T (p.Pro318Leu)",
+   "pos": 318,
+   "ref": "P",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "216475",
+   "accession": "VCV000216475",
+   "title": "NM_000546.6(TP53):c.964C>T (p.Pro322Ser)",
+   "pos": 322,
+   "ref": "P",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "420950",
+   "accession": "VCV000420950",
+   "title": "NM_000546.6(TP53):c.970G>C (p.Asp324His)",
+   "pos": 324,
+   "ref": "D",
+   "alt": "H",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480952",
+   "accession": "VCV000480952",
+   "title": "NM_000546.6(TP53):c.974G>A (p.Gly325Glu)",
+   "pos": 325,
+   "ref": "G",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480740",
+   "accession": "VCV000480740",
+   "title": "NM_000546.6(TP53):c.973G>A (p.Gly325Arg)",
+   "pos": 325,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "12367",
+   "accession": "VCV000012367",
+   "title": "NM_000546.6(TP53):c.974G>T (p.Gly325Val)",
+   "pos": 325,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Pathogenic",
+    "Pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "resolved_label": null
+  },
+  {
+   "uid": "939133",
+   "accession": "VCV000939133",
+   "title": "NM_000546.6(TP53):c.985A>G (p.Thr329Ala)",
+   "pos": 329,
+   "ref": "T",
+   "alt": "A",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "652718",
+   "accession": "VCV000652718",
+   "title": "NM_000546.6(TP53):c.986C>T (p.Thr329Ile)",
+   "pos": 329,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1950710",
+   "accession": "VCV001950710",
+   "title": "NM_000546.6(TP53):c.991C>G (p.Gln331Glu)",
+   "pos": 331,
+   "ref": "Q",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "421319",
+   "accession": "VCV000421319",
+   "title": "NM_000546.6(TP53):c.992A>G (p.Gln331Arg)",
+   "pos": 331,
+   "ref": "Q",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "186086",
+   "accession": "VCV000186086",
+   "title": "NM_000546.6(TP53):c.1000G>A (p.Gly334Arg)",
+   "pos": 334,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Likely pathogenic",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    1
+   ],
+   "resolved_label": 1
+  },
+  {
+   "uid": "480738",
+   "accession": "VCV000480738",
+   "title": "NM_000546.6(TP53):c.1004G>A (p.Arg335His)",
+   "pos": 335,
+   "ref": "R",
+   "alt": "H",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "3780730",
+   "accession": "VCV003780730",
+   "title": "NM_000546.6(TP53):c.1007A>G (p.Glu336Gly)",
+   "pos": 336,
+   "ref": "E",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "482226",
+   "accession": "VCV000482226",
+   "title": "NM_000546.6(TP53):c.1014C>G (p.Phe338Leu)",
+   "pos": 338,
+   "ref": "F",
+   "alt": "L",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "959616",
+   "accession": "VCV000959616",
+   "title": "NM_000546.6(TP53):c.1016A>T (p.Glu339Val)",
+   "pos": 339,
+   "ref": "E",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "822016",
+   "accession": "VCV000822016",
+   "title": "NM_000546.6(TP53):c.1016A>G (p.Glu339Gly)",
+   "pos": 339,
+   "ref": "E",
+   "alt": "G",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "142846",
+   "accession": "VCV000142846",
+   "title": "NM_000546.6(TP53):c.1015G>A (p.Glu339Lys)",
+   "pos": 339,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Benign",
+    "Likely benign",
+    "Likely Benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "822031",
+   "accession": "VCV000822031",
+   "title": "NM_000546.6(TP53):c.1024_1025delinsTT (p.Arg342Leu)",
+   "pos": 342,
+   "ref": "R",
+   "alt": "L",
+   "votes": [
+    "Benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1015453",
+   "accession": "VCV001015453",
+   "title": "NM_000546.6(TP53):c.1027G>C (p.Glu343Gln)",
+   "pos": 343,
+   "ref": "E",
+   "alt": "Q",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "3011115",
+   "accession": "VCV003011115",
+   "title": "NM_000546.6(TP53):c.1037A>G (p.Glu346Gly)",
+   "pos": 346,
+   "ref": "E",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "646925",
+   "accession": "VCV000646925",
+   "title": "NM_000546.6(TP53):c.1036G>A (p.Glu346Lys)",
+   "pos": 346,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480755",
+   "accession": "VCV000480755",
+   "title": "NM_000546.6(TP53):c.1038G>C (p.Glu346Asp)",
+   "pos": 346,
+   "ref": "E",
+   "alt": "D",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "657729",
+   "accession": "VCV000657729",
+   "title": "NM_000546.6(TP53):c.1045G>C (p.Glu349Gln)",
+   "pos": 349,
+   "ref": "E",
+   "alt": "Q",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "854234",
+   "accession": "VCV000854234",
+   "title": "NM_000546.6(TP53):c.1048C>G (p.Leu350Val)",
+   "pos": 350,
+   "ref": "L",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "481022",
+   "accession": "VCV000481022",
+   "title": "NM_000546.6(TP53):c.1048C>T (p.Leu350Phe)",
+   "pos": 350,
+   "ref": "L",
+   "alt": "F",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1778759",
+   "accession": "VCV001778759",
+   "title": "NM_000546.6(TP53):c.1056T>G (p.Asp352Glu)",
+   "pos": 352,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "481148",
+   "accession": "VCV000481148",
+   "title": "NM_000546.6(TP53):c.1054G>T (p.Asp352Tyr)",
+   "pos": 352,
+   "ref": "D",
+   "alt": "Y",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "629928",
+   "accession": "VCV000629928",
+   "title": "NM_000546.6(TP53):c.1061A>G (p.Gln354Arg)",
+   "pos": 354,
+   "ref": "Q",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely Benign",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1781085",
+   "accession": "VCV001781085",
+   "title": "NM_000546.6(TP53):c.1063G>A (p.Ala355Thr)",
+   "pos": 355,
+   "ref": "A",
+   "alt": "T",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1468494",
+   "accession": "VCV001468494",
+   "title": "NM_000546.6(TP53):c.1063G>T (p.Ala355Ser)",
+   "pos": 355,
+   "ref": "A",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1046623",
+   "accession": "VCV001046623",
+   "title": "NM_000546.6(TP53):c.1064C>G (p.Ala355Gly)",
+   "pos": 355,
+   "ref": "A",
+   "alt": "G",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "528241",
+   "accession": "VCV000528241",
+   "title": "NM_000546.6(TP53):c.1064C>T (p.Ala355Val)",
+   "pos": 355,
+   "ref": "A",
+   "alt": "V",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "230534",
+   "accession": "VCV000230534",
+   "title": "NM_000546.6(TP53):c.1073A>T (p.Glu358Val)",
+   "pos": 358,
+   "ref": "E",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely Benign",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "142105",
+   "accession": "VCV000142105",
+   "title": "NM_000546.6(TP53):c.1072G>A (p.Glu358Lys)",
+   "pos": 358,
+   "ref": "E",
+   "alt": "K",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1171953",
+   "accession": "VCV001171953",
+   "title": "NM_000546.6(TP53):c.1076C>G (p.Pro359Arg)",
+   "pos": 359,
+   "ref": "P",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "230306",
+   "accession": "VCV000230306",
+   "title": "NM_000546.6(TP53):c.1079G>A (p.Gly360Glu)",
+   "pos": 360,
+   "ref": "G",
+   "alt": "E",
+   "votes": [
+    "Uncertain Significance",
+    "Likely Benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "186887",
+   "accession": "VCV000186887",
+   "title": "NM_000546.6(TP53):c.1078G>A (p.Gly360Arg)",
+   "pos": 360,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "142552",
+   "accession": "VCV000142552",
+   "title": "NM_000546.6(TP53):c.1079G>T (p.Gly360Val)",
+   "pos": 360,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "141331",
+   "accession": "VCV000141331",
+   "title": "NM_000546.6(TP53):c.1082G>A (p.Gly361Glu)",
+   "pos": 361,
+   "ref": "G",
+   "alt": "E",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "485048",
+   "accession": "VCV000485048",
+   "title": "NM_000546.6(TP53):c.1085G>T (p.Ser362Ile)",
+   "pos": 362,
+   "ref": "S",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458516",
+   "accession": "VCV000458516",
+   "title": "NM_000546.6(TP53):c.1085G>A (p.Ser362Asn)",
+   "pos": 362,
+   "ref": "S",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Likely Benign",
+    "Benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458515",
+   "accession": "VCV000458515",
+   "title": "NM_000546.6(TP53):c.1084A>T (p.Ser362Cys)",
+   "pos": 362,
+   "ref": "S",
+   "alt": "C",
+   "votes": [
+    "Uncertain significance",
+    "Likely Benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "188151",
+   "accession": "VCV000188151",
+   "title": "NM_000546.6(TP53):c.1087A>G (p.Arg363Gly)",
+   "pos": 363,
+   "ref": "R",
+   "alt": "G",
+   "votes": [
+    "Likely Benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "848951",
+   "accession": "VCV000848951",
+   "title": "NM_000546.6(TP53):c.1090G>T (p.Ala364Ser)",
+   "pos": 364,
+   "ref": "A",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "657014",
+   "accession": "VCV000657014",
+   "title": "NM_000546.6(TP53):c.1104C>A (p.His368Gln)",
+   "pos": 368,
+   "ref": "H",
+   "alt": "Q",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "485038",
+   "accession": "VCV000485038",
+   "title": "NM_000546.6(TP53):c.1104C>G (p.His368Gln)",
+   "pos": 368,
+   "ref": "H",
+   "alt": "Q",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1510904",
+   "accession": "VCV001510904",
+   "title": "NM_000546.6(TP53):c.1109A>C (p.Lys370Thr)",
+   "pos": 370,
+   "ref": "K",
+   "alt": "T",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1482750",
+   "accession": "VCV001482750",
+   "title": "NM_000546.6(TP53):c.1112C>A (p.Ser371Tyr)",
+   "pos": 371,
+   "ref": "S",
+   "alt": "Y",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "230970",
+   "accession": "VCV000230970",
+   "title": "NM_000546.6(TP53):c.1115A>G (p.Lys372Arg)",
+   "pos": 372,
+   "ref": "K",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "839498",
+   "accession": "VCV000839498",
+   "title": "NM_000546.6(TP53):c.1119G>T (p.Lys373Asn)",
+   "pos": 373,
+   "ref": "K",
+   "alt": "N",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "577458",
+   "accession": "VCV000577458",
+   "title": "NM_000546.6(TP53):c.1118A>G (p.Lys373Arg)",
+   "pos": 373,
+   "ref": "K",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1797938",
+   "accession": "VCV001797938",
+   "title": "NM_000546.6(TP53):c.1121G>T (p.Gly374Val)",
+   "pos": 374,
+   "ref": "G",
+   "alt": "V",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "665996",
+   "accession": "VCV000665996",
+   "title": "NM_000546.6(TP53):c.1120G>T (p.Gly374Cys)",
+   "pos": 374,
+   "ref": "G",
+   "alt": "C",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "141583",
+   "accession": "VCV000141583",
+   "title": "NM_000546.6(TP53):c.1120G>A (p.Gly374Ser)",
+   "pos": 374,
+   "ref": "G",
+   "alt": "S",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "975959",
+   "accession": "VCV000975959",
+   "title": "NM_000546.6(TP53):c.1129A>C (p.Thr377Pro)",
+   "pos": 377,
+   "ref": "T",
+   "alt": "P",
+   "votes": [
+    "Uncertain significance",
+    "Likely Benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "822222",
+   "accession": "VCV000822222",
+   "title": "NM_000546.6(TP53):c.1130C>T (p.Thr377Ile)",
+   "pos": 377,
+   "ref": "T",
+   "alt": "I",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "480749",
+   "accession": "VCV000480749",
+   "title": "NM_000546.6(TP53):c.1133C>G (p.Ser378Cys)",
+   "pos": 378,
+   "ref": "S",
+   "alt": "C",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "186611",
+   "accession": "VCV000186611",
+   "title": "NM_000546.6(TP53):c.1135C>T (p.Arg379Cys)",
+   "pos": 379,
+   "ref": "R",
+   "alt": "C",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "619733",
+   "accession": "VCV000619733",
+   "title": "NM_000546.6(TP53):c.1147C>T (p.Leu383Phe)",
+   "pos": 383,
+   "ref": "L",
+   "alt": "F",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "639734",
+   "accession": "VCV000639734",
+   "title": "NM_000546.6(TP53):c.1152G>A (p.Met384Ile)",
+   "pos": 384,
+   "ref": "M",
+   "alt": "I",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "818446",
+   "accession": "VCV000818446",
+   "title": "NM_000546.6(TP53):c.1157A>G (p.Lys386Arg)",
+   "pos": 386,
+   "ref": "K",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "485050",
+   "accession": "VCV000485050",
+   "title": "NM_000546.6(TP53):c.1160C>G (p.Thr387Arg)",
+   "pos": 387,
+   "ref": "T",
+   "alt": "R",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain Significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "458522",
+   "accession": "VCV000458522",
+   "title": "NM_000546.6(TP53):c.1165G>A (p.Gly389Arg)",
+   "pos": 389,
+   "ref": "G",
+   "alt": "R",
+   "votes": [
+    "Uncertain significance",
+    "Likely benign",
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0,
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "3232049",
+   "accession": "VCV003232049",
+   "title": "NM_000546.6(TP53):c.1171G>A (p.Asp391Asn)",
+   "pos": 391,
+   "ref": "D",
+   "alt": "N",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "1026463",
+   "accession": "VCV001026463",
+   "title": "NM_000546.6(TP53):c.1179C>G (p.Asp393Glu)",
+   "pos": 393,
+   "ref": "D",
+   "alt": "E",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "818502",
+   "accession": "VCV000818502",
+   "title": "NM_000546.6(TP53):c.1177G>C (p.Asp393His)",
+   "pos": 393,
+   "ref": "D",
+   "alt": "H",
+   "votes": [
+    "Likely benign",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  },
+  {
+   "uid": "492574",
+   "accession": "VCV000492574",
+   "title": "NM_000546.6(TP53):c.1177G>A (p.Asp393Asn)",
+   "pos": 393,
+   "ref": "D",
+   "alt": "N",
+   "votes": [
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Uncertain significance",
+    "Likely benign"
+   ],
+   "mapped_votes": [
+    0
+   ],
+   "resolved_label": 0
+  }
+ ]
+}

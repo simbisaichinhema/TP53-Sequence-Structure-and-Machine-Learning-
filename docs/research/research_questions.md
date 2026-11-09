@@ -27,19 +27,21 @@ quantitatively compared with experimentally determined TP53 data?
 How do selected TP53 variants alter sequence-derived and structure-derived
 features relative to the WT reference?
 
-- 388 ClinVar missense variants featurized vs verified WT; demo comparison
+- 818 ClinVar missense variants (clear + conflicting majority-vote) featurized
+  vs verified WT; demo comparison
   (R175H/R248Q/R248W/R273H/Y220C/G245S vs P72R) in
   `results/mutations/wt_vs_mutant.md`. Pathogenic core variants sit in
   high-pLDDT regions with large physicochemical shifts; association only.
 
-## RQ4 — ML classification (ANSWERED 2026-09-24, prototype)
+## RQ4 — ML classification (ANSWERED 2026-09-24, prototype; re-run 2026-11-09)
 
 Can sequence and structural features provide useful information for
 computational classification of curated TP53 variant annotations?
 
-- Yes at prototype scope: random forest test F1 0.88 / ROC-AUC 0.94 (n=78
-  held out). Framed as association with ClinVar annotations, not causality
-  or clinical validity.
+- Yes at prototype scope: random forest test F1 ≈ 0.89 / ROC-AUC ≈ 0.95
+  (n=164 held out on the expanded 818-variant set). Also a 3-model fair
+  benchmark (`results/machine_learning/benchmark/`). Framed as association
+  with ClinVar annotations, not causality or clinical validity.
 
 ## RQ5 — Explainability (ANSWERED 2026-09-24, prototype)
 

@@ -1,389 +1,819 @@
 hgvs_p,pos,ref,alt,label,split,pred,proba_pathogenic,correct,variant_id,classification
+p.E2K,2,E,K,0,train,0,0.0,True,VCV000490172,Uncertain significance
+p.E3K,3,E,K,0,test,0,0.0,True,VCV000858236,Uncertain significance
 p.P4L,4,P,L,0,train,0,0.0,True,VCV000237941,Likely benign
-p.P4Q,4,P,Q,0,test,0,0.0,True,VCV002450740,Likely benign
-p.D7E,7,D,E,0,train,0,0.0025,True,VCV000140782,Likely benign
+p.P4Q,4,P,Q,0,train,0,0.0,True,VCV002450740,Likely benign
+p.P4R,4,P,R,0,train,0,0.0,True,VCV000406582,Uncertain significance
+p.Q5R,5,Q,R,0,train,0,0.0,True,VCV000233248,Uncertain significance
+p.D7E,7,D,E,0,train,0,0.0,True,VCV000140782,Likely benign
+p.D7H,7,D,H,0,train,0,0.0,True,VCV000142689,Uncertain significance
 p.P8L,8,P,L,0,train,0,0.0,True,VCV000231868,Likely benign
 p.P8R,8,P,R,0,train,0,0.0,True,VCV001790705,Likely benign
+p.P8T,8,P,T,0,train,0,0.0,True,VCV000664710,Uncertain significance
+p.S9N,9,S,N,0,train,0,0.0,True,VCV000458531,Uncertain significance
+p.S9R,9,S,R,0,train,0,0.0025,True,VCV000496047,Uncertain significance
+p.V10F,10,V,F,0,test,0,0.0075,True,VCV000968647,Uncertain significance
+p.V10G,10,V,G,0,train,0,0.015,True,VCV000822501,Uncertain significance
 p.V10I,10,V,I,0,train,0,0.0,True,VCV000127806,Benign
-p.V10L,10,V,L,0,train,0,0.0025,True,VCV000231387,Likely benign
-p.S15C,15,S,C,0,train,0,0.0025,True,VCV004865868,Likely benign
-p.D21A,21,D,A,0,train,0,0.015,True,VCV003972456,Likely benign
-p.N29D,29,N,D,0,train,0,0.0125,True,VCV000822586,Likely benign
+p.V10L,10,V,L,0,train,0,0.0,True,VCV000231387,Likely benign
+p.E11K,11,E,K,0,train,0,0.0,True,VCV000418693,Uncertain significance
+p.E11Q,11,E,Q,0,train,0,0.0,True,VCV000041723,Likely benign
+p.P12L,12,P,L,0,train,0,0.0,True,VCV000528258,Uncertain significance
+p.P12R,12,P,R,0,test,0,0.0,True,VCV000663876,Uncertain significance
+p.P13A,13,P,A,0,test,0,0.0,True,VCV001735038,Likely benign
+p.P13L,13,P,L,0,train,0,0.0,True,VCV000237949,Uncertain significance
+p.P13R,13,P,R,0,train,0,0.0,True,VCV000485028,Uncertain significance
+p.L14Q,14,L,Q,0,train,0,0.0425,True,VCV002026528,Likely benign
+p.L14V,14,L,V,0,train,0,0.0,True,VCV000577290,Uncertain significance
+p.S15C,15,S,C,0,train,0,0.0,True,VCV004865868,Likely benign
+p.Q16R,16,Q,R,0,train,0,0.0,True,VCV000835067,Uncertain significance
+p.D21A,21,D,A,0,train,0,0.0025,True,VCV003972456,Likely benign
+p.D21E,21,D,E,0,train,0,0.0025,True,VCV002694309,Uncertain significance
+p.P27A,27,P,A,0,train,0,0.0,True,VCV001505620,Likely benign
+p.P27L,27,P,L,1,test,0,0.0,False,VCV000481176,Uncertain significance
+p.P27T,27,P,T,0,train,0,0.0,True,VCV000406600,Uncertain significance
+p.E28V,28,E,V,0,train,0,0.025,True,VCV000185581,Uncertain significance
+p.N29D,29,N,D,0,train,0,0.0,True,VCV000822586,Likely benign
+p.V31I,31,V,I,0,test,0,0.0,True,VCV000127827,Likely benign
 p.L32V,32,L,V,0,train,0,0.0,True,VCV001767161,Likely benign
-p.L35F,35,L,F,0,train,0,0.005,True,VCV000142562,Likely benign
+p.S33F,33,S,F,0,train,0,0.0,True,VCV000649861,Uncertain significance
+p.S33Y,33,S,Y,0,train,0,0.0,True,VCV000482211,Uncertain significance
+p.P34A,34,P,A,0,train,0,0.0,True,VCV000186313,Uncertain significance
+p.P34R,34,P,R,0,train,0,0.0,True,VCV000628478,Uncertain significance
+p.P34S,34,P,S,0,train,0,0.0,True,VCV000935999,Uncertain significance
+p.P34T,34,P,T,0,train,0,0.0,True,VCV000185157,Uncertain significance
+p.L35F,35,L,F,0,train,0,0.0075,True,VCV000142562,Likely benign
+p.L35M,35,L,M,0,test,0,0.0025,True,VCV000406609,Uncertain significance
+p.P36L,36,P,L,0,train,0,0.0,True,VCV000818331,Uncertain significance
 p.P36Q,36,P,Q,0,train,0,0.0,True,VCV000141597,Benign
+p.S37F,37,S,F,0,train,0,0.0,True,VCV000567972,Uncertain significance
+p.A39V,39,A,V,0,train,0,0.0,True,VCV000569629,Uncertain significance
+p.M40T,40,M,T,0,test,0,0.005,True,VCV000142995,Uncertain significance
+p.M40V,40,M,V,0,test,0,0.0,True,VCV000643576,Uncertain significance
+p.D41G,41,D,G,0,test,0,0.0,True,VCV000863522,Uncertain significance
+p.D41N,41,D,N,0,train,0,0.0,True,VCV000485040,Uncertain significance
+p.D42G,42,D,G,0,test,0,0.0,True,VCV000141464,Uncertain significance
+p.D42N,42,D,N,0,test,0,0.0,True,VCV001471049,Likely benign
+p.L43F,43,L,F,0,test,0,0.0075,True,VCV001692471,Uncertain significance
+p.M44I,44,M,I,0,train,0,0.0,True,VCV000406565,Uncertain significance
+p.M44V,44,M,V,0,train,0,0.0,True,VCV003460300,Likely benign
+p.L45P,45,L,P,0,train,0,0.06,True,VCV000246049,Uncertain significance
+p.L45V,45,L,V,0,test,0,0.0025,True,VCV000659842,Likely benign
+p.P47R,47,P,R,0,train,0,0.0025,True,VCV000819145,Uncertain significance
 p.P47S,47,P,S,0,train,0,0.0,True,VCV000043588,Benign
-p.D48E,48,D,E,0,test,0,0.0025,True,VCV000141056,Likely benign
-p.D48G,48,D,G,0,train,0,0.015,True,VCV002795844,Likely benign
-p.D49H,49,D,H,0,train,0,0.005,True,VCV000135948,Benign
+p.P47T,47,P,T,0,train,0,0.0,True,VCV000406608,Uncertain significance
+p.D48E,48,D,E,0,train,0,0.0,True,VCV000141056,Likely benign
+p.D48G,48,D,G,0,train,0,0.0,True,VCV002795844,Likely benign
+p.D49E,49,D,E,0,train,0,0.0,True,VCV001506044,Uncertain significance
+p.D49G,49,D,G,0,train,0,0.0,True,VCV000231133,Likely benign
+p.D49H,49,D,H,0,train,0,0.0,True,VCV000135948,Benign
 p.D49N,49,D,N,0,train,0,0.0,True,VCV000186363,Benign
-p.I50T,50,I,T,0,train,0,0.07,True,VCV000216464,Likely benign
+p.I50T,50,I,T,0,train,0,0.025,True,VCV000216464,Likely benign
 p.E51D,51,E,D,0,train,0,0.0,True,VCV004865867,Benign
-p.D57V,57,D,V,0,test,0,0.025,True,VCV001778520,Likely benign
-p.P58A,58,P,A,0,test,0,0.005,True,VCV001778944,Likely benign
-p.G59D,59,G,D,0,train,0,0.03,True,VCV000820048,Likely benign
-p.E62G,62,E,G,0,train,0,0.0675,True,VCV003809683,Likely benign
+p.W53L,53,W,L,0,train,0,0.005,True,VCV001775891,Likely benign
+p.F54L,54,F,L,0,test,0,0.0025,True,VCV000481098,Likely benign
+p.D57E,57,D,E,0,train,0,0.0,True,VCV000142863,Uncertain significance
+p.D57V,57,D,V,0,train,0,0.0,True,VCV001778520,Likely benign
+p.P58A,58,P,A,0,train,0,0.0,True,VCV001778944,Likely benign
+p.P58R,58,P,R,0,train,0,0.0025,True,VCV000127804,Likely benign
+p.P58T,58,P,T,0,train,0,0.0,True,VCV000947099,Uncertain significance
+p.G59D,59,G,D,0,train,0,0.0075,True,VCV000820048,Likely benign
+p.P60L,60,P,L,0,train,0,0.0,True,VCV000820098,Uncertain significance
+p.D61E,61,D,E,0,train,0,0.0,True,VCV000820144,Uncertain significance
+p.D61G,61,D,G,0,test,0,0.0,True,VCV000950660,Uncertain significance
+p.D61V,61,D,V,0,train,0,0.0,True,VCV001347666,Uncertain significance
+p.E62A,62,E,A,0,train,0,0.0,True,VCV001388326,Uncertain significance
+p.E62G,62,E,G,0,train,0,0.005,True,VCV003809683,Likely benign
+p.E62K,62,E,K,0,train,0,0.0,True,VCV000859320,Likely benign
 p.A63G,63,A,G,0,train,0,0.0,True,VCV000229693,Likely benign
 p.A63T,63,A,T,0,train,0,0.0,True,VCV000231015,Likely benign
-p.A63V,63,A,V,0,train,0,0.0,True,VCV000182922,Benign
+p.A63V,63,A,V,0,test,0,0.0,True,VCV000182922,Benign
+p.R65G,65,R,G,0,test,0,0.1525,True,VCV000820372,Likely benign
+p.M66I,66,M,I,0,train,0,0.0,True,VCV000480745,Uncertain significance
 p.M66V,66,M,V,0,train,0,0.0,True,VCV001783578,Likely benign
-p.P72A,72,P,A,0,train,0,0.005,True,VCV000142854,Likely benign
-p.P72H,72,P,H,0,train,0,0.0,True,VCV000185120,Benign
+p.A69T,69,A,T,0,test,0,0.0,True,VCV000575773,Uncertain significance
+p.A69V,69,A,V,0,train,0,0.0,True,VCV000528260,Uncertain significance
+p.P71A,71,P,A,0,train,0,0.0,True,VCV000577431,Uncertain significance
+p.P71S,71,P,S,0,train,0,0.0,True,VCV000572378,Uncertain significance
+p.P72A,72,P,A,0,train,0,0.0,True,VCV000142854,Likely benign
+p.P72H,72,P,H,0,train,0,0.0025,True,VCV000185120,Benign
+p.P72L,72,P,L,0,train,0,0.0,True,VCV000864652,Uncertain significance
 p.P72R,72,P,R,0,train,0,0.0025,True,VCV000012351,Benign
-p.V73E,73,V,E,0,train,0,0.09,True,VCV003460312,Likely benign
-p.V73M,73,V,M,0,train,0,0.0025,True,VCV000142386,Benign
+p.P72S,72,P,S,0,test,0,0.0,True,VCV000485023,Likely benign
+p.P72T,72,P,T,0,train,0,0.0,True,VCV000232750,Uncertain significance
+p.V73E,73,V,E,0,train,0,0.0725,True,VCV003460312,Likely benign
+p.V73M,73,V,M,0,test,0,0.0025,True,VCV000142386,Benign
+p.A74G,74,A,G,0,train,0,0.0,True,VCV001787901,Likely benign
 p.A74V,74,A,V,0,train,0,0.0,True,VCV000141547,Likely benign
-p.P75S,75,P,S,0,train,0,0.0,True,VCV004758197,Likely benign
-p.A76G,76,A,G,0,train,0,0.0,True,VCV003460333,Benign
+p.P75S,75,P,S,0,test,0,0.0,True,VCV004758197,Likely benign
+p.A76G,76,A,G,0,test,0,0.0,True,VCV003460333,Benign
+p.A76T,76,A,T,0,train,0,0.0,True,VCV001171287,Uncertain significance
+p.P77A,77,P,A,0,train,0,0.0,True,VCV001718262,Uncertain significance
+p.P77S,77,P,S,0,train,0,0.0,True,VCV000528266,Uncertain significance
+p.P77T,77,P,T,0,train,0,0.0,True,VCV000458528,Uncertain significance
+p.A78G,78,A,G,0,train,0,0.0,True,VCV000230368,Uncertain significance
+p.A78V,78,A,V,0,train,0,0.0,True,VCV001401526,Uncertain significance
 p.A79V,79,A,V,0,train,0,0.0,True,VCV004189271,Likely benign
-p.P82L,82,P,L,0,test,0,0.0175,True,VCV000182946,Likely benign
+p.T81I,81,T,I,0,train,0,0.0025,True,VCV000583101,Likely benign
+p.P82A,82,P,A,0,train,0,0.0,True,VCV000482216,Likely benign
+p.P82L,82,P,L,0,train,0,0.0,True,VCV000182946,Likely benign
+p.P82S,82,P,S,0,train,0,0.0,True,VCV001021579,Likely benign
 p.P82T,82,P,T,0,train,0,0.0,True,VCV004865882,Likely benign
-p.A83P,83,A,P,0,train,0,0.0075,True,VCV003972448,Likely benign
-p.A83V,83,A,V,0,train,0,0.0,True,VCV000127805,Benign/Likely benign
+p.A83E,83,A,E,0,train,0,0.045,True,VCV000141956,Uncertain significance
+p.A83P,83,A,P,0,train,0,0.0,True,VCV003972448,Likely benign
+p.A83V,83,A,V,0,test,0,0.0,True,VCV000127805,Benign/Likely benign
 p.A84T,84,A,T,0,train,0,0.0,True,VCV000140833,Likely benign
-p.P92S,92,P,S,0,train,0,0.01,True,VCV004828470,Likely benign
-p.S94A,94,S,A,0,train,0,0.02,True,VCV003460308,Likely benign
-p.S94L,94,S,L,0,train,0,0.06,True,VCV001796426,Likely benign
-p.S95T,95,S,T,0,train,0,0.0025,True,VCV004189261,Likely benign
-p.S95Y,95,S,Y,0,train,0,0.035,True,VCV004865871,Likely benign
-p.G105R,105,G,R,1,train,1,0.9125,True,VCV000406574,Pathogenic/Likely pathogenic
-p.G105S,105,G,S,1,train,1,0.8725,True,VCV000428884,Pathogenic/Likely pathogenic
-p.S106R,106,S,R,1,test,1,0.7475,True,VCV000492752,Pathogenic
-p.Y107H,107,Y,H,0,train,0,0.3,True,VCV000140786,Benign
-p.G108S,108,G,S,0,test,1,0.8375,False,VCV000142431,Likely benign
-p.F109C,109,F,C,1,train,1,0.9675,True,VCV000634784,Likely pathogenic
-p.F109I,109,F,I,1,train,1,0.8975,True,VCV002627017,Likely pathogenic
-p.R110G,110,R,G,1,train,1,0.98,True,VCV000823452,Likely pathogenic
-p.R110H,110,R,H,0,train,0,0.3675,True,VCV000127808,Likely benign
-p.R110L,110,R,L,1,train,1,0.9275,True,VCV000406597,Pathogenic
-p.R110P,110,R,P,1,train,1,0.9875,True,VCV000233627,Pathogenic
-p.L111P,111,L,P,1,train,1,0.995,True,VCV000376630,Pathogenic
-p.L111Q,111,L,Q,1,train,1,0.98,True,VCV000376632,Pathogenic
-p.L111R,111,L,R,1,train,1,0.98,True,VCV000376631,Pathogenic
-p.L111V,111,L,V,0,test,1,0.8175,False,VCV001730178,Likely benign
-p.F113C,113,F,C,1,test,1,0.93,True,VCV000634690,Pathogenic
-p.F113I,113,F,I,1,train,1,0.93,True,VCV001469551,Pathogenic/Likely pathogenic
-p.F113L,113,F,L,1,train,1,0.93,True,VCV003634432,Pathogenic
-p.F113S,113,F,S,1,train,1,0.92,True,VCV000823709,Pathogenic/Likely pathogenic
-p.F113V,113,F,V,1,train,1,0.96,True,VCV000141302,Pathogenic/Likely pathogenic
-p.H115R,115,H,R,0,train,0,0.095,True,VCV000182925,Likely benign
-p.T118I,118,T,I,0,test,0,0.165,True,VCV000419837,Likely benign
-p.V122M,122,V,M,0,train,0,0.1375,True,VCV000141101,Likely benign
-p.C124R,124,C,R,1,train,1,0.8725,True,VCV004056245,Likely pathogenic
-p.C124S,124,C,S,0,test,1,0.66,False,VCV000182926,Likely benign
-p.C124W,124,C,W,0,train,0,0.3325,True,VCV003809674,Likely benign
-p.T125K,125,T,K,1,train,1,0.9575,True,VCV000216465,Pathogenic
-p.T125R,125,T,R,1,train,1,0.9775,True,VCV000376667,Pathogenic/Likely pathogenic
-p.Y126D,126,Y,D,1,train,1,0.955,True,VCV000265333,Pathogenic/Likely pathogenic
-p.S127C,127,S,C,1,train,1,0.9525,True,VCV000219532,Likely pathogenic
-p.S127F,127,S,F,1,train,1,0.995,True,VCV000182928,Pathogenic/Likely pathogenic
-p.S127P,127,S,P,1,train,1,0.9775,True,VCV000934410,Likely pathogenic
-p.S127T,127,S,T,1,train,1,0.9625,True,VCV000824232,Likely pathogenic
-p.S127Y,127,S,Y,1,train,1,0.985,True,VCV000656751,Pathogenic
-p.A129D,129,A,D,0,train,0,0.3475,True,VCV001735669,Benign
-p.L130H,130,L,H,1,train,1,0.9575,True,VCV000824351,Pathogenic
-p.L130P,130,L,P,1,test,1,0.9675,True,VCV000428873,Pathogenic
-p.N131H,131,N,H,1,test,1,0.8575,True,VCV004279056,Likely pathogenic
-p.N131I,131,N,I,1,train,1,0.9825,True,VCV000428902,Pathogenic/Likely pathogenic
-p.K132N,132,K,N,1,test,1,0.975,True,VCV000376624,Likely pathogenic
-p.K132R,132,K,R,1,train,1,0.9125,True,VCV000376625,Pathogenic/Likely pathogenic
-p.M133T,133,M,T,1,train,1,1.0,True,VCV000012357,Pathogenic
+p.A84V,84,A,V,0,train,0,0.0,True,VCV001792511,Likely benign
+p.A86P,86,A,P,0,train,0,0.0,True,VCV001793227,Uncertain significance
+p.A86T,86,A,T,0,train,0,0.0,True,VCV000141967,Uncertain significance
+p.A86V,86,A,V,0,train,0,0.0,True,VCV000654187,Uncertain significance
+p.P87A,87,P,A,0,train,0,0.0,True,VCV002861491,Uncertain significance
+p.P87L,87,P,L,0,train,0,0.0,True,VCV000942021,Likely benign
+p.A88T,88,A,T,0,train,0,0.0,True,VCV004800660,Uncertain significance
+p.A88V,88,A,V,0,test,0,0.0,True,VCV000480734,Uncertain significance
+p.P89L,89,P,L,0,train,0,0.0025,True,VCV000182923,Uncertain significance
+p.P89T,89,P,T,0,train,0,0.0025,True,VCV000821636,Likely benign
+p.P92L,92,P,L,0,train,0,0.05,True,VCV000480733,Uncertain significance
+p.P92S,92,P,S,0,test,0,0.04,True,VCV004828470,Likely benign
+p.L93P,93,L,P,1,train,1,0.7425,True,VCV000012350,Pathogenic
+p.S94A,94,S,A,0,train,0,0.01,True,VCV003460308,Likely benign
+p.S94L,94,S,L,0,train,0,0.075,True,VCV001796426,Likely benign
+p.S95T,95,S,T,0,train,0,0.005,True,VCV004189261,Likely benign
+p.S95Y,95,S,Y,0,train,0,0.0525,True,VCV004865871,Likely benign
+p.V97F,97,V,F,0,train,0,0.0275,True,VCV000458532,Uncertain significance
+p.V97L,97,V,L,0,train,0,0.0175,True,VCV000182962,Uncertain significance
+p.P98L,98,P,L,1,train,1,0.67,True,VCV000528236,Uncertain significance
+p.T102I,102,T,I,0,train,0,0.095,True,VCV000186132,Uncertain significance
+p.T102S,102,T,S,0,train,0,0.11,True,VCV000582041,Uncertain significance
+p.Q104L,104,Q,L,0,train,0,0.23,True,VCV000945802,Uncertain significance
+p.G105R,105,G,R,1,test,1,0.82,True,VCV000406574,Pathogenic/Likely pathogenic
+p.G105S,105,G,S,1,train,1,0.7325,True,VCV000428884,Pathogenic/Likely pathogenic
+p.G105V,105,G,V,1,train,1,0.78,True,VCV000634708,Likely pathogenic
+p.S106I,106,S,I,0,train,0,0.285,True,VCV000629791,Uncertain significance
+p.S106R,106,S,R,1,train,1,0.7875,True,VCV000492752,Pathogenic
+p.Y107D,107,Y,D,1,train,1,0.8,True,VCV000641482,Uncertain significance
+p.Y107H,107,Y,H,0,train,0,0.2875,True,VCV000140786,Benign
+p.G108C,108,G,C,0,train,0,0.2275,True,VCV001487358,Uncertain significance
+p.G108S,108,G,S,0,train,0,0.165,True,VCV000142431,Likely benign
+p.F109C,109,F,C,1,train,1,0.9575,True,VCV000634784,Likely pathogenic
+p.F109I,109,F,I,1,test,1,0.7825,True,VCV002627017,Likely pathogenic
+p.F109V,109,F,V,1,train,1,0.955,True,VCV000389644,Likely pathogenic
+p.R110G,110,R,G,1,train,1,0.9375,True,VCV000823452,Likely pathogenic
+p.R110H,110,R,H,0,train,0,0.2625,True,VCV000127808,Likely benign
+p.R110L,110,R,L,1,train,1,0.8825,True,VCV000406597,Pathogenic
+p.R110P,110,R,P,1,train,1,0.9625,True,VCV000233627,Pathogenic
+p.L111P,111,L,P,1,train,1,0.9575,True,VCV000376630,Pathogenic
+p.L111Q,111,L,Q,1,test,1,0.895,True,VCV000376632,Pathogenic
+p.L111R,111,L,R,1,train,1,0.935,True,VCV000376631,Pathogenic
+p.L111V,111,L,V,0,test,1,0.67,False,VCV001730178,Likely benign
+p.G112S,112,G,S,0,train,0,0.2075,True,VCV000492575,Uncertain significance
+p.F113C,113,F,C,1,train,1,0.945,True,VCV000634690,Pathogenic
+p.F113I,113,F,I,1,train,1,0.935,True,VCV001469551,Pathogenic/Likely pathogenic
+p.F113L,113,F,L,1,train,1,0.92,True,VCV003634432,Pathogenic
+p.F113S,113,F,S,1,train,1,0.915,True,VCV000823709,Pathogenic/Likely pathogenic
+p.F113V,113,F,V,1,train,1,0.9725,True,VCV000141302,Pathogenic/Likely pathogenic
+p.L114S,114,L,S,0,test,0,0.4175,True,VCV000458536,Uncertain significance
+p.H115N,115,H,N,0,train,0,0.1125,True,VCV000480741,Uncertain significance
+p.H115R,115,H,R,0,train,0,0.0525,True,VCV000182925,Likely benign
+p.S116A,116,S,A,0,train,0,0.025,True,VCV000649358,Uncertain significance
+p.T118I,118,T,I,0,train,0,0.14,True,VCV000419837,Likely benign
+p.A119G,119,A,G,1,test,0,0.09,False,VCV000949408,Likely pathogenic
+p.K120E,120,K,E,1,train,1,0.695,True,VCV000141098,Likely pathogenic
+p.V122M,122,V,M,0,train,0,0.13,True,VCV000141101,Likely benign
+p.C124R,124,C,R,1,train,1,0.825,True,VCV004056245,Likely pathogenic
+p.C124S,124,C,S,0,train,0,0.2325,True,VCV000182926,Likely benign
+p.C124W,124,C,W,0,train,0,0.2425,True,VCV003809674,Likely benign
+p.T125K,125,T,K,1,train,1,0.92,True,VCV000216465,Pathogenic
+p.T125M,125,T,M,1,train,1,0.8825,True,VCV000183748,Likely pathogenic
+p.T125P,125,T,P,1,train,1,0.87,True,VCV000376666,Likely pathogenic
+p.T125R,125,T,R,1,train,1,0.9375,True,VCV000376667,Pathogenic/Likely pathogenic
+p.Y126C,126,Y,C,1,train,1,0.9875,True,VCV000458541,Likely pathogenic
+p.Y126D,126,Y,D,1,train,1,0.9825,True,VCV000265333,Pathogenic/Likely pathogenic
+p.Y126H,126,Y,H,1,train,1,0.915,True,VCV001734755,Pathogenic
+p.Y126N,126,Y,N,1,test,1,0.955,True,VCV000428871,Uncertain significance
+p.S127C,127,S,C,1,train,1,0.9575,True,VCV000219532,Likely pathogenic
+p.S127F,127,S,F,1,train,1,0.95,True,VCV000182928,Pathogenic/Likely pathogenic
+p.S127P,127,S,P,1,train,1,0.935,True,VCV000934410,Likely pathogenic
+p.S127T,127,S,T,1,train,1,0.9325,True,VCV000824232,Likely pathogenic
+p.S127Y,127,S,Y,1,train,1,0.96,True,VCV000656751,Pathogenic
+p.P128R,128,P,R,0,train,0,0.32,True,VCV001718564,Likely benign
+p.P128T,128,P,T,0,test,1,0.6825,False,VCV000480743,Uncertain significance
+p.A129D,129,A,D,0,test,1,0.7575,False,VCV001735669,Benign
+p.A129S,129,A,S,0,train,0,0.19,True,VCV000824314,Likely benign
+p.A129T,129,A,T,0,train,0,0.145,True,VCV000482217,Uncertain significance
+p.L130F,130,L,F,1,test,1,0.85,True,VCV000216466,Uncertain significance
+p.L130H,130,L,H,1,train,1,0.9675,True,VCV000824351,Pathogenic
+p.L130P,130,L,P,1,train,1,0.98,True,VCV000428873,Pathogenic
+p.L130V,130,L,V,1,train,1,0.8725,True,VCV000458543,Uncertain significance
+p.N131H,131,N,H,1,train,1,0.88,True,VCV004279056,Likely pathogenic
+p.N131I,131,N,I,1,train,1,0.9675,True,VCV000428902,Pathogenic/Likely pathogenic
+p.N131Y,131,N,Y,1,train,1,0.9525,True,VCV000141988,Pathogenic
+p.K132E,132,K,E,1,train,1,0.9775,True,VCV000376626,Likely pathogenic
+p.K132M,132,K,M,1,test,1,0.92,True,VCV000376629,Pathogenic
+p.K132N,132,K,N,1,test,1,0.9725,True,VCV000376624,Likely pathogenic
+p.K132Q,132,K,Q,1,train,1,0.9525,True,VCV000376628,Likely pathogenic
+p.K132R,132,K,R,1,train,1,0.88,True,VCV000376625,Pathogenic/Likely pathogenic
+p.K132T,132,K,T,1,train,1,0.98,True,VCV000376627,Pathogenic
+p.M133I,133,M,I,0,train,0,0.2475,True,VCV000421437,Uncertain significance
+p.M133T,133,M,T,1,train,1,0.9775,True,VCV000012357,Pathogenic
 p.F134C,134,F,C,1,train,1,0.9925,True,VCV000230477,Likely pathogenic
-p.C135F,135,C,F,1,train,1,0.985,True,VCV000376559,Pathogenic/Likely pathogenic
-p.C135G,135,C,G,1,train,1,0.9825,True,VCV000376563,Pathogenic
-p.C135R,135,C,R,1,train,1,0.975,True,VCV000376560,Pathogenic/Likely pathogenic
-p.C135S,135,C,S,1,train,1,0.985,True,VCV003893309,Likely pathogenic
-p.A138P,138,A,P,1,train,1,0.965,True,VCV000012376,Likely pathogenic
-p.A138V,138,A,V,1,test,1,0.92,True,VCV000184863,Likely pathogenic
-p.C141W,141,C,W,1,train,1,0.98,True,VCV000376564,Pathogenic
-p.C141Y,141,C,Y,1,train,1,0.985,True,VCV000140801,Pathogenic/Likely pathogenic
-p.V143A,143,V,A,1,train,1,0.995,True,VCV000804214,Pathogenic
-p.V143G,143,V,G,1,train,1,0.9975,True,VCV000486556,Pathogenic/Likely pathogenic
-p.V143M,143,V,M,1,test,1,0.97,True,VCV000142657,Pathogenic/Likely pathogenic
-p.V147G,147,V,G,1,train,1,0.9975,True,VCV003602769,Pathogenic/Likely pathogenic
-p.P151A,151,P,A,1,train,1,0.9675,True,VCV000376641,Pathogenic
-p.P151F,151,P,F,1,train,1,0.9725,True,VCV000824960,Likely pathogenic
-p.P151R,151,P,R,1,train,1,0.925,True,VCV000376640,Pathogenic/Likely pathogenic
-p.P151S,151,P,S,1,train,1,0.9725,True,VCV000012370,Pathogenic/Likely pathogenic
-p.P151T,151,P,T,1,train,1,0.965,True,VCV000012369,Pathogenic/Likely pathogenic
-p.P152L,152,P,L,1,test,1,0.86,True,VCV000142766,Pathogenic
-p.P152R,152,P,R,1,test,1,0.68,True,VCV000824998,Pathogenic/Likely pathogenic
-p.T155N,155,T,N,1,train,1,0.9875,True,VCV000406564,Pathogenic/Likely pathogenic
-p.R156P,156,R,P,1,train,1,1.0,True,VCV000634768,Pathogenic/Likely pathogenic
-p.V157F,157,V,F,1,train,1,0.99,True,VCV000012353,Pathogenic/Likely pathogenic
+p.F134I,134,F,I,1,train,1,0.9425,True,VCV000480953,Pathogenic
+p.F134L,134,F,L,1,train,1,0.9375,True,VCV000080710,Uncertain significance
+p.F134V,134,F,V,1,train,1,0.9825,True,VCV000988615,Pathogenic
+p.C135F,135,C,F,1,train,1,0.9925,True,VCV000376559,Pathogenic/Likely pathogenic
+p.C135G,135,C,G,1,test,1,0.9775,True,VCV000376563,Pathogenic
+p.C135R,135,C,R,1,train,1,0.9975,True,VCV000376560,Pathogenic/Likely pathogenic
+p.C135S,135,C,S,1,train,1,0.9675,True,VCV003893309,Likely pathogenic
+p.C135W,135,C,W,1,train,1,0.9775,True,VCV000376561,Uncertain significance
+p.C135Y,135,C,Y,1,train,1,0.9875,True,VCV000141762,Likely pathogenic
+p.Q136E,136,Q,E,1,train,1,0.9175,True,VCV000480751,Uncertain significance
+p.Q136P,136,Q,P,1,train,1,0.9525,True,VCV000580807,Uncertain significance
+p.A138P,138,A,P,1,train,1,0.9225,True,VCV000012376,Likely pathogenic
+p.A138V,138,A,V,1,train,1,0.875,True,VCV000184863,Likely pathogenic
+p.T140N,140,T,N,0,train,0,0.31,True,VCV000185918,Uncertain significance
+p.C141F,141,C,F,1,train,1,0.995,True,VCV000376568,Uncertain significance
+p.C141R,141,C,R,1,train,1,0.9925,True,VCV000376565,Likely pathogenic
+p.C141W,141,C,W,1,test,1,0.97,True,VCV000376564,Pathogenic
+p.C141Y,141,C,Y,1,train,1,0.9875,True,VCV000140801,Pathogenic/Likely pathogenic
+p.P142L,142,P,L,1,train,1,0.98,True,VCV000864520,Uncertain significance
+p.V143A,143,V,A,1,train,1,0.9775,True,VCV000804214,Pathogenic
+p.V143G,143,V,G,1,train,1,0.9925,True,VCV000486556,Pathogenic/Likely pathogenic
+p.V143M,143,V,M,1,train,1,0.9475,True,VCV000142657,Pathogenic/Likely pathogenic
+p.Q144P,144,Q,P,1,train,1,0.9525,True,VCV000186594,Uncertain significance
+p.L145P,145,L,P,1,test,1,0.9775,True,VCV000142050,Likely pathogenic
+p.L145Q,145,L,Q,1,train,1,0.9875,True,VCV000480760,Likely pathogenic
+p.L145R,145,L,R,1,train,1,0.99,True,VCV001027110,Uncertain significance
+p.L145V,145,L,V,0,test,1,0.745,False,VCV002774652,Uncertain significance
+p.W146R,146,W,R,0,train,0,0.33,True,VCV004800656,Uncertain significance
+p.V147D,147,V,D,1,train,1,0.9625,True,VCV001351017,Uncertain significance
+p.V147G,147,V,G,1,train,1,0.9825,True,VCV003602769,Pathogenic/Likely pathogenic
+p.D148A,148,D,A,0,train,0,0.3025,True,VCV000485032,Uncertain significance
+p.D148Y,148,D,Y,0,test,1,0.6175,False,VCV000428863,Uncertain significance
+p.P151A,151,P,A,1,train,1,0.9,True,VCV000376641,Pathogenic
+p.P151F,151,P,F,1,train,1,0.9275,True,VCV000824960,Likely pathogenic
+p.P151R,151,P,R,1,train,1,0.95,True,VCV000376640,Pathogenic/Likely pathogenic
+p.P151S,151,P,S,1,train,1,0.945,True,VCV000012370,Pathogenic/Likely pathogenic
+p.P151T,151,P,T,1,train,1,0.915,True,VCV000012369,Pathogenic/Likely pathogenic
+p.P152L,152,P,L,1,test,1,0.7375,True,VCV000142766,Pathogenic
+p.P152R,152,P,R,1,train,1,0.905,True,VCV000824998,Pathogenic/Likely pathogenic
+p.P152S,152,P,S,1,train,1,0.7725,True,VCV000482230,Likely pathogenic
+p.P153S,153,P,S,0,train,0,0.1775,True,VCV000422563,Uncertain significance
+p.G154V,154,G,V,1,test,1,0.84,True,VCV000651769,Pathogenic
+p.T155A,155,T,A,0,train,0,0.16,True,VCV000458544,Uncertain significance
+p.T155I,155,T,I,1,train,1,0.8625,True,VCV001005876,Likely pathogenic
+p.T155N,155,T,N,1,train,1,0.8225,True,VCV000406564,Pathogenic/Likely pathogenic
+p.T155P,155,T,P,1,test,1,0.6325,True,VCV002768025,Uncertain significance
+p.T155S,155,T,S,0,train,0,0.1975,True,VCV000186179,Uncertain significance
+p.R156C,156,R,C,0,train,0,0.2775,True,VCV000127810,Uncertain significance
+p.R156G,156,R,G,1,train,1,0.9225,True,VCV001517870,Uncertain significance
+p.R156P,156,R,P,1,test,1,0.8775,True,VCV000634768,Pathogenic/Likely pathogenic
+p.V157A,157,V,A,1,train,1,0.96,True,VCV000428887,Likely pathogenic
+p.V157D,157,V,D,1,test,1,0.9475,True,VCV000482231,Pathogenic
+p.V157F,157,V,F,1,train,1,0.8775,True,VCV000012353,Pathogenic/Likely pathogenic
 p.V157G,157,V,G,1,train,1,1.0,True,VCV000915695,Pathogenic/Likely pathogenic
-p.V157I,157,V,I,0,test,1,0.7975,False,VCV000185404,Likely benign
-p.R158G,158,R,G,1,train,1,0.9975,True,VCV000856171,Pathogenic
-p.R158H,158,R,H,1,train,1,0.9775,True,VCV000141963,Pathogenic/Likely pathogenic
-p.R158L,158,R,L,1,test,1,0.9925,True,VCV000528248,Pathogenic
-p.R158P,158,R,P,1,train,1,1.0,True,VCV000246118,Pathogenic
-p.R158S,158,R,S,1,train,1,1.0,True,VCV001067910,Pathogenic
-p.A159D,159,A,D,1,test,1,0.715,True,VCV001026335,Pathogenic/Likely pathogenic
-p.A159V,159,A,V,1,train,1,0.93,True,VCV000458545,Pathogenic/Likely pathogenic
-p.M160I,160,M,I,0,test,1,0.9375,False,VCV000230758,Likely benign
-p.A161T,161,A,T,1,train,1,0.9725,True,VCV000161518,Pathogenic/Likely pathogenic
-p.Y163C,163,Y,C,1,train,1,0.9925,True,VCV000127814,Pathogenic
-p.Y163H,163,Y,H,1,train,1,0.9275,True,VCV000376680,Pathogenic
-p.K164E,164,K,E,1,train,1,0.94,True,VCV000246416,Pathogenic
-p.Q165L,165,Q,L,1,train,1,0.91,True,VCV002505496,Pathogenic
-p.S166T,166,S,T,0,train,0,0.09,True,VCV003809673,Likely benign
-p.H168L,168,H,L,1,train,1,0.975,True,VCV001744933,Pathogenic
-p.H168P,168,H,P,1,train,1,0.9475,True,VCV003328154,Likely pathogenic
-p.T170M,170,T,M,0,train,0,0.2075,True,VCV000184014,Likely benign
-p.E171D,171,E,D,1,train,1,0.81,True,VCV002446885,Pathogenic
-p.E171G,171,E,G,1,train,1,0.8825,True,VCV001745525,Pathogenic
-p.E171K,171,E,K,0,train,0,0.3,True,VCV000141566,Likely benign
-p.V172G,172,V,G,1,train,1,0.9875,True,VCV000428883,Pathogenic
-p.V173A,173,V,A,1,train,1,0.9925,True,VCV000376017,Pathogenic/Likely pathogenic
-p.V173L,173,V,L,1,test,1,0.9225,True,VCV000376668,Pathogenic/Likely pathogenic
-p.V173M,173,V,M,1,train,1,0.99,True,VCV000233951,Pathogenic
+p.V157I,157,V,I,0,test,1,0.585,False,VCV000185404,Likely benign
+p.R158G,158,R,G,1,train,1,0.965,True,VCV000856171,Pathogenic
+p.R158H,158,R,H,1,test,1,0.52,True,VCV000141963,Pathogenic/Likely pathogenic
+p.R158L,158,R,L,1,test,1,0.9025,True,VCV000528248,Pathogenic
+p.R158P,158,R,P,1,train,1,0.985,True,VCV000246118,Pathogenic
+p.R158S,158,R,S,1,train,1,0.9875,True,VCV001067910,Pathogenic
+p.A159D,159,A,D,1,train,1,0.975,True,VCV001026335,Pathogenic/Likely pathogenic
+p.A159P,159,A,P,1,train,1,0.8675,True,VCV000182929,Uncertain significance
+p.A159T,159,A,T,0,train,0,0.325,True,VCV001909172,Uncertain significance
+p.A159V,159,A,V,1,test,1,0.6275,True,VCV000458545,Pathogenic/Likely pathogenic
+p.M160I,160,M,I,0,train,0,0.125,True,VCV000230758,Likely benign
+p.M160V,160,M,V,0,train,0,0.2425,True,VCV000444396,Uncertain significance
+p.A161D,161,A,D,1,train,1,0.98,True,VCV000422295,Likely pathogenic
+p.A161T,161,A,T,1,train,1,0.745,True,VCV000161518,Pathogenic/Likely pathogenic
+p.I162F,162,I,F,1,train,1,0.875,True,VCV000948225,Likely pathogenic
+p.I162N,162,I,N,1,train,1,0.9825,True,VCV001408611,Uncertain significance
+p.I162S,162,I,S,1,train,1,0.9775,True,VCV000127813,Uncertain significance
+p.Y163C,163,Y,C,1,train,1,0.965,True,VCV000127814,Pathogenic
+p.Y163D,163,Y,D,1,train,1,0.995,True,VCV000187052,Uncertain significance
+p.Y163H,163,Y,H,1,train,1,0.98,True,VCV000376680,Pathogenic
+p.Y163N,163,Y,N,1,train,1,0.9975,True,VCV000376679,Likely pathogenic
+p.K164E,164,K,E,1,train,1,0.9,True,VCV000246416,Pathogenic
+p.Q165E,165,Q,E,0,train,0,0.1925,True,VCV003634431,Uncertain significance
+p.Q165K,165,Q,K,0,train,0,0.0825,True,VCV000482232,Uncertain significance
+p.Q165L,165,Q,L,1,test,1,0.6175,True,VCV002505496,Pathogenic
+p.S166T,166,S,T,0,train,0,0.06,True,VCV003809673,Likely benign
+p.H168L,168,H,L,1,test,1,0.85,True,VCV001744933,Pathogenic
+p.H168P,168,H,P,1,train,1,0.9,True,VCV003328154,Likely pathogenic
+p.H168R,168,H,R,1,test,1,0.5675,True,VCV000428866,Pathogenic
+p.T170M,170,T,M,0,train,0,0.1925,True,VCV000184014,Likely benign
+p.E171D,171,E,D,1,train,1,0.6975,True,VCV002446885,Pathogenic
+p.E171G,171,E,G,1,test,1,0.6225,True,VCV001745525,Pathogenic
+p.E171K,171,E,K,0,train,0,0.1975,True,VCV000141566,Likely benign
+p.V172D,172,V,D,1,train,1,0.9075,True,VCV000836761,Uncertain significance
+p.V172F,172,V,F,1,test,1,0.7,True,VCV000428909,Uncertain significance
+p.V172G,172,V,G,1,train,1,0.9825,True,VCV000428883,Pathogenic
+p.V173A,173,V,A,1,test,1,0.9525,True,VCV000376017,Pathogenic/Likely pathogenic
+p.V173E,173,V,E,1,test,1,0.9875,True,VCV000376669,Uncertain significance
+p.V173G,173,V,G,1,train,1,1.0,True,VCV000376016,Likely pathogenic
+p.V173L,173,V,L,1,test,1,0.715,True,VCV000376668,Pathogenic/Likely pathogenic
+p.V173M,173,V,M,1,train,1,0.945,True,VCV000233951,Pathogenic
+p.R174K,174,R,K,0,train,0,0.3025,True,VCV000423887,Likely benign
 p.R175G,175,R,G,1,train,1,1.0,True,VCV000376649,Pathogenic
-p.R175H,175,R,H,1,train,1,0.99,True,VCV000012374,Pathogenic
-p.R175L,175,R,L,1,train,1,1.0,True,VCV000182963,Likely pathogenic
-p.C176F,176,C,F,1,train,1,0.9925,True,VCV000376569,Pathogenic/Likely pathogenic
-p.C176R,176,C,R,1,train,1,0.97,True,VCV000634759,Likely pathogenic
-p.C176Y,176,C,Y,1,train,1,0.9925,True,VCV000186451,Pathogenic/Likely pathogenic
-p.P177R,177,P,R,1,train,1,0.8575,True,VCV000458547,Pathogenic/Likely pathogenic
-p.H178D,178,H,D,1,test,1,0.9925,True,VCV000482223,Pathogenic
-p.H178Q,178,H,Q,1,train,1,0.98,True,VCV000947223,Pathogenic/Likely pathogenic
-p.H179D,179,H,D,1,train,1,0.99,True,VCV000376610,Pathogenic/Likely pathogenic
-p.H179Q,179,H,Q,1,train,1,0.985,True,VCV000406578,Pathogenic
-p.H179R,179,H,R,1,train,1,0.98,True,VCV000376606,Pathogenic/Likely pathogenic
-p.H179Y,179,H,Y,1,train,1,0.9875,True,VCV000127815,Pathogenic/Likely pathogenic
-p.E180K,180,E,K,1,train,1,0.9025,True,VCV000245711,Likely pathogenic
-p.R181C,181,R,C,1,train,1,0.94,True,VCV000142624,Likely pathogenic
-p.R181H,181,R,H,1,test,1,0.705,True,VCV000142320,Pathogenic/Likely pathogenic
-p.R181P,181,R,P,1,train,1,0.9975,True,VCV000825729,Pathogenic/Likely pathogenic
-p.C182G,182,C,G,0,train,0,0.165,True,VCV000135361,Benign/Likely benign
-p.C182R,182,C,R,0,test,0,0.445,True,VCV000492638,Likely benign
-p.S183P,183,S,P,0,train,0,0.0625,True,VCV003328150,Likely benign
-p.S185N,185,S,N,0,train,0,0.055,True,VCV000141359,Likely benign
-p.S185R,185,S,R,0,train,0,0.155,True,VCV001748280,Likely benign
-p.D186E,186,D,E,0,train,0,0.06,True,VCV000230006,Likely benign
-p.D186N,186,D,N,0,train,0,0.1,True,VCV000406601,Likely benign
-p.P190L,190,P,L,1,train,1,0.965,True,VCV000418517,Likely pathogenic
+p.R175H,175,R,H,1,train,1,0.8275,True,VCV000012374,Pathogenic
+p.R175L,175,R,L,1,train,1,0.9825,True,VCV000182963,Likely pathogenic
+p.R175S,175,R,S,1,train,1,0.9975,True,VCV004189264,Uncertain significance
+p.C176F,176,C,F,1,train,1,0.97,True,VCV000376569,Pathogenic/Likely pathogenic
+p.C176G,176,C,G,1,train,1,0.9925,True,VCV000376571,Likely pathogenic
+p.C176R,176,C,R,1,train,1,0.99,True,VCV000634759,Likely pathogenic
+p.C176S,176,C,S,1,train,1,0.93,True,VCV000376570,Likely pathogenic
+p.C176W,176,C,W,1,train,1,0.9525,True,VCV000376572,Likely pathogenic
+p.C176Y,176,C,Y,1,train,1,0.9425,True,VCV000186451,Pathogenic/Likely pathogenic
+p.P177L,177,P,L,1,train,1,0.9275,True,VCV000406583,Uncertain significance
+p.P177R,177,P,R,1,train,1,0.905,True,VCV000458547,Pathogenic/Likely pathogenic
+p.H178D,178,H,D,1,train,1,0.985,True,VCV000482223,Pathogenic
+p.H178P,178,H,P,1,test,1,0.9675,True,VCV000485030,Pathogenic
+p.H178Q,178,H,Q,1,test,1,0.8525,True,VCV000947223,Pathogenic/Likely pathogenic
+p.H179D,179,H,D,1,train,1,0.9925,True,VCV000376610,Pathogenic/Likely pathogenic
+p.H179L,179,H,L,1,test,1,0.96,True,VCV000376608,Likely pathogenic
+p.H179N,179,H,N,1,train,1,0.9875,True,VCV000376609,Likely pathogenic
+p.H179P,179,H,P,1,train,1,1.0,True,VCV000376611,Likely pathogenic
+p.H179Q,179,H,Q,1,train,1,0.9475,True,VCV000406578,Pathogenic
+p.H179R,179,H,R,1,train,1,0.945,True,VCV000376606,Pathogenic/Likely pathogenic
+p.H179Y,179,H,Y,1,test,1,0.9575,True,VCV000127815,Pathogenic/Likely pathogenic
+p.E180K,180,E,K,1,train,1,0.865,True,VCV000245711,Likely pathogenic
+p.R181C,181,R,C,1,test,1,0.645,True,VCV000142624,Likely pathogenic
+p.R181H,181,R,H,1,train,1,0.79,True,VCV000142320,Pathogenic/Likely pathogenic
+p.R181L,181,R,L,1,train,1,0.9675,True,VCV000039420,Uncertain significance
+p.R181P,181,R,P,1,train,1,0.98,True,VCV000825729,Pathogenic/Likely pathogenic
+p.C182G,182,C,G,0,train,0,0.125,True,VCV000135361,Benign/Likely benign
+p.C182R,182,C,R,0,train,0,0.18,True,VCV000492638,Likely benign
+p.S183L,183,S,L,0,train,0,0.155,True,VCV000480735,Uncertain significance
+p.S183P,183,S,P,0,test,0,0.145,True,VCV003328150,Likely benign
+p.S185N,185,S,N,0,test,0,0.355,True,VCV000141359,Likely benign
+p.S185R,185,S,R,0,test,0,0.4825,True,VCV001748280,Likely benign
+p.D186E,186,D,E,0,test,0,0.2025,True,VCV000230006,Likely benign
+p.D186N,186,D,N,0,test,0,0.2,True,VCV000406601,Likely benign
+p.G187R,187,G,R,1,test,0,0.3175,False,VCV000635392,Pathogenic
+p.G187S,187,G,S,0,train,0,0.1525,True,VCV000840399,Uncertain significance
+p.A189V,189,A,V,0,train,0,0.2625,True,VCV000012382,Likely benign
+p.P190L,190,P,L,1,train,1,0.8375,True,VCV000418517,Likely pathogenic
+p.P190R,190,P,R,1,test,1,0.51,True,VCV000234061,Uncertain significance
 p.P191R,191,P,R,0,train,0,0.3475,True,VCV000127816,Likely benign
-p.Q192H,192,Q,H,0,train,0,0.3725,True,VCV000988617,Likely benign
-p.H193N,193,H,N,1,train,1,0.995,True,VCV003460301,Pathogenic/Likely pathogenic
-p.H193P,193,H,P,1,test,1,0.9875,True,VCV000376612,Pathogenic
-p.H193R,193,H,R,1,train,1,0.97,True,VCV000184979,Pathogenic/Likely pathogenic
-p.H193Y,193,H,Y,1,train,1,0.985,True,VCV000230256,Pathogenic/Likely pathogenic
-p.L194F,194,L,F,1,train,1,0.9575,True,VCV000127817,Pathogenic/Likely pathogenic
-p.L194H,194,L,H,1,train,1,0.985,True,VCV000376634,Pathogenic/Likely pathogenic
-p.L194R,194,L,R,1,test,1,0.98,True,VCV000376633,Pathogenic
-p.I195T,195,I,T,1,train,1,0.9825,True,VCV000216077,Pathogenic
-p.R196P,196,R,P,1,test,1,0.9775,True,VCV000231165,Pathogenic/Likely pathogenic
-p.V197M,197,V,M,1,train,1,0.9875,True,VCV000188060,Likely pathogenic
-p.G199V,199,G,V,1,train,1,0.9175,True,VCV000451799,Likely pathogenic
-p.E204D,204,E,D,0,test,1,0.8625,False,VCV003460304,Likely benign
-p.Y205C,205,Y,C,1,train,1,0.9825,True,VCV000376681,Pathogenic
-p.Y205D,205,Y,D,1,train,1,0.99,True,VCV000376686,Pathogenic/Likely pathogenic
-p.Y205H,205,Y,H,1,test,1,0.9125,True,VCV000376685,Pathogenic/Likely pathogenic
-p.D207E,207,D,E,0,train,0,0.2175,True,VCV003809687,Likely benign
-p.R209K,209,R,K,0,train,0,0.085,True,VCV000962629,Likely benign
-p.N210S,210,N,S,0,test,0,0.13,True,VCV003232058,Likely benign
-p.F212S,212,F,S,0,train,0,0.2025,True,VCV003460339,Likely benign
-p.R213P,213,R,P,1,train,1,0.995,True,VCV000231214,Pathogenic/Likely pathogenic
-p.R213Q,213,R,Q,1,train,1,0.9425,True,VCV000135359,Pathogenic/Likely pathogenic
+p.Q192H,192,Q,H,0,train,0,0.1225,True,VCV000988617,Likely benign
+p.Q192P,192,Q,P,0,train,0,0.2575,True,VCV001036209,Uncertain significance
+p.Q192R,192,Q,R,0,train,0,0.165,True,VCV000182931,Uncertain significance
+p.H193D,193,H,D,1,train,1,0.995,True,VCV000376613,Likely pathogenic
+p.H193L,193,H,L,1,train,1,0.9725,True,VCV000185822,Likely pathogenic
+p.H193N,193,H,N,1,test,1,0.9475,True,VCV003460301,Pathogenic/Likely pathogenic
+p.H193P,193,H,P,1,train,1,1.0,True,VCV000376612,Pathogenic
+p.H193Q,193,H,Q,1,train,1,0.96,True,VCV000825975,Likely pathogenic
+p.H193R,193,H,R,1,train,1,0.915,True,VCV000184979,Pathogenic/Likely pathogenic
+p.H193Y,193,H,Y,1,train,1,0.9775,True,VCV000230256,Pathogenic/Likely pathogenic
+p.L194F,194,L,F,1,train,1,0.9025,True,VCV000127817,Pathogenic/Likely pathogenic
+p.L194H,194,L,H,1,train,1,0.9925,True,VCV000376634,Pathogenic/Likely pathogenic
+p.L194R,194,L,R,1,train,1,0.995,True,VCV000376633,Pathogenic
+p.I195F,195,I,F,1,train,1,0.9625,True,VCV000376617,Pathogenic
+p.I195N,195,I,N,1,train,1,0.995,True,VCV000376618,Uncertain significance
+p.I195S,195,I,S,1,train,1,1.0,True,VCV000376619,Uncertain significance
+p.I195T,195,I,T,1,train,1,0.995,True,VCV000216077,Pathogenic
+p.R196G,196,R,G,1,train,1,0.9375,True,VCV000232344,Uncertain significance
+p.R196L,196,R,L,1,train,1,0.97,True,VCV000100814,Uncertain significance
+p.R196P,196,R,P,1,train,1,0.98,True,VCV000231165,Pathogenic/Likely pathogenic
+p.V197E,197,V,E,1,test,1,0.965,True,VCV000634757,Likely pathogenic
+p.V197G,197,V,G,1,test,1,0.9725,True,VCV000826051,Uncertain significance
+p.V197M,197,V,M,1,test,1,0.8425,True,VCV000188060,Likely pathogenic
+p.G199V,199,G,V,1,train,1,0.875,True,VCV000451799,Likely pathogenic
+p.R202C,202,R,C,0,train,0,0.15,True,VCV000127818,Uncertain significance
+p.R202G,202,R,G,0,train,0,0.3,True,VCV000231661,Uncertain significance
+p.R202H,202,R,H,0,train,0,0.24,True,VCV000135358,Uncertain significance
+p.E204D,204,E,D,0,test,1,0.575,False,VCV003460304,Likely benign
+p.Y205C,205,Y,C,1,train,1,0.9875,True,VCV000376681,Pathogenic
+p.Y205D,205,Y,D,1,train,1,0.9875,True,VCV000376686,Pathogenic/Likely pathogenic
+p.Y205H,205,Y,H,1,train,1,0.9825,True,VCV000376685,Pathogenic/Likely pathogenic
+p.Y205N,205,Y,N,1,test,1,0.9725,True,VCV000376684,Uncertain significance
+p.L206S,206,L,S,0,train,0,0.3575,True,VCV000439319,Uncertain significance
+p.L206W,206,L,W,0,train,0,0.255,True,VCV002679229,Uncertain significance
+p.D207E,207,D,E,0,train,0,0.265,True,VCV003809687,Likely benign
+p.D207N,207,D,N,0,test,0,0.3425,True,VCV002969522,Uncertain significance
+p.D208N,208,D,N,0,train,0,0.1325,True,VCV001752332,Likely benign
+p.D208V,208,D,V,1,train,1,0.935,True,VCV001036023,Pathogenic
+p.D208Y,208,D,Y,1,train,1,0.8175,True,VCV001350980,Uncertain significance
+p.R209G,209,R,G,0,test,0,0.2375,True,VCV000627819,Uncertain significance
+p.R209K,209,R,K,0,train,0,0.095,True,VCV000962629,Likely benign
+p.R209S,209,R,S,0,train,0,0.18,True,VCV002450746,Likely benign
+p.N210S,210,N,S,0,train,0,0.04,True,VCV003232058,Likely benign
+p.T211I,211,T,I,1,train,1,0.7025,True,VCV001503185,Uncertain significance
+p.T211P,211,T,P,1,test,0,0.2275,False,VCV000528235,Pathogenic
+p.F212S,212,F,S,0,train,0,0.145,True,VCV003460339,Likely benign
+p.R213G,213,R,G,1,train,1,0.93,True,VCV000376651,Likely pathogenic
+p.R213L,213,R,L,1,train,1,0.9875,True,VCV000376650,Likely pathogenic
+p.R213P,213,R,P,1,test,1,0.9775,True,VCV000231214,Pathogenic/Likely pathogenic
+p.R213Q,213,R,Q,1,train,1,0.9375,True,VCV000135359,Pathogenic/Likely pathogenic
 p.R213W,213,R,W,1,train,1,0.98,True,VCV003460335,Pathogenic/Likely pathogenic
-p.H214L,214,H,L,1,train,1,0.9875,True,VCV000376616,Likely pathogenic
-p.H214R,214,H,R,1,test,1,0.9175,True,VCV000376615,Pathogenic
-p.S215R,215,S,R,1,train,1,0.965,True,VCV000428895,Likely pathogenic
-p.V216M,216,V,M,1,train,1,0.99,True,VCV000182965,Pathogenic/Likely pathogenic
-p.V218E,218,V,E,1,test,1,0.9225,True,VCV001754112,Likely pathogenic
-p.Y220C,220,Y,C,1,train,1,0.97,True,VCV000127819,Pathogenic
-p.Y220F,220,Y,F,0,train,0,0.335,True,VCV004828481,Likely benign
-p.Y220H,220,Y,H,1,test,1,0.88,True,VCV000376687,Pathogenic/Likely pathogenic
-p.Y220S,220,Y,S,1,train,1,0.9775,True,VCV000012383,Pathogenic
-p.D228Y,228,D,Y,0,train,0,0.3275,True,VCV002450759,Likely benign
-p.I232N,232,I,N,1,train,1,0.9875,True,VCV000850008,Pathogenic/Likely pathogenic
-p.I232S,232,I,S,1,test,1,0.97,True,VCV000634756,Pathogenic
-p.I232T,232,I,T,1,train,1,0.9875,True,VCV000141224,Pathogenic/Likely pathogenic
-p.Y234C,234,Y,C,1,train,1,0.9775,True,VCV000127820,Pathogenic/Likely pathogenic
-p.Y234D,234,Y,D,1,train,1,0.9975,True,VCV000219759,Pathogenic/Likely pathogenic
-p.Y234H,234,Y,H,1,train,1,0.935,True,VCV000376691,Pathogenic/Likely pathogenic
-p.Y234N,234,Y,N,1,train,1,1.0,True,VCV000376692,Pathogenic/Likely pathogenic
-p.N235S,235,N,S,0,train,0,0.2875,True,VCV000127821,Benign
-p.Y236C,236,Y,C,1,train,1,0.91,True,VCV000376693,Pathogenic/Likely pathogenic
-p.Y236H,236,Y,H,1,test,1,0.885,True,VCV000216469,Pathogenic/Likely pathogenic
-p.M237I,237,M,I,1,test,1,0.86,True,VCV000142714,Pathogenic
-p.M237K,237,M,K,1,test,1,0.9575,True,VCV000376636,Pathogenic/Likely pathogenic
-p.C238F,238,C,F,1,test,1,0.98,True,VCV000376574,Pathogenic/Likely pathogenic
-p.C238G,238,C,G,1,train,1,0.99,True,VCV000376577,Pathogenic/Likely pathogenic
-p.C238R,238,C,R,1,train,1,0.9875,True,VCV000376576,Pathogenic/Likely pathogenic
-p.C238S,238,C,S,1,test,1,0.9925,True,VCV000376575,Pathogenic/Likely pathogenic
-p.C238W,238,C,W,1,train,1,0.9975,True,VCV000161515,Pathogenic/Likely pathogenic
-p.C238Y,238,C,Y,1,train,1,0.9975,True,VCV000182935,Pathogenic/Likely pathogenic
-p.N239K,239,N,K,1,test,1,0.8725,True,VCV004189258,Pathogenic
-p.N239S,239,N,S,1,train,1,0.8775,True,VCV000376637,Pathogenic/Likely pathogenic
-p.S240C,240,S,C,1,train,1,0.95,True,VCV003972460,Likely pathogenic
-p.S240G,240,S,G,1,train,1,0.995,True,VCV000584921,Pathogenic/Likely pathogenic
-p.S240N,240,S,N,1,train,1,0.9675,True,VCV002502882,Pathogenic
-p.S241A,241,S,A,1,train,1,0.9275,True,VCV000376665,Pathogenic/Likely pathogenic
-p.S241C,241,S,C,1,train,1,0.98,True,VCV000177791,Pathogenic/Likely pathogenic
-p.S241F,241,S,F,1,train,1,1.0,True,VCV000012359,Pathogenic/Likely pathogenic
-p.S241T,241,S,T,1,train,1,0.9775,True,VCV000959232,Pathogenic/Likely pathogenic
+p.H214L,214,H,L,1,train,1,0.975,True,VCV000376616,Likely pathogenic
+p.H214Q,214,H,Q,0,test,1,0.885,False,VCV000140943,Likely benign
+p.H214R,214,H,R,1,train,1,0.92,True,VCV000376615,Pathogenic
+p.S215G,215,S,G,1,train,1,0.9475,True,VCV000265337,Likely pathogenic
+p.S215I,215,S,I,1,train,1,0.95,True,VCV000376660,Likely pathogenic
+p.S215N,215,S,N,1,train,1,0.93,True,VCV000376662,Likely pathogenic
+p.S215R,215,S,R,1,train,1,0.9575,True,VCV000428895,Likely pathogenic
+p.S215T,215,S,T,1,train,1,0.9225,True,VCV000142012,Uncertain significance
+p.V216G,216,V,G,1,train,1,0.9825,True,VCV000376671,Pathogenic
+p.V216L,216,V,L,1,train,1,0.88,True,VCV000376670,Likely pathogenic
+p.V216M,216,V,M,1,test,1,0.925,True,VCV000182965,Pathogenic/Likely pathogenic
+p.V217L,217,V,L,0,train,0,0.3175,True,VCV001386154,Uncertain significance
+p.V217M,217,V,M,0,test,1,0.7325,False,VCV000183071,Likely benign
+p.V218E,218,V,E,1,train,1,0.995,True,VCV001754112,Likely pathogenic
+p.V218G,218,V,G,1,train,1,0.99,True,VCV000528249,Uncertain significance
+p.V218M,218,V,M,1,train,1,0.9325,True,VCV000237952,Pathogenic
+p.P219S,219,P,S,1,train,1,0.88,True,VCV000245673,Likely pathogenic
+p.Y220C,220,Y,C,1,train,1,0.9825,True,VCV000127819,Pathogenic
+p.Y220D,220,Y,D,1,train,1,0.995,True,VCV000376689,Likely pathogenic
+p.Y220F,220,Y,F,0,train,0,0.2675,True,VCV004828481,Likely benign
+p.Y220H,220,Y,H,1,train,1,0.9825,True,VCV000376687,Pathogenic/Likely pathogenic
+p.Y220N,220,Y,N,1,train,1,0.995,True,VCV000376688,Likely pathogenic
+p.Y220S,220,Y,S,1,train,1,0.9925,True,VCV000012383,Pathogenic
+p.P222L,222,P,L,0,train,0,0.3325,True,VCV000161397,Uncertain significance
+p.P222S,222,P,S,0,test,1,0.6925,False,VCV000406592,Likely benign
+p.E224D,224,E,D,0,train,0,0.15,True,VCV000635390,Likely Benign
+p.V225D,225,V,D,0,train,0,0.305,True,VCV000850916,Uncertain significance
+p.V225I,225,V,I,0,train,0,0.0725,True,VCV000480736,Uncertain significance
+p.G226V,226,G,V,0,train,0,0.2475,True,VCV000458556,Uncertain significance
+p.D228E,228,D,E,0,train,0,0.1175,True,VCV000926556,Uncertain significance
+p.D228Y,228,D,Y,0,train,0,0.2775,True,VCV002450759,Likely benign
+p.C229R,229,C,R,1,train,1,0.87,True,VCV000420137,Uncertain significance
+p.C229S,229,C,S,0,train,0,0.27,True,VCV000582302,Uncertain significance
+p.C229Y,229,C,Y,0,train,0,0.2325,True,VCV000419040,Uncertain significance
+p.I232F,232,I,F,1,train,1,0.8675,True,VCV002827498,Uncertain significance
+p.I232L,232,I,L,0,train,0,0.29,True,VCV000482214,Uncertain significance
+p.I232N,232,I,N,1,train,1,0.995,True,VCV000850008,Pathogenic/Likely pathogenic
+p.I232S,232,I,S,1,train,1,0.995,True,VCV000634756,Pathogenic
+p.I232T,232,I,T,1,test,1,0.975,True,VCV000141224,Pathogenic/Likely pathogenic
+p.H233R,233,H,R,0,train,0,0.37,True,VCV000246388,Uncertain significance
+p.Y234C,234,Y,C,1,train,1,0.98,True,VCV000127820,Pathogenic/Likely pathogenic
+p.Y234D,234,Y,D,1,test,1,0.995,True,VCV000219759,Pathogenic/Likely pathogenic
+p.Y234H,234,Y,H,1,train,1,0.9825,True,VCV000376691,Pathogenic/Likely pathogenic
+p.Y234N,234,Y,N,1,test,1,0.99,True,VCV000376692,Pathogenic/Likely pathogenic
+p.Y234S,234,Y,S,1,test,1,0.99,True,VCV000376690,Likely pathogenic
+p.N235D,235,N,D,1,train,1,0.885,True,VCV000919580,Likely pathogenic
+p.N235S,235,N,S,0,train,0,0.35,True,VCV000127821,Benign
+p.Y236C,236,Y,C,1,train,1,0.98,True,VCV000376693,Pathogenic/Likely pathogenic
+p.Y236D,236,Y,D,1,train,1,0.9975,True,VCV000142183,Pathogenic
+p.Y236H,236,Y,H,1,train,1,0.9925,True,VCV000216469,Pathogenic/Likely pathogenic
+p.Y236N,236,Y,N,1,train,1,0.995,True,VCV000376694,Uncertain significance
+p.Y236S,236,Y,S,1,test,1,0.985,True,VCV000182966,Uncertain significance
+p.M237I,237,M,I,1,train,1,0.8525,True,VCV000142714,Pathogenic
+p.M237K,237,M,K,1,train,1,0.995,True,VCV000376636,Pathogenic/Likely pathogenic
+p.M237V,237,M,V,1,train,1,0.9025,True,VCV000182934,Uncertain significance
+p.C238F,238,C,F,1,train,1,0.99,True,VCV000376574,Pathogenic/Likely pathogenic
+p.C238G,238,C,G,1,train,1,0.9975,True,VCV000376577,Pathogenic/Likely pathogenic
+p.C238R,238,C,R,1,train,1,0.9975,True,VCV000376576,Pathogenic/Likely pathogenic
+p.C238S,238,C,S,1,train,1,0.985,True,VCV000376575,Pathogenic/Likely pathogenic
+p.C238W,238,C,W,1,test,1,0.985,True,VCV000161515,Pathogenic/Likely pathogenic
+p.C238Y,238,C,Y,1,test,1,0.98,True,VCV000182935,Pathogenic/Likely pathogenic
+p.N239D,239,N,D,1,test,1,0.9025,True,VCV000234036,Likely pathogenic
+p.N239I,239,N,I,1,train,1,0.9825,True,VCV002748594,Uncertain significance
+p.N239K,239,N,K,1,train,1,0.8725,True,VCV004189258,Pathogenic
+p.N239S,239,N,S,1,train,1,0.86,True,VCV000376637,Pathogenic/Likely pathogenic
+p.N239T,239,N,T,1,train,1,0.955,True,VCV000376638,Uncertain significance
+p.S240C,240,S,C,1,train,1,0.9925,True,VCV003972460,Likely pathogenic
+p.S240G,240,S,G,1,train,1,0.98,True,VCV000584921,Pathogenic/Likely pathogenic
+p.S240I,240,S,I,1,test,1,0.985,True,VCV001036853,Uncertain significance
+p.S240N,240,S,N,1,test,1,0.9125,True,VCV002502882,Pathogenic
+p.S240R,240,S,R,1,train,1,0.99,True,VCV000826894,Uncertain significance
+p.S241A,241,S,A,1,train,1,0.925,True,VCV000376665,Pathogenic/Likely pathogenic
+p.S241C,241,S,C,1,test,1,0.99,True,VCV000177791,Pathogenic/Likely pathogenic
+p.S241F,241,S,F,1,train,1,0.9975,True,VCV000012359,Pathogenic/Likely pathogenic
+p.S241T,241,S,T,1,train,1,0.9525,True,VCV000959232,Pathogenic/Likely pathogenic
 p.S241Y,241,S,Y,1,train,1,0.9925,True,VCV000376663,Pathogenic/Likely pathogenic
-p.C242W,242,C,W,1,train,1,0.98,True,VCV000376580,Pathogenic
-p.C242Y,242,C,Y,1,train,1,0.9975,True,VCV000012354,Pathogenic/Likely pathogenic
-p.G244A,244,G,A,1,train,1,0.8975,True,VCV000458560,Pathogenic/Likely pathogenic
-p.G244D,244,G,D,1,train,1,0.94,True,VCV000372785,Pathogenic/Likely pathogenic
-p.G244S,244,G,S,1,train,1,0.93,True,VCV000376600,Pathogenic
-p.G244V,244,G,V,1,test,1,0.935,True,VCV000376601,Likely pathogenic
-p.G245C,245,G,C,1,train,1,0.9875,True,VCV000012349,Pathogenic
-p.G245D,245,G,D,1,train,1,0.9875,True,VCV000012355,Pathogenic/Likely pathogenic
-p.G245S,245,G,S,1,test,1,0.97,True,VCV000012365,Pathogenic
-p.G245V,245,G,V,1,train,1,0.9875,True,VCV000376603,Pathogenic
-p.M246I,246,M,I,1,train,1,0.9725,True,VCV000480961,Pathogenic/Likely pathogenic
-p.M246K,246,M,K,1,train,1,0.9825,True,VCV000480764,Likely pathogenic
-p.M246V,246,M,V,1,train,1,0.99,True,VCV000100815,Pathogenic/Likely pathogenic
-p.N247I,247,N,I,1,test,1,0.9375,True,VCV000184882,Pathogenic
-p.R248G,248,R,G,1,train,1,1.0,True,VCV000376652,Pathogenic/Likely pathogenic
-p.R248L,248,R,L,1,train,1,0.9975,True,VCV000230253,Pathogenic
-p.R248P,248,R,P,1,train,1,1.0,True,VCV000237954,Pathogenic/Likely pathogenic
-p.R248Q,248,R,Q,1,train,1,0.9875,True,VCV000012356,Pathogenic
-p.R248W,248,R,W,1,test,1,0.9975,True,VCV000012347,Pathogenic
-p.R249S,249,R,S,1,train,1,1.0,True,VCV000012352,Pathogenic/Likely pathogenic
+p.C242F,242,C,F,1,test,1,0.9375,True,VCV000376578,Likely pathogenic
+p.C242G,242,C,G,1,train,1,0.985,True,VCV000376581,Likely pathogenic
+p.C242R,242,C,R,1,train,1,0.9875,True,VCV000449512,Pathogenic
+p.C242S,242,C,S,1,test,1,0.845,True,VCV000376579,Uncertain significance
+p.C242W,242,C,W,1,test,1,0.935,True,VCV000376580,Pathogenic
+p.C242Y,242,C,Y,1,train,1,0.915,True,VCV000012354,Pathogenic/Likely pathogenic
+p.M243I,243,M,I,0,train,0,0.19,True,VCV000840505,Uncertain significance
+p.M243T,243,M,T,1,train,1,0.9375,True,VCV000182936,Uncertain significance
+p.M243V,243,M,V,0,train,0,0.25,True,VCV000406567,Uncertain significance
+p.G244A,244,G,A,1,train,1,0.935,True,VCV000458560,Pathogenic/Likely pathogenic
+p.G244C,244,G,C,1,train,1,0.9675,True,VCV000376599,Pathogenic
+p.G244D,244,G,D,1,train,1,0.95,True,VCV000372785,Pathogenic/Likely pathogenic
+p.G244S,244,G,S,1,train,1,0.95,True,VCV000376600,Pathogenic
+p.G244V,244,G,V,1,train,1,0.96,True,VCV000376601,Likely pathogenic
+p.G245A,245,G,A,1,train,1,0.97,True,VCV000265357,Likely pathogenic
+p.G245C,245,G,C,1,train,1,0.9775,True,VCV000012349,Pathogenic
+p.G245D,245,G,D,1,train,1,0.985,True,VCV000012355,Pathogenic/Likely pathogenic
+p.G245R,245,G,R,1,train,1,0.9825,True,VCV000376604,Likely pathogenic
+p.G245S,245,G,S,1,train,1,0.9725,True,VCV000012365,Pathogenic
+p.G245V,245,G,V,1,train,1,0.975,True,VCV000376603,Pathogenic
+p.M246I,246,M,I,1,test,1,0.63,True,VCV000480961,Pathogenic/Likely pathogenic
+p.M246K,246,M,K,1,train,1,0.9725,True,VCV000480764,Likely pathogenic
+p.M246L,246,M,L,1,train,1,0.8825,True,VCV000186737,Uncertain significance
+p.M246R,246,M,R,1,test,1,0.965,True,VCV000127822,pathogenic
+p.M246T,246,M,T,1,train,1,0.9875,True,VCV000428886,Likely pathogenic
+p.M246V,246,M,V,1,train,1,0.8475,True,VCV000100815,Pathogenic/Likely pathogenic
+p.N247I,247,N,I,1,test,1,0.8,True,VCV000184882,Pathogenic
+p.N247S,247,N,S,0,train,0,0.2525,True,VCV000406595,Likely benign
+p.R248G,248,R,G,1,test,1,0.975,True,VCV000376652,Pathogenic/Likely pathogenic
+p.R248L,248,R,L,1,test,1,0.98,True,VCV000230253,Pathogenic
+p.R248P,248,R,P,1,train,1,0.9975,True,VCV000237954,Pathogenic/Likely pathogenic
+p.R248Q,248,R,Q,1,train,1,0.9575,True,VCV000012356,Pathogenic
+p.R248W,248,R,W,1,train,1,0.98,True,VCV000012347,Pathogenic
+p.R249G,249,R,G,1,train,1,0.965,True,VCV000376654,Likely pathogenic
+p.R249K,249,R,K,1,test,1,0.6275,True,VCV000142241,Uncertain significance
+p.R249M,249,R,M,1,train,1,0.96,True,VCV000376653,Likely pathogenic
+p.R249S,249,R,S,1,train,1,0.99,True,VCV000012352,Pathogenic/Likely pathogenic
 p.R249T,249,R,T,1,train,1,0.99,True,VCV000376015,Pathogenic/Likely pathogenic
-p.P250L,250,P,L,1,train,1,0.9125,True,VCV000420136,Pathogenic/Likely pathogenic
-p.I251F,251,I,F,1,train,1,0.925,True,VCV001518844,Pathogenic/Likely pathogenic
-p.I251L,251,I,L,1,train,1,0.9375,True,VCV000182937,Pathogenic/Likely pathogenic
-p.T253A,253,T,A,1,train,1,0.9025,True,VCV000827132,Pathogenic/Likely pathogenic
-p.I254N,254,I,N,1,test,1,0.9325,True,VCV000856299,Pathogenic
-p.I254T,254,I,T,1,train,1,0.9325,True,VCV001759844,Pathogenic
-p.I254V,254,I,V,0,train,0,0.3425,True,VCV000406605,Likely benign
-p.E258K,258,E,K,1,train,1,0.8875,True,VCV000012348,Pathogenic/Likely pathogenic
-p.D259A,259,D,A,1,train,1,0.7075,True,VCV002671888,Pathogenic
-p.S260Y,260,S,Y,0,train,0,0.08,True,VCV000231033,Likely benign
-p.G262S,262,G,S,0,train,0,0.11,True,VCV000141228,Likely benign
-p.N263S,263,N,S,0,train,0,0.07,True,VCV000827313,Likely benign
-p.L265P,265,L,P,1,train,1,0.96,True,VCV000245777,Pathogenic/Likely pathogenic
-p.L265Q,265,L,Q,1,train,1,0.9675,True,VCV000953467,Pathogenic/Likely pathogenic
-p.G266E,266,G,E,1,train,1,0.93,True,VCV000161516,Pathogenic/Likely pathogenic
-p.G266R,266,G,R,1,train,1,0.92,True,VCV000458566,Pathogenic
-p.R267G,267,R,G,1,test,1,0.9825,True,VCV001761541,Pathogenic
-p.R267P,267,R,P,1,train,1,1.0,True,VCV000428867,Pathogenic
-p.R267W,267,R,W,1,train,1,0.9875,True,VCV000141764,Pathogenic/Likely pathogenic
-p.S269C,269,S,C,0,train,0,0.35,True,VCV002575177,Benign
-p.S269I,269,S,I,1,train,1,0.8225,True,VCV002575169,Likely pathogenic
+p.R249W,249,R,W,1,test,1,0.9725,True,VCV000141881,Likely pathogenic
+p.P250L,250,P,L,1,test,1,0.7875,True,VCV000420136,Pathogenic/Likely pathogenic
+p.I251F,251,I,F,1,train,1,0.9575,True,VCV001518844,Pathogenic/Likely pathogenic
+p.I251L,251,I,L,1,train,1,0.835,True,VCV000182937,Pathogenic/Likely pathogenic
+p.I251N,251,I,N,1,train,1,0.995,True,VCV000528254,Pathogenic
+p.I251S,251,I,S,1,train,1,0.9925,True,VCV000182967,Likely pathogenic
+p.I251T,251,I,T,1,train,1,0.9875,True,VCV000439320,Uncertain significance
+p.L252V,252,L,V,0,train,0,0.33,True,VCV001759470,Likely benign
+p.T253A,253,T,A,1,train,1,0.805,True,VCV000827132,Pathogenic/Likely pathogenic
+p.T253I,253,T,I,1,train,1,0.9325,True,VCV000837688,Uncertain significance
+p.T253P,253,T,P,1,train,1,0.9475,True,VCV003148769,Likely pathogenic
+p.I254N,254,I,N,1,train,1,1.0,True,VCV000856299,Pathogenic
+p.I254S,254,I,S,1,train,1,1.0,True,VCV000659457,Pathogenic
+p.I254T,254,I,T,1,train,1,0.9925,True,VCV001759844,Pathogenic
+p.I254V,254,I,V,0,train,0,0.2525,True,VCV000406605,Likely benign
+p.I255F,255,I,F,1,train,1,0.9375,True,VCV000376621,Likely pathogenic
+p.I255N,255,I,N,1,train,1,1.0,True,VCV000232289,Uncertain significance
+p.I255S,255,I,S,1,train,1,1.0,True,VCV000376622,Uncertain significance
+p.I255T,255,I,T,1,train,1,0.995,True,VCV000376623,Uncertain significance
+p.T256P,256,T,P,1,train,1,0.9425,True,VCV000528269,Uncertain significance
+p.L257P,257,L,P,1,train,1,0.975,True,VCV000458562,Likely pathogenic
+p.L257Q,257,L,Q,1,train,1,0.9575,True,VCV000012372,Pathogenic
+p.L257R,257,L,R,1,train,1,0.98,True,VCV000142134,Likely pathogenic
+p.L257V,257,L,V,1,train,1,0.8125,True,VCV000827201,Uncertain significance
+p.E258D,258,E,D,1,train,1,0.8375,True,VCV001360091,Uncertain significance
+p.E258G,258,E,G,1,train,1,0.9425,True,VCV000406590,Likely pathogenic
+p.E258K,258,E,K,1,train,1,0.9275,True,VCV000012348,Pathogenic/Likely pathogenic
+p.E258V,258,E,V,1,train,1,0.96,True,VCV002808296,Uncertain significance
+p.D259A,259,D,A,1,train,1,0.8525,True,VCV002671888,Pathogenic
+p.D259V,259,D,V,1,train,1,0.92,True,VCV000485034,Uncertain significance
+p.S260Y,260,S,Y,0,train,0,0.16,True,VCV000231033,Likely benign
+p.S261G,261,S,G,0,test,0,0.105,True,VCV001383522,Likely benign
+p.S261R,261,S,R,0,train,0,0.075,True,VCV003708635,Uncertain significance
+p.G262S,262,G,S,0,train,0,0.115,True,VCV000141228,Likely benign
+p.G262V,262,G,V,1,train,1,0.68,True,VCV000428889,Uncertain significance
+p.N263D,263,N,D,0,train,0,0.035,True,VCV000142916,Likely benign
+p.N263S,263,N,S,0,train,0,0.035,True,VCV000827313,Likely benign
+p.L265P,265,L,P,1,test,1,0.8875,True,VCV000245777,Pathogenic/Likely pathogenic
+p.L265Q,265,L,Q,1,test,1,0.87,True,VCV000953467,Pathogenic/Likely pathogenic
+p.G266E,266,G,E,1,train,1,0.9525,True,VCV000161516,Pathogenic/Likely pathogenic
+p.G266R,266,G,R,1,train,1,0.935,True,VCV000458566,Pathogenic
+p.G266V,266,G,V,1,train,1,0.945,True,VCV000233303,Uncertain significance
+p.R267G,267,R,G,1,train,1,0.97,True,VCV001761541,Pathogenic
+p.R267P,267,R,P,1,train,1,0.995,True,VCV000428867,Pathogenic
+p.R267W,267,R,W,1,test,1,0.9575,True,VCV000141764,Pathogenic/Likely pathogenic
+p.N268K,268,N,K,0,train,0,0.3075,True,VCV001349719,Uncertain significance
+p.S269C,269,S,C,0,test,1,0.9825,False,VCV002575177,Benign
+p.S269I,269,S,I,1,train,1,0.975,True,VCV002575169,Likely pathogenic
+p.F270C,270,F,C,1,train,1,0.995,True,VCV000376597,Likely pathogenic
+p.F270I,270,F,I,1,train,1,0.9775,True,VCV000376596,Likely pathogenic
 p.F270L,270,F,L,1,train,1,0.955,True,VCV000634778,Pathogenic/Likely pathogenic
-p.F270V,270,F,V,1,train,1,0.9825,True,VCV000376598,Pathogenic
-p.E271V,271,E,V,1,test,1,0.8725,True,VCV003147994,Likely pathogenic
-p.V272L,272,V,L,1,train,1,0.8775,True,VCV000574679,Pathogenic
-p.V272M,272,V,M,1,test,1,0.9425,True,VCV000185814,Pathogenic
-p.R273C,273,R,C,1,train,1,0.9575,True,VCV000043594,Pathogenic/Likely pathogenic
-p.R273G,273,R,G,1,test,1,1.0,True,VCV000634682,Pathogenic/Likely pathogenic
-p.R273H,273,R,H,1,train,1,0.9625,True,VCV000012366,Pathogenic
-p.R273L,273,R,L,1,train,1,0.9825,True,VCV000376655,Pathogenic
-p.R273P,273,R,P,1,train,1,0.995,True,VCV000231060,Pathogenic/Likely pathogenic
-p.R273S,273,R,S,1,train,1,1.0,True,VCV000376656,Pathogenic
-p.V274I,274,V,I,0,train,0,0.3525,True,VCV003460325,Benign
-p.C275F,275,C,F,1,train,1,0.955,True,VCV000376582,Pathogenic
-p.C275Y,275,C,Y,1,test,1,0.97,True,VCV000215997,Pathogenic/Likely pathogenic
-p.A276G,276,A,G,1,train,1,0.9625,True,VCV000185319,Pathogenic/Likely pathogenic
-p.C277G,277,C,G,1,test,1,0.92,True,VCV002757236,Likely pathogenic
-p.P278L,278,P,L,1,train,1,0.9775,True,VCV000232497,Pathogenic
-p.P278S,278,P,S,1,test,1,0.925,True,VCV000376642,Pathogenic/Likely pathogenic
-p.P278T,278,P,T,1,train,1,0.9375,True,VCV000376643,Pathogenic/Likely pathogenic
-p.R280S,280,R,S,1,train,1,0.985,True,VCV000988616,Pathogenic
-p.R280T,280,R,T,1,train,1,0.98,True,VCV000012368,Pathogenic/Likely pathogenic
-p.D281A,281,D,A,1,train,1,0.9675,True,VCV000376589,Pathogenic/Likely pathogenic
-p.D281E,281,D,E,1,test,1,0.8075,True,VCV000406568,Pathogenic/Likely pathogenic
-p.D281G,281,D,G,1,test,1,0.94,True,VCV000141141,Pathogenic
-p.D281H,281,D,H,1,train,1,0.96,True,VCV000376588,Pathogenic/Likely pathogenic
-p.D281N,281,D,N,1,train,1,0.9025,True,VCV000376586,Pathogenic/Likely pathogenic
-p.D281V,281,D,V,1,train,1,0.965,True,VCV000182968,Pathogenic/Likely pathogenic
-p.D281Y,281,D,Y,1,train,1,0.905,True,VCV000376585,Pathogenic/Likely pathogenic
-p.R282G,282,R,G,1,train,1,0.9875,True,VCV000140821,Pathogenic
+p.F270S,270,F,S,1,train,1,0.9675,True,VCV000376594,Likely pathogenic
+p.F270V,270,F,V,1,train,1,0.985,True,VCV000376598,Pathogenic
+p.E271K,271,E,K,1,train,1,0.9475,True,VCV000406566,Likely pathogenic
+p.E271V,271,E,V,1,train,1,0.9875,True,VCV003147994,Likely pathogenic
+p.V272E,272,V,E,1,train,1,0.9925,True,VCV000376673,Likely pathogenic
+p.V272G,272,V,G,1,train,1,0.9975,True,VCV000233323,Likely pathogenic
+p.V272L,272,V,L,1,train,1,0.94,True,VCV000574679,Pathogenic
+p.V272M,272,V,M,1,train,1,0.975,True,VCV000185814,Pathogenic
+p.R273C,273,R,C,1,train,1,0.875,True,VCV000043594,Pathogenic/Likely pathogenic
+p.R273G,273,R,G,1,train,1,0.985,True,VCV000634682,Pathogenic/Likely pathogenic
+p.R273H,273,R,H,1,train,1,0.935,True,VCV000012366,Pathogenic
+p.R273L,273,R,L,1,test,1,0.9925,True,VCV000376655,Pathogenic
+p.R273P,273,R,P,1,train,1,0.9975,True,VCV000231060,Pathogenic/Likely pathogenic
+p.R273S,273,R,S,1,train,1,0.9925,True,VCV000376656,Pathogenic
+p.V274A,274,V,A,1,train,1,0.975,True,VCV000376677,Uncertain significance
+p.V274D,274,V,D,1,train,1,0.975,True,VCV000376675,Uncertain significance
+p.V274F,274,V,F,1,test,1,0.7825,True,VCV000376674,Pathogenic
+p.V274G,274,V,G,1,train,1,0.9975,True,VCV000376676,Pathogenic
+p.V274I,274,V,I,0,train,0,0.3625,True,VCV003460325,Benign
+p.V274L,274,V,L,1,train,1,0.84,True,VCV000376678,Likely pathogenic
+p.C275F,275,C,F,1,test,1,0.985,True,VCV000376582,Pathogenic
+p.C275G,275,C,G,1,train,1,0.9975,True,VCV001414106,Uncertain significance
+p.C275R,275,C,R,1,train,1,0.9975,True,VCV000376584,Likely pathogenic
+p.C275S,275,C,S,1,train,1,0.9725,True,VCV000376583,Uncertain significance
+p.C275W,275,C,W,1,train,1,0.9825,True,VCV000485044,Likely pathogenic
+p.C275Y,275,C,Y,1,test,1,0.99,True,VCV000215997,Pathogenic/Likely pathogenic
+p.A276D,276,A,D,1,train,1,0.9925,True,VCV000232683,Likely pathogenic
+p.A276G,276,A,G,1,train,1,0.965,True,VCV000185319,Pathogenic/Likely pathogenic
+p.A276P,276,A,P,1,train,1,0.9375,True,VCV000428893,Uncertain significance
+p.C277F,277,C,F,1,train,1,0.9775,True,VCV000458567,Uncertain significance
+p.C277G,277,C,G,1,train,1,0.985,True,VCV002757236,Likely pathogenic
+p.C277Y,277,C,Y,1,train,1,0.9675,True,VCV000185722,Likely pathogenic
+p.P278A,278,P,A,1,train,1,0.9525,True,VCV000376645,Likely pathogenic
+p.P278L,278,P,L,1,train,1,0.945,True,VCV000232497,Pathogenic
+p.P278R,278,P,R,1,train,1,0.9075,True,VCV000376644,Likely pathogenic
+p.P278S,278,P,S,1,train,1,0.965,True,VCV000376642,Pathogenic/Likely pathogenic
+p.P278T,278,P,T,1,train,1,0.9675,True,VCV000376643,Pathogenic/Likely pathogenic
+p.G279R,279,G,R,1,train,1,0.98,True,VCV000458568,Uncertain significance
+p.R280G,280,R,G,1,train,1,0.98,True,VCV000376658,Likely pathogenic
+p.R280I,280,R,I,1,train,1,0.99,True,VCV000161517,Uncertain significance
+p.R280K,280,R,K,1,train,1,0.8775,True,VCV000376657,Pathogenic
+p.R280S,280,R,S,1,test,1,0.98,True,VCV000988616,Pathogenic
+p.R280T,280,R,T,1,test,1,0.98,True,VCV000012368,Pathogenic/Likely pathogenic
+p.D281A,281,D,A,1,train,1,0.9,True,VCV000376589,Pathogenic/Likely pathogenic
+p.D281E,281,D,E,1,test,1,0.7875,True,VCV000406568,Pathogenic/Likely pathogenic
+p.D281G,281,D,G,1,train,1,0.975,True,VCV000141141,Pathogenic
+p.D281H,281,D,H,1,train,1,0.955,True,VCV000376588,Pathogenic/Likely pathogenic
+p.D281N,281,D,N,1,train,1,0.8975,True,VCV000376586,Pathogenic/Likely pathogenic
+p.D281V,281,D,V,1,test,1,0.96,True,VCV000182968,Pathogenic/Likely pathogenic
+p.D281Y,281,D,Y,1,train,1,0.925,True,VCV000376585,Pathogenic/Likely pathogenic
+p.R282G,282,R,G,1,train,1,0.975,True,VCV000140821,Pathogenic
 p.R282P,282,R,P,1,train,1,0.99,True,VCV000376659,Pathogenic/Likely pathogenic
-p.R282W,282,R,W,1,train,1,0.975,True,VCV000012364,Pathogenic/Likely pathogenic
-p.R283C,283,R,C,0,train,0,0.3525,True,VCV000127824,Likely benign
-p.R283P,283,R,P,1,train,1,0.8775,True,VCV000486555,Pathogenic
-p.T284I,284,T,I,0,train,0,0.3325,True,VCV000216471,Likely benign
-p.E285K,285,E,K,1,train,1,0.8,True,VCV000420133,Pathogenic/Likely pathogenic
-p.E285V,285,E,V,1,train,1,0.8725,True,VCV000012384,Pathogenic
-p.E286A,286,E,A,1,test,1,0.705,True,VCV000376593,Likely pathogenic
-p.E286K,286,E,K,1,test,1,0.66,True,VCV000183752,Pathogenic/Likely pathogenic
-p.E287G,287,E,G,0,test,1,0.675,False,VCV004757808,Likely benign
-p.L289P,289,L,P,0,test,0,0.44,True,VCV001172923,Likely benign
-p.R290C,290,R,C,0,train,0,0.195,True,VCV000216472,Benign
-p.R290H,290,R,H,0,train,0,0.0425,True,VCV000127825,Benign
-p.K292R,292,K,R,0,train,0,0.0425,True,VCV000406577,Likely benign
-p.G293W,293,G,W,0,test,1,0.5075,False,VCV000127826,Likely benign
-p.P295S,295,P,S,0,train,0,0.09,True,VCV000428862,Likely benign
-p.H296R,296,H,R,1,train,1,0.6325,True,VCV000100816,Likely pathogenic
-p.H296Y,296,H,Y,0,train,0,0.125,True,VCV000132973,Likely benign
-p.E298K,298,E,K,0,train,0,0.035,True,VCV000141483,Benign
-p.L299V,299,L,V,0,train,0,0.03,True,VCV004824211,Likely benign
-p.P300L,300,P,L,0,train,0,0.015,True,VCV001765377,Likely benign
-p.G302A,302,G,A,0,train,0,0.015,True,VCV003328162,Likely benign
-p.S303G,303,S,G,0,test,0,0.03,True,VCV000142332,Likely benign
-p.A307G,307,A,G,0,train,0,0.025,True,VCV000485027,Likely benign
-p.N310K,310,N,K,0,train,0,0.0075,True,VCV000428879,Likely benign
-p.N310S,310,N,S,0,test,0,0.0125,True,VCV001766454,Likely benign
-p.T312N,312,T,N,0,test,0,0.0275,True,VCV001766672,Likely benign
-p.T312S,312,T,S,0,train,0,0.0025,True,VCV000141102,Benign
-p.S313N,313,S,N,0,train,0,0.015,True,VCV002450750,Likely benign
-p.S315T,315,S,T,0,test,0,0.0025,True,VCV000185212,Likely benign
-p.P316T,316,P,T,0,test,0,0.0,True,VCV000230382,Likely benign
-p.Q317K,317,Q,K,0,train,0,0.0025,True,VCV000231008,Benign
-p.P318S,318,P,S,0,train,0,0.0025,True,VCV002575170,Benign
-p.K319T,319,K,T,0,train,0,0.0675,True,VCV003328169,Likely benign
-p.D324E,324,D,E,0,train,0,0.0075,True,VCV002450758,Likely benign
-p.D324N,324,D,N,0,train,0,0.01,True,VCV002578516,Benign
-p.E326D,326,E,D,0,train,0,0.0,True,VCV003972458,Likely benign
-p.E326V,326,E,V,1,test,0,0.0625,False,VCV002578514,Likely pathogenic
-p.L330I,330,L,I,0,train,0,0.02,True,VCV004865862,Likely benign
-p.I332L,332,I,L,0,test,0,0.1375,True,VCV004189263,Likely benign
-p.I332N,332,I,N,1,train,1,0.8425,True,VCV001768732,Likely pathogenic
-p.R333C,333,R,C,0,test,1,0.515,False,VCV000184745,Likely benign
-p.R333H,333,R,H,0,train,0,0.085,True,VCV000142273,Benign
-p.G334W,334,G,W,1,train,1,0.7,True,VCV000428876,Likely pathogenic
-p.R335C,335,R,C,0,train,0,0.305,True,VCV000141159,Likely benign
-p.R335L,335,R,L,0,train,0,0.11,True,VCV003328160,Likely benign
-p.E336Q,336,E,Q,0,train,0,0.0475,True,VCV002450754,Likely benign
-p.R337C,337,R,C,1,train,1,0.885,True,VCV000142536,Pathogenic
-p.R337G,337,R,G,1,train,1,0.9525,True,VCV000237938,Likely pathogenic
-p.R337L,337,R,L,1,test,0,0.49,False,VCV000142828,Likely pathogenic
-p.R337P,337,R,P,1,train,1,0.96,True,VCV000177879,Likely pathogenic
-p.R337Q,337,R,Q,0,test,0,0.285,True,VCV000492644,Likely benign
-p.R337S,337,R,S,1,train,1,0.9275,True,VCV001019612,Likely pathogenic
-p.E339Q,339,E,Q,0,train,0,0.0025,True,VCV000141893,Likely benign
-p.M340I,340,M,I,0,train,0,0.005,True,VCV003256325,Likely benign
-p.M340L,340,M,L,0,train,0,0.005,True,VCV004865879,Likely benign
-p.M340V,340,M,V,0,train,0,0.0075,True,VCV004865872,Likely benign
-p.F341L,341,F,L,0,train,0,0.0425,True,VCV002585878,Likely benign
-p.F341S,341,F,S,1,train,1,0.825,True,VCV002450748,Likely pathogenic
-p.R342P,342,R,P,1,train,1,0.8025,True,VCV000215996,Pathogenic
-p.R342Q,342,R,Q,0,train,0,0.0725,True,VCV000233136,Likely benign
-p.E343D,343,E,D,0,train,0,0.0075,True,VCV003460327,Benign
-p.L344P,344,L,P,1,train,1,0.785,True,VCV000012375,Likely pathogenic
-p.L344R,344,L,R,1,test,0,0.4725,False,VCV002758378,Likely pathogenic
-p.A347D,347,A,D,1,train,1,0.72,True,VCV000043587,Pathogenic
-p.A347G,347,A,G,0,test,0,0.2225,True,VCV002683739,Likely benign
-p.E349G,349,E,G,0,test,0,0.355,True,VCV001775423,Likely benign
-p.L350R,350,L,R,0,train,0,0.235,True,VCV004189250,Likely benign
-p.A353V,353,A,V,0,train,0,0.005,True,VCV004865861,Likely benign
+p.R282Q,282,R,Q,1,train,1,0.9525,True,VCV000237956,Uncertain significance
+p.R282W,282,R,W,1,train,1,0.98,True,VCV000012364,Pathogenic/Likely pathogenic
+p.R283C,283,R,C,0,test,1,0.6725,False,VCV000127824,Likely benign
+p.R283P,283,R,P,1,test,1,0.945,True,VCV000486555,Pathogenic
+p.T284A,284,T,A,0,train,0,0.15,True,VCV000964952,Likely benign
+p.T284I,284,T,I,0,train,0,0.2975,True,VCV000216471,Likely benign
+p.T284P,284,T,P,1,test,1,0.5,True,VCV001763670,Likely pathogenic
+p.T284S,284,T,S,0,train,0,0.1525,True,VCV000458571,Uncertain significance
+p.E285K,285,E,K,1,train,1,0.8475,True,VCV000420133,Pathogenic/Likely pathogenic
+p.E285V,285,E,V,1,train,1,0.9425,True,VCV000012384,Pathogenic
+p.E286A,286,E,A,1,train,1,0.95,True,VCV000376593,Likely pathogenic
+p.E286G,286,E,G,1,train,1,0.93,True,VCV000376590,Likely pathogenic
+p.E286K,286,E,K,1,train,1,0.925,True,VCV000183752,Pathogenic/Likely pathogenic
+p.E286Q,286,E,Q,1,train,1,0.8775,True,VCV000376591,Likely pathogenic
+p.E287D,287,E,D,0,train,0,0.115,True,VCV000422130,Uncertain significance
+p.E287G,287,E,G,0,train,0,0.245,True,VCV004757808,Likely benign
+p.E287K,287,E,K,0,train,0,0.19,True,VCV000141781,Uncertain significance
+p.L289F,289,L,F,0,train,0,0.0225,True,VCV000822635,Likely benign
+p.L289I,289,L,I,0,test,0,0.015,True,VCV001439164,Uncertain significance
+p.L289P,289,L,P,0,test,0,0.3875,True,VCV001172923,Likely benign
+p.L289V,289,L,V,0,train,0,0.0175,True,VCV000496049,Uncertain significance
+p.R290C,290,R,C,0,train,0,0.0675,True,VCV000216472,Benign
+p.R290G,290,R,G,0,train,0,0.1025,True,VCV000628970,Uncertain significance
+p.R290H,290,R,H,0,train,0,0.0175,True,VCV000127825,Benign
+p.K291E,291,K,E,0,test,0,0.2325,True,VCV000480951,Uncertain significance
+p.K291N,291,K,N,0,train,0,0.04,True,VCV000629930,Uncertain significance
+p.K292E,292,K,E,0,test,0,0.2325,True,VCV001006477,Uncertain significance
+p.K292R,292,K,R,0,train,0,0.01,True,VCV000406577,Likely benign
+p.K292T,292,K,T,0,train,0,0.02,True,VCV001021706,Uncertain significance
+p.G293R,293,G,R,0,train,0,0.1675,True,VCV000230208,Uncertain significance
+p.G293W,293,G,W,0,test,0,0.1925,True,VCV000127826,Likely benign
+p.E294K,294,E,K,0,test,0,0.135,True,VCV001001614,Uncertain significance
+p.P295L,295,P,L,0,train,0,0.04,True,VCV000420974,Uncertain significance
+p.P295S,295,P,S,0,train,0,0.0625,True,VCV000428862,Likely benign
+p.H296R,296,H,R,1,train,1,0.6625,True,VCV000100816,Likely pathogenic
+p.H296Y,296,H,Y,0,train,0,0.1525,True,VCV000132973,Likely benign
+p.E298K,298,E,K,0,train,0,0.04,True,VCV000141483,Benign
+p.E298Q,298,E,Q,0,test,0,0.0425,True,VCV001495821,Uncertain significance
+p.L299P,299,L,P,0,test,0,0.22,True,VCV002036477,Uncertain significance
+p.L299V,299,L,V,0,train,0,0.0125,True,VCV004824211,Likely benign
+p.P300L,300,P,L,0,train,0,0.0025,True,VCV001765377,Likely benign
+p.P301L,301,P,L,0,test,0,0.0025,True,VCV000481049,Uncertain significance
+p.G302A,302,G,A,0,train,0,0.0,True,VCV003328162,Likely benign
+p.G302E,302,G,E,0,train,0,0.015,True,VCV000406591,Uncertain significance
+p.G302R,302,G,R,0,test,0,0.0225,True,VCV001047514,Likely benign
+p.S303G,303,S,G,0,train,0,0.0025,True,VCV000142332,Likely benign
+p.S303N,303,S,N,0,train,0,0.005,True,VCV000230695,Uncertain significance
+p.S303R,303,S,R,0,train,0,0.005,True,VCV001024359,Uncertain significance
+p.T304A,304,T,A,0,train,0,0.0,True,VCV000142702,Uncertain significance
+p.R306Q,306,R,Q,0,train,0,0.015,True,VCV000458574,Uncertain significance
+p.A307G,307,A,G,0,train,0,0.0,True,VCV000485027,Likely benign
+p.A307T,307,A,T,0,train,0,0.0,True,VCV002809879,Likely benign
+p.A307V,307,A,V,0,train,0,0.0,True,VCV000666137,Likely benign
+p.P309S,309,P,S,0,train,0,0.0025,True,VCV000458575,Uncertain significance
+p.N310D,310,N,D,0,train,0,0.0,True,VCV000651517,Likely benign
+p.N310K,310,N,K,0,train,0,0.0,True,VCV000428879,Likely benign
+p.N310S,310,N,S,0,train,0,0.0,True,VCV001766454,Likely benign
+p.N311H,311,N,H,0,train,0,0.0,True,VCV000528240,Uncertain significance
+p.N311S,311,N,S,0,train,0,0.0,True,VCV000406589,Uncertain significance
+p.T312N,312,T,N,0,train,0,0.005,True,VCV001766672,Likely benign
+p.T312S,312,T,S,0,train,0,0.0,True,VCV000141102,Benign
+p.S313N,313,S,N,0,test,0,0.0025,True,VCV002450750,Likely benign
+p.S314F,314,S,F,0,train,0,0.0025,True,VCV000406587,Uncertain significance
+p.S315T,315,S,T,0,test,0,0.0,True,VCV000185212,Likely benign
+p.P316L,316,P,L,0,train,0,0.0025,True,VCV000528273,Uncertain significance
+p.P316S,316,P,S,0,train,0,0.0,True,VCV000823268,Uncertain significance
+p.P316T,316,P,T,0,train,0,0.0,True,VCV000230382,Likely benign
+p.Q317H,317,Q,H,0,train,0,0.0,True,VCV000406585,Likely benign
+p.Q317K,317,Q,K,0,train,0,0.0,True,VCV000231008,Benign
+p.Q317R,317,Q,R,0,train,0,0.0,True,VCV000581024,Uncertain significance
+p.P318L,318,P,L,0,train,0,0.0025,True,VCV000492627,Uncertain significance
+p.P318S,318,P,S,0,test,0,0.0,True,VCV002575170,Benign
+p.K319T,319,K,T,0,train,0,0.01,True,VCV003328169,Likely benign
+p.P322S,322,P,S,0,train,0,0.0,True,VCV000216475,Uncertain significance
+p.D324E,324,D,E,0,test,0,0.01,True,VCV002450758,Likely benign
+p.D324H,324,D,H,0,train,0,0.0075,True,VCV000420950,Uncertain significance
+p.D324N,324,D,N,0,test,0,0.0125,True,VCV002578516,Benign
+p.G325E,325,G,E,0,test,0,0.0525,True,VCV000480952,Uncertain significance
+p.G325R,325,G,R,0,train,0,0.05,True,VCV000480740,Likely benign
+p.E326D,326,E,D,0,train,0,0.055,True,VCV003972458,Likely benign
+p.E326V,326,E,V,1,train,1,0.64,True,VCV002578514,Likely pathogenic
+p.T329A,329,T,A,0,train,0,0.0075,True,VCV000939133,Likely benign
+p.T329I,329,T,I,0,test,0,0.035,True,VCV000652718,Uncertain significance
+p.L330I,330,L,I,0,train,0,0.0175,True,VCV004865862,Likely benign
+p.Q331E,331,Q,E,0,test,0,0.0625,True,VCV001950710,Uncertain significance
+p.Q331R,331,Q,R,0,train,0,0.0075,True,VCV000421319,Uncertain significance
+p.I332L,332,I,L,0,train,0,0.04,True,VCV004189263,Likely benign
+p.I332N,332,I,N,1,train,1,0.8575,True,VCV001768732,Likely pathogenic
+p.R333C,333,R,C,0,train,0,0.1375,True,VCV000184745,Likely benign
+p.R333H,333,R,H,0,test,0,0.04,True,VCV000142273,Benign
+p.G334R,334,G,R,1,train,1,0.7225,True,VCV000186086,Likely pathogenic
+p.G334W,334,G,W,1,test,0,0.4075,False,VCV000428876,Likely pathogenic
+p.R335C,335,R,C,0,train,0,0.0525,True,VCV000141159,Likely benign
+p.R335H,335,R,H,0,train,0,0.0225,True,VCV000480738,Uncertain significance
+p.R335L,335,R,L,0,train,0,0.1075,True,VCV003328160,Likely benign
+p.E336G,336,E,G,0,train,0,0.105,True,VCV003780730,Uncertain significance
+p.E336Q,336,E,Q,0,train,0,0.03,True,VCV002450754,Likely benign
+p.R337C,337,R,C,1,test,1,0.705,True,VCV000142536,Pathogenic
+p.R337G,337,R,G,1,train,1,0.915,True,VCV000237938,Likely pathogenic
+p.R337L,337,R,L,1,train,1,0.77,True,VCV000142828,Likely pathogenic
+p.R337P,337,R,P,1,train,1,0.8675,True,VCV000177879,Likely pathogenic
+p.R337Q,337,R,Q,0,train,0,0.19,True,VCV000492644,Likely benign
+p.R337S,337,R,S,1,train,1,0.8825,True,VCV001019612,Likely pathogenic
+p.F338L,338,F,L,0,train,0,0.03,True,VCV000482226,Uncertain significance
+p.E339G,339,E,G,0,train,0,0.035,True,VCV000822016,Uncertain significance
+p.E339K,339,E,K,0,test,0,0.0025,True,VCV000142846,Likely benign
+p.E339Q,339,E,Q,0,train,0,0.0,True,VCV000141893,Likely benign
+p.E339V,339,E,V,0,test,0,0.3375,True,VCV000959616,Uncertain significance
+p.M340I,340,M,I,0,train,0,0.01,True,VCV003256325,Likely benign
+p.M340L,340,M,L,0,train,0,0.01,True,VCV004865879,Likely benign
+p.M340V,340,M,V,0,train,0,0.005,True,VCV004865872,Likely benign
+p.F341L,341,F,L,0,train,0,0.0325,True,VCV002585878,Likely benign
+p.F341S,341,F,S,1,train,1,0.815,True,VCV002450748,Likely pathogenic
+p.R342L,342,R,L,0,train,0,0.09,True,VCV000822031,Uncertain significance
+p.R342P,342,R,P,1,test,0,0.245,False,VCV000215996,Pathogenic
+p.R342Q,342,R,Q,0,train,0,0.025,True,VCV000233136,Likely benign
+p.E343D,343,E,D,0,train,0,0.005,True,VCV003460327,Benign
+p.E343Q,343,E,Q,0,train,0,0.0,True,VCV001015453,Uncertain significance
+p.L344P,344,L,P,1,train,1,0.845,True,VCV000012375,Likely pathogenic
+p.L344R,344,L,R,1,train,1,0.845,True,VCV002758378,Likely pathogenic
+p.E346D,346,E,D,0,test,0,0.0025,True,VCV000480755,Likely benign
+p.E346G,346,E,G,0,train,0,0.025,True,VCV003011115,Likely benign
+p.E346K,346,E,K,0,train,0,0.0,True,VCV000646925,Likely benign
+p.A347D,347,A,D,1,train,1,0.7375,True,VCV000043587,Pathogenic
+p.A347G,347,A,G,0,train,0,0.06,True,VCV002683739,Likely benign
+p.E349G,349,E,G,0,test,0,0.0475,True,VCV001775423,Likely benign
+p.E349Q,349,E,Q,0,test,0,0.01,True,VCV000657729,Uncertain significance
+p.L350F,350,L,F,0,test,0,0.0175,True,VCV000481022,Likely benign
+p.L350R,350,L,R,0,train,0,0.2575,True,VCV004189250,Likely benign
+p.L350V,350,L,V,0,train,0,0.015,True,VCV000854234,Uncertain significance
+p.D352E,352,D,E,0,test,0,0.005,True,VCV001778759,Likely benign
+p.D352Y,352,D,Y,0,train,0,0.035,True,VCV000481148,Uncertain significance
+p.A353V,353,A,V,0,train,0,0.0,True,VCV004865861,Likely benign
 p.Q354K,354,Q,K,0,train,0,0.0,True,VCV000231485,Benign
-p.Q354L,354,Q,L,0,train,0,0.03,True,VCV003232047,Benign
-p.Q354P,354,Q,P,0,train,0,0.015,True,VCV003328171,Likely benign
-p.G356E,356,G,E,0,train,0,0.05,True,VCV003460336,Likely benign
-p.G356R,356,G,R,0,train,0,0.0425,True,VCV000234059,Likely benign
-p.G360A,360,G,A,0,train,0,0.0025,True,VCV000142003,Benign
-p.H365Y,365,H,Y,0,train,0,0.025,True,VCV000080708,Likely benign
-p.S366A,366,S,A,0,train,0,0.005,True,VCV000135360,Benign
-p.L369M,369,L,M,0,train,0,0.0025,True,VCV004826639,Likely benign
-p.G374R,374,G,R,0,train,0,0.0225,True,VCV000230269,Benign
+p.Q354L,354,Q,L,0,train,0,0.035,True,VCV003232047,Benign
+p.Q354P,354,Q,P,0,train,0,0.0175,True,VCV003328171,Likely benign
+p.Q354R,354,Q,R,0,train,0,0.0,True,VCV000629928,Uncertain significance
+p.A355G,355,A,G,0,train,0,0.0075,True,VCV001046623,Likely benign
+p.A355S,355,A,S,0,train,0,0.0,True,VCV001468494,Uncertain significance
+p.A355T,355,A,T,0,train,0,0.0,True,VCV001781085,Likely benign
+p.A355V,355,A,V,0,train,0,0.0,True,VCV000528241,Uncertain significance
+p.G356E,356,G,E,0,test,0,0.1325,True,VCV003460336,Likely benign
+p.G356R,356,G,R,0,train,0,0.085,True,VCV000234059,Likely benign
+p.E358K,358,E,K,0,train,0,0.0025,True,VCV000142105,Uncertain significance
+p.E358V,358,E,V,0,train,0,0.0475,True,VCV000230534,Likely benign
+p.P359R,359,P,R,0,test,0,0.005,True,VCV001171953,Uncertain significance
+p.G360A,360,G,A,0,train,0,0.0,True,VCV000142003,Benign
+p.G360E,360,G,E,0,train,0,0.0075,True,VCV000230306,Uncertain significance
+p.G360R,360,G,R,0,train,0,0.0025,True,VCV000186887,Uncertain significance
+p.G360V,360,G,V,0,train,0,0.0,True,VCV000142552,Likely benign
+p.G361E,361,G,E,0,train,0,0.0075,True,VCV000141331,Uncertain significance
+p.S362C,362,S,C,0,train,0,0.0025,True,VCV000458515,Uncertain significance
+p.S362I,362,S,I,0,train,0,0.0,True,VCV000485048,Uncertain significance
+p.S362N,362,S,N,0,train,0,0.0,True,VCV000458516,Uncertain significance
+p.R363G,363,R,G,0,test,0,0.1175,True,VCV000188151,Uncertain significance
+p.A364S,364,A,S,0,train,0,0.0,True,VCV000848951,Uncertain significance
+p.H365Y,365,H,Y,0,train,0,0.0075,True,VCV000080708,Likely benign
+p.S366A,366,S,A,0,train,0,0.0,True,VCV000135360,Benign
+p.H368Q,368,H,Q,0,test,0,0.04,True,VCV000485038,Uncertain significance
+p.L369M,369,L,M,0,test,0,0.005,True,VCV004826639,Likely benign
+p.K370T,370,K,T,0,train,0,0.0,True,VCV001510904,Uncertain significance
+p.S371Y,371,S,Y,0,train,0,0.0,True,VCV001482750,Likely benign
+p.K372R,372,K,R,0,train,0,0.0,True,VCV000230970,Uncertain significance
+p.K373N,373,K,N,0,train,0,0.0125,True,VCV000839498,Uncertain significance
+p.K373R,373,K,R,0,train,0,0.0,True,VCV000577458,Uncertain significance
+p.G374C,374,G,C,0,train,0,0.0,True,VCV000665996,Likely benign
+p.G374R,374,G,R,0,train,0,0.0,True,VCV000230269,Benign
+p.G374S,374,G,S,0,test,0,0.0025,True,VCV000141583,Uncertain significance
+p.G374V,374,G,V,0,train,0,0.0,True,VCV001797938,Likely benign
 p.Q375K,375,Q,K,0,train,0,0.0,True,VCV001798385,Likely benign
+p.T377I,377,T,I,0,train,0,0.0,True,VCV000822222,Uncertain significance
+p.T377P,377,T,P,0,train,0,0.0,True,VCV000975959,Uncertain significance
+p.S378C,378,S,C,0,train,0,0.0025,True,VCV000480749,Uncertain significance
 p.S378T,378,S,T,0,train,0,0.0,True,VCV003972449,Likely benign
-p.R379H,379,R,H,0,train,0,0.0175,True,VCV000246221,Likely benign
-p.R379L,379,R,L,0,test,0,0.075,True,VCV000216463,Likely benign
-p.R379S,379,R,S,0,train,0,0.1825,True,VCV000186762,Likely benign
-p.M384T,384,M,T,0,train,0,0.015,True,VCV000406575,Benign
+p.R379C,379,R,C,0,train,0,0.0125,True,VCV000186611,Uncertain significance
+p.R379H,379,R,H,0,train,0,0.0075,True,VCV000246221,Likely benign
+p.R379L,379,R,L,0,train,0,0.01,True,VCV000216463,Likely benign
+p.R379S,379,R,S,0,train,0,0.04,True,VCV000186762,Likely benign
+p.L383F,383,L,F,0,test,0,0.005,True,VCV000619733,Uncertain significance
+p.M384I,384,M,I,0,train,0,0.0,True,VCV000639734,Likely benign
+p.M384T,384,M,T,0,train,0,0.01,True,VCV000406575,Benign
 p.M384V,384,M,V,0,train,0,0.0,True,VCV000182939,Likely benign
-p.F385L,385,F,L,0,test,0,0.0175,True,VCV001735082,Likely benign
-p.T387P,387,T,P,0,train,0,0.0025,True,VCV002585882,Likely benign
-p.E388A,388,E,A,0,train,0,0.01,True,VCV000141425,Likely benign
-p.E388D,388,E,D,0,test,0,0.0,True,VCV004553123,Likely benign
-p.E388Q,388,E,Q,0,train,0,0.0,True,VCV001737291,Likely benign
-p.D393Y,393,D,Y,0,test,0,0.0275,True,VCV001741120,Likely benign
+p.F385L,385,F,L,0,train,0,0.0,True,VCV001735082,Likely benign
+p.K386R,386,K,R,0,train,0,0.0,True,VCV000818446,Likely benign
+p.T387P,387,T,P,0,train,0,0.0,True,VCV002585882,Likely benign
+p.T387R,387,T,R,0,test,0,0.0025,True,VCV000485050,Likely benign
+p.E388A,388,E,A,0,train,0,0.0,True,VCV000141425,Likely benign
+p.E388D,388,E,D,0,train,0,0.0,True,VCV004553123,Likely benign
+p.E388Q,388,E,Q,0,test,0,0.0,True,VCV001737291,Likely benign
+p.G389R,389,G,R,0,train,0,0.0,True,VCV000458522,Uncertain significance
+p.D391N,391,D,N,0,train,0,0.0,True,VCV003232049,Uncertain significance
+p.D393E,393,D,E,0,train,0,0.0,True,VCV001026463,Likely benign
+p.D393H,393,D,H,0,test,0,0.0,True,VCV000818502,Uncertain significance
+p.D393N,393,D,N,0,train,0,0.0,True,VCV000492574,Uncertain significance
+p.D393Y,393,D,Y,0,test,0,0.0075,True,VCV001741120,Likely benign

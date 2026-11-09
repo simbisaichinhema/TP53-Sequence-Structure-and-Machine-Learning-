@@ -3,6 +3,73 @@
 All notable changes to this research repository are documented here.
 Status labels: COMPLETED | IN PROGRESS | PENDING | NOT STARTED | BLOCKED
 
+## [2026-11-09] — Dataset expansion + Kaggle side-by-side upgrade
+
+### Added
+- `scripts/mutation/expand_clinvar_conflicts.py`: resolve ClinVar
+  *conflicting* missense by strict majority of submitter germline votes
+  (ties/VUS dropped; no invented labels). Audit:
+  `data/raw/variants/clinvar_conflict_resolution.json`.
+- Expanded dataset: **818 variants** (405 P/LP / 413 B/LB) with
+  `label_basis` (`germline_clinvar` vs `germline_conflict_majority`);
+  clear-only backup `tp53_variant_dataset_backup_clear.csv`.
+- Kaggle notebook (`kaggle/TP53_Kaggle_Demo.ipynb`) sections for
+  side-by-side model comparison (Tables A/B/C + comparison figures),
+  multi-model inference panel, tuning, position-aware, smoke tests.
+
+### Changed
+- Features, baseline train, default 3-model benchmark (Extra Trees /
+  Random Forest / CatBoost — top by train CV ROC-AUC), tuning,
+  position-aware validation, audit, mutant sequences, and results docs
+  regenerated on n=818 (split: train 654 / test 164).
+- Default benchmark reduced from 10 algorithms to the 3 best; full
+  registry still available via `--models` (`include_extra=True`).
+- README / methods / research docs updated for expanded counts and
+  measured metrics; dashboard numbers driven from `cohort_summary.json`.
+- Benchmark/report scripts now use dynamic `n` (no hard-coded 388/78).
+
+### Notes
+- Conflict expansion never invents labels; VUS remain excluded.
+- Baseline RF test on expanded set: acc 0.884 / F1 0.886 / ROC-AUC 0.945
+  (`metrics.json`). Benchmark CSV/JSON remain the source of truth for
+  model ranking.
+
+## [2026-11-09] — Multi-model benchmark upgrade
+
+### Added
+- `scripts/machine_learning/model_registry.py`: registry of 10
+  classifiers (LR/RF baselines + SVM, Extra Trees, Gradient Boosting,
+  HistGradientBoosting, XGBoost, LightGBM, CatBoost, AdaBoost) with
+  optional-package probing and documented imbalance/scaling policy.
+- `scripts/machine_learning/metrics_utils.py`: shared metric suite
+  (accuracy, balanced accuracy, precision, recall/sensitivity,
+  specificity, F1, ROC-AUC, PR-AUC, MCC, TN/FP/FN/TP; CV mean±SD).
+- `scripts/machine_learning/benchmark_models.py`: fair multi-model
+  benchmark — same 21-feature matrix, stratified 80/20 seed 42,
+  5-fold stratified CV on train only, test held out for final metrics
+  only. Writes CSV/JSON, per-model joblib artefacts, experiment config,
+  markdown report, and 8 comparison figures under
+  `figures/machine_learning/benchmark/`.
+- `scripts/machine_learning/tune_models.py`: small train-only grid
+  search for top-3 CV models; baseline vs tuned comparison written to
+  separate files (`tuned_benchmark.*`, `tuning_report.md`).
+- `scripts/machine_learning/position_aware_validation.py`: separate
+  experiment — GroupKFold by residue + leave-one-hotspot-out (same
+  registry; results in `results/machine_learning/position_aware/`).
+- `config/requirements-benchmark.txt`; `config/environment.yml` updated
+  with optional boosters.
+- `predict.py --model PATH`: run any saved benchmark/tuned artefact
+  through the same featurization pipeline (default model.joblib
+  unchanged).
+
+### Notes
+- Existing `train.py`, `model.joblib`, dashboard, and audit scripts
+  unchanged in behaviour (baselines reproduce: LR/RF test metrics match
+  `metrics.json`).
+- Benchmark results are research-prototype associations on a random
+  stratified split — not clinical performance. Same-residue leakage
+  across random splits documented; position-aware protocol prepared.
+
 ## [Unreleased]
 
 ### Added

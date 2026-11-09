@@ -1,0 +1,389 @@
+variant_id,clinvar_uid,hgvs_p,pos,ref,alt,label,classification,review_status,last_evaluated,trait,source
+VCV000237941,237941,p.P4L,4,P,L,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002450740,2450740,p.P4Q,4,P,Q,0,Likely benign,criteria provided; single submitter,2022/11/22 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000140782,140782,p.D7E,7,D,E,0,Likely benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000231868,231868,p.P8L,8,P,L,0,Likely benign,criteria provided; single submitter,2015/05/15 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001790705,1790705,p.P8R,8,P,R,0,Likely benign,criteria provided; single submitter,2022/02/28 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000127806,127806,p.V10I,10,V,I,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000231387,231387,p.V10L,10,V,L,0,Likely benign,reviewed by expert panel,2021/08/02 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV004865868,4865868,p.S15C,15,S,C,0,Likely benign,criteria provided; single submitter,2026/03/20 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003972456,3972456,p.D21A,21,D,A,0,Likely benign,criteria provided; single submitter,2025/06/05 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000822586,822586,p.N29D,29,N,D,0,Likely benign,criteria provided; single submitter,2019/11/25 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001767161,1767161,p.L32V,32,L,V,0,Likely benign,criteria provided; single submitter,2022/10/04 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000142562,142562,p.L35F,35,L,F,0,Likely benign,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000141597,141597,p.P36Q,36,P,Q,0,Benign,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000043588,43588,p.P47S,47,P,S,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000141056,141056,p.D48E,48,D,E,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002795844,2795844,p.D48G,48,D,G,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000135948,135948,p.D49H,49,D,H,0,Benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000186363,186363,p.D49N,49,D,N,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000216464,216464,p.I50T,50,I,T,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004865867,4865867,p.E51D,51,E,D,0,Benign,criteria provided; single submitter,2026/03/18 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001778520,1778520,p.D57V,57,D,V,0,Likely benign,criteria provided; single submitter,2021/11/10 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001778944,1778944,p.P58A,58,P,A,0,Likely benign,criteria provided; single submitter,2021/02/10 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000820048,820048,p.G59D,59,G,D,0,Likely benign,criteria provided; single submitter,2021/01/21 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003809683,3809683,p.E62G,62,E,G,0,Likely benign,criteria provided; single submitter,2025/02/10 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000229693,229693,p.A63G,63,A,G,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000231015,231015,p.A63T,63,A,T,0,Likely benign,criteria provided; single submitter,2021/03/16 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000182922,182922,p.A63V,63,A,V,0,Benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001783578,1783578,p.M66V,66,M,V,0,Likely benign,criteria provided; single submitter,2021/10/15 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000142854,142854,p.P72A,72,P,A,0,Likely benign,reviewed by expert panel,2025/02/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000185120,185120,p.P72H,72,P,H,0,Benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000012351,12351,p.P72R,72,P,R,0,Benign,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV003460312,3460312,p.V73E,73,V,E,0,Likely benign,criteria provided; single submitter,2024/09/04 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000142386,142386,p.V73M,73,V,M,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000141547,141547,p.A74V,74,A,V,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004758197,4758197,p.P75S,75,P,S,0,Likely benign,criteria provided; single submitter,2025/10/06 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003460333,3460333,p.A76G,76,A,G,0,Benign,criteria provided; single submitter,2024/11/11 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV004189271,4189271,p.A79V,79,A,V,0,Likely benign,criteria provided; single submitter,2025/08/04 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000182946,182946,p.P82L,82,P,L,0,Likely benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004865882,4865882,p.P82T,82,P,T,0,Likely benign,criteria provided; single submitter,2026/05/20 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003972448,3972448,p.A83P,83,A,P,0,Likely benign,criteria provided; single submitter,2025/04/25 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000127805,127805,p.A83V,83,A,V,0,Benign/Likely benign,criteria provided; multiple submitters; no conflicts,2026/04/29 00:00,Hereditary cancer-predisposing syndrome;not specified;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000140833,140833,p.A84T,84,A,T,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004828470,4828470,p.P92S,92,P,S,0,Likely benign,criteria provided; single submitter,2025/12/18 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003460308,3460308,p.S94A,94,S,A,0,Likely benign,criteria provided; single submitter,2024/07/23 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001796426,1796426,p.S94L,94,S,L,0,Likely benign,criteria provided; single submitter,2020/09/25 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV004189261,4189261,p.S95T,95,S,T,0,Likely benign,criteria provided; single submitter,2025/06/23 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV004865871,4865871,p.S95Y,95,S,Y,0,Likely benign,criteria provided; single submitter,2026/04/01 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000406574,406574,p.G105R,105,G,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/05/19 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000428884,428884,p.G105S,105,G,S,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/09/10 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000492752,492752,p.S106R,106,S,R,1,Pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000140786,140786,p.Y107H,107,Y,H,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000142431,142431,p.G108S,108,G,S,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000634784,634784,p.F109C,109,F,C,1,Likely pathogenic,criteria provided; single submitter,2024/02/12 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV002627017,2627017,p.F109I,109,F,I,1,Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/29 00:00,Li-Fraumeni syndrome;not provided,ClinVar
+VCV000823452,823452,p.R110G,110,R,G,1,Likely pathogenic,reviewed by expert panel,2025/06/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000127808,127808,p.R110H,110,R,H,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000406597,406597,p.R110L,110,R,L,1,Pathogenic,reviewed by expert panel,2025/06/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000233627,233627,p.R110P,110,R,P,1,Pathogenic,reviewed by expert panel,2025/06/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376630,376630,p.L111P,111,L,P,1,Pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376632,376632,p.L111Q,111,L,Q,1,Pathogenic,reviewed by expert panel,2025/06/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376631,376631,p.L111R,111,L,R,1,Pathogenic,reviewed by expert panel,2026/01/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001730178,1730178,p.L111V,111,L,V,0,Likely benign,reviewed by expert panel,2026/01/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000634690,634690,p.F113C,113,F,C,1,Pathogenic,criteria provided; single submitter,2024/12/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001469551,1469551,p.F113I,113,F,I,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/10 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV003634432,3634432,p.F113L,113,F,L,1,Pathogenic,criteria provided; single submitter,2024/08/20 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000823709,823709,p.F113S,113,F,S,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/08/14 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000141302,141302,p.F113V,113,F,V,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/09/05 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000182925,182925,p.H115R,115,H,R,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000419837,419837,p.T118I,118,T,I,0,Likely benign,reviewed by expert panel,2025/03/04 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000141101,141101,p.V122M,122,V,M,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004056245,4056245,p.C124R,124,C,R,1,Likely pathogenic,criteria provided; single submitter,2024/02/29 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000182926,182926,p.C124S,124,C,S,0,Likely benign,reviewed by expert panel,2025/02/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV003809674,3809674,p.C124W,124,C,W,0,Likely benign,criteria provided; single submitter,2025/01/27 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000216465,216465,p.T125K,125,T,K,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2024/11/13 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000376667,376667,p.T125R,125,T,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/05/29 00:00,not provided;Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000265333,265333,p.Y126D,126,Y,D,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/02/02 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;not provided;Li-Fraumeni syndrome 1,ClinVar
+VCV000219532,219532,p.S127C,127,S,C,1,Likely pathogenic,reviewed by expert panel,2026/03/04 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000182928,182928,p.S127F,127,S,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/30 00:00,Hereditary cancer-predisposing syndrome;not specified;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000934410,934410,p.S127P,127,S,P,1,Likely pathogenic,reviewed by expert panel,2026/03/04 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000824232,824232,p.S127T,127,S,T,1,Likely pathogenic,reviewed by expert panel,2026/02/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000656751,656751,p.S127Y,127,S,Y,1,Pathogenic,reviewed by expert panel,2026/01/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001735669,1735669,p.A129D,129,A,D,0,Benign,criteria provided; single submitter,2021/11/10 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000824351,824351,p.L130H,130,L,H,1,Pathogenic,criteria provided; single submitter,2025/08/07 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000428873,428873,p.L130P,130,L,P,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2022/05/13 00:00,Hereditary cancer-predisposing syndrome;Adrenocortical carcinoma; hereditary;Basal cell carcinoma; susceptibility to; 7;Carcinoma of pancreas;Choroid plexus papilloma;Bone marrow failure syndrome 5;Bone osteosarcoma;Familial cancer of breast;Li-Fraumeni syndrome 1;Hepatocellular carcinoma;Colorectal cancer;Glioma susceptibility 1;Nasopharyngeal carcinoma,ClinVar
+VCV004279056,4279056,p.N131H,131,N,H,1,Likely pathogenic,criteria provided; single submitter,2025/07/30 00:00,Breast-ovarian cancer; familial; susceptibility to; 1,ClinVar
+VCV000428902,428902,p.N131I,131,N,I,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/02/13 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000376624,376624,p.K132N,132,K,N,1,Likely pathogenic,reviewed by expert panel,2022/03/18 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376625,376625,p.K132R,132,K,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/07 00:00,Familial cancer of breast;Choroid plexus papilloma;Colorectal cancer;Nasopharyngeal carcinoma;Bone osteosarcoma;Adrenocortical carcinoma; hereditary;Bone marrow failure syndrome 5;Familial pancreatic carcinoma;Hepatocellular carcinoma;Li-Fraumeni syndrome 1;Glioma susceptibility 1;Basal cell carcinoma; susceptibility to; 7;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome,ClinVar
+VCV000012357,12357,p.M133T,133,M,T,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2024/10/17 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000230477,230477,p.F134C,134,F,C,1,Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/01/31 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000376559,376559,p.C135F,135,C,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/11/07 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376563,376563,p.C135G,135,C,G,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376560,376560,p.C135R,135,C,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/07/29 00:00,not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV003893309,3893309,p.C135S,135,C,S,1,Likely pathogenic,criteria provided; single submitter,2024/10/23 00:00,not provided,ClinVar
+VCV000012376,12376,p.A138P,138,A,P,1,Likely pathogenic,reviewed by expert panel,2025/06/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000184863,184863,p.A138V,138,A,V,1,Likely pathogenic,reviewed by expert panel,2025/06/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376564,376564,p.C141W,141,C,W,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/09/23 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000140801,140801,p.C141Y,141,C,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/09/15 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000804214,804214,p.V143A,143,V,A,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000486556,486556,p.V143G,143,V,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/03/05 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;not provided,ClinVar
+VCV000142657,142657,p.V143M,143,V,M,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/01/06 00:00,Adrenocortical carcinoma; hereditary;Familial cancer of breast;Glioma susceptibility 1;Familial pancreatic carcinoma;Hepatocellular carcinoma;Choroid plexus papilloma;Basal cell carcinoma; susceptibility to; 7;Colorectal cancer;Nasopharyngeal carcinoma;Bone marrow failure syndrome 5;Bone osteosarcoma;Li-Fraumeni syndrome 1;Hereditary cancer-predisposing syndrome;Breast neoplasm;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV003602769,3602769,p.V147G,147,V,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/07 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000376641,376641,p.P151A,151,P,A,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/28 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000824960,824960,p.P151F,151,P,F,1,Likely pathogenic,criteria provided; single submitter,2019/10/04 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376640,376640,p.P151R,151,P,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/04 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000012370,12370,p.P151S,151,P,S,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/17 00:00,Li-Fraumeni syndrome;not provided;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000012369,12369,p.P151T,151,P,T,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/04/18 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000142766,142766,p.P152L,152,P,L,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000824998,824998,p.P152R,152,P,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/03/13 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000406564,406564,p.T155N,155,T,N,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/10 00:00,Li-Fraumeni syndrome;not provided;Li-Fraumeni syndrome 1;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000634768,634768,p.R156P,156,R,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/03/11 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome;not provided,ClinVar
+VCV000012353,12353,p.V157F,157,V,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/03/04 00:00,Squamous cell carcinoma;Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000915695,915695,p.V157G,157,V,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/02/14 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000185404,185404,p.V157I,157,V,I,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000856171,856171,p.R158G,158,R,G,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/03/31 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000141963,141963,p.R158H,158,R,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/05/29 00:00,TP53-related disorder;Adrenocortical carcinoma; hereditary;Bone marrow failure syndrome 5;Colorectal cancer;Familial cancer of breast;Glioma susceptibility 1;Bone osteosarcoma;Li-Fraumeni syndrome 1;Basal cell carcinoma; susceptibility to; 7;Nasopharyngeal carcinoma;Choroid plexus papilloma;Familial pancreatic carcinoma;Hepatocellular carcinoma;Breast and/or ovarian cancer;Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000528248,528248,p.R158L,158,R,L,1,Pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000246118,246118,p.R158P,158,R,P,1,Pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001067910,1067910,p.R158S,158,R,S,1,Pathogenic,criteria provided; single submitter,2023/09/13 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001026335,1026335,p.A159D,159,A,D,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/01/05 00:00,Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000458545,458545,p.A159V,159,A,V,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/12 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000230758,230758,p.M160I,160,M,I,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000161518,161518,p.A161T,161,A,T,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/09 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome,ClinVar
+VCV000127814,127814,p.Y163C,163,Y,C,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376680,376680,p.Y163H,163,Y,H,1,Pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000246416,246416,p.K164E,164,K,E,1,Pathogenic,reviewed by expert panel,2025/06/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002505496,2505496,p.Q165L,165,Q,L,1,Pathogenic,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV003809673,3809673,p.S166T,166,S,T,0,Likely benign,criteria provided; single submitter,2024/12/12 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001744933,1744933,p.H168L,168,H,L,1,Pathogenic,criteria provided; single submitter,2020/12/03 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003328154,3328154,p.H168P,168,H,P,1,Likely pathogenic,criteria provided; single submitter,2024/06/14 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000184014,184014,p.T170M,170,T,M,0,Likely benign,reviewed by expert panel,2025/02/07 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002446885,2446885,p.E171D,171,E,D,1,Pathogenic,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV001745525,1745525,p.E171G,171,E,G,1,Pathogenic,criteria provided; single submitter,2022/01/24 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000141566,141566,p.E171K,171,E,K,0,Likely benign,reviewed by expert panel,2025/03/04 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000428883,428883,p.V172G,172,V,G,1,Pathogenic,criteria provided; single submitter,2026/04/05 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376017,376017,p.V173A,173,V,A,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/11/03 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376668,376668,p.V173L,173,V,L,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/23 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000233951,233951,p.V173M,173,V,M,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376649,376649,p.R175G,175,R,G,1,Pathogenic,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000012374,12374,p.R175H,175,R,H,1,Pathogenic,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000182963,182963,p.R175L,175,R,L,1,Likely pathogenic,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376569,376569,p.C176F,176,C,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/09 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000634759,634759,p.C176R,176,C,R,1,Likely pathogenic,no assertion criteria provided,2018/12/01 00:00,Ovarian neoplasm,ClinVar
+VCV000186451,186451,p.C176Y,176,C,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/06/19 00:00,TP53-related disorder;Squamous cell carcinoma;Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000458547,458547,p.P177R,177,P,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/15 00:00,Li-Fraumeni syndrome 1;Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome;not provided,ClinVar
+VCV000482223,482223,p.H178D,178,H,D,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000947223,947223,p.H178Q,178,H,Q,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2023/09/13 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376610,376610,p.H179D,179,H,D,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/03/04 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000406578,406578,p.H179Q,179,H,Q,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376606,376606,p.H179R,179,H,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/14 00:00,Li-Fraumeni syndrome 1;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;not provided,ClinVar
+VCV000127815,127815,p.H179Y,179,H,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/03/18 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000245711,245711,p.E180K,180,E,K,1,Likely pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000142624,142624,p.R181C,181,R,C,1,Likely pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000142320,142320,p.R181H,181,R,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/02/02 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Hereditary breast ovarian cancer syndrome;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome;Squamous cell carcinoma of the head and neck,ClinVar
+VCV000825729,825729,p.R181P,181,R,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/02/14 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000135361,135361,p.C182G,182,C,G,0,Benign/Likely benign,criteria provided; multiple submitters; no conflicts,2025/02/01 00:00,Hereditary cancer-predisposing syndrome;not specified;Hereditary breast ovarian cancer syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000492638,492638,p.C182R,182,C,R,0,Likely benign,criteria provided; single submitter,2017/08/17 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003328150,3328150,p.S183P,183,S,P,0,Likely benign,criteria provided; single submitter,2024/05/08 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000141359,141359,p.S185N,185,S,N,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001748280,1748280,p.S185R,185,S,R,0,Likely benign,criteria provided; single submitter,2021/11/01 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000230006,230006,p.D186E,186,D,E,0,Likely benign,criteria provided; multiple submitters; no conflicts,2025/08/24 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome;not provided,ClinVar
+VCV000406601,406601,p.D186N,186,D,N,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000418517,418517,p.P190L,190,P,L,1,Likely pathogenic,reviewed by expert panel,2022/06/27 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV000127816,127816,p.P191R,191,P,R,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000988617,988617,p.Q192H,192,Q,H,0,Likely benign,criteria provided; single submitter,1/01/01 00:00,Malignant tumor of esophagus,ClinVar
+VCV003460301,3460301,p.H193N,193,H,N,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/07/08 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376612,376612,p.H193P,193,H,P,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000184979,184979,p.H193R,193,H,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/05/29 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Squamous cell carcinoma of the head and neck;Li-Fraumeni syndrome,ClinVar
+VCV000230256,230256,p.H193Y,193,H,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/11 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000127817,127817,p.L194F,194,L,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/08/21 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000376634,376634,p.L194H,194,L,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/04/05 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376633,376633,p.L194R,194,L,R,1,Pathogenic,reviewed by expert panel,2026/02/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000216077,216077,p.I195T,195,I,T,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/18 00:00,Hereditary cancer-predisposing syndrome;Familial cancer of breast;Li-Fraumeni syndrome 1;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000231165,231165,p.R196P,196,R,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/11 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;not provided,ClinVar
+VCV000188060,188060,p.V197M,197,V,M,1,Likely pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000451799,451799,p.G199V,199,G,V,1,Likely pathogenic,criteria provided; single submitter,2018/06/20 00:00,not provided,ClinVar
+VCV003460304,3460304,p.E204D,204,E,D,0,Likely benign,criteria provided; single submitter,2024/07/16 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376681,376681,p.Y205C,205,Y,C,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/01/10 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376686,376686,p.Y205D,205,Y,D,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/09/25 00:00,not provided;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376685,376685,p.Y205H,205,Y,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/07 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV003809687,3809687,p.D207E,207,D,E,0,Likely benign,criteria provided; single submitter,2025/03/07 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000962629,962629,p.R209K,209,R,K,0,Likely benign,reviewed by expert panel,2026/04/02 00:00,Li-Fraumeni syndrome,ClinVar
+VCV003232058,3232058,p.N210S,210,N,S,0,Likely benign,criteria provided; single submitter,2023/12/21 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003460339,3460339,p.F212S,212,F,S,0,Likely benign,criteria provided; single submitter,2024/11/26 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000231214,231214,p.R213P,213,R,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/09/17 00:00,Hereditary cancer-predisposing syndrome;not specified;Li-Fraumeni syndrome 1;not provided;Li-Fraumeni syndrome,ClinVar
+VCV000135359,135359,p.R213Q,213,R,Q,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/03/02 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;Breast and/or ovarian cancer;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV003460335,3460335,p.R213W,213,R,W,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/11/20 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000376616,376616,p.H214L,214,H,L,1,Likely pathogenic,reviewed by expert panel,2025/05/07 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376615,376615,p.H214R,214,H,R,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000428895,428895,p.S215R,215,S,R,1,Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/02/15 00:00,Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000182965,182965,p.V216M,216,V,M,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/11/05 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV001754112,1754112,p.V218E,218,V,E,1,Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/08/15 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000127819,127819,p.Y220C,220,Y,C,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004828481,4828481,p.Y220F,220,Y,F,0,Likely benign,criteria provided; single submitter,2025/12/31 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376687,376687,p.Y220H,220,Y,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/08/07 00:00,Hereditary cancer-predisposing syndrome;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000012383,12383,p.Y220S,220,Y,S,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/10 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV002450759,2450759,p.D228Y,228,D,Y,0,Likely benign,criteria provided; single submitter,2023/03/02 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000850008,850008,p.I232N,232,I,N,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/02 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000634756,634756,p.I232S,232,I,S,1,Pathogenic,criteria provided; single submitter,2022/03/28 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000141224,141224,p.I232T,232,I,T,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/01/11 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome,ClinVar
+VCV000127820,127820,p.Y234C,234,Y,C,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/30 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000219759,219759,p.Y234D,234,Y,D,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/12/10 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376691,376691,p.Y234H,234,Y,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/11/16 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376692,376692,p.Y234N,234,Y,N,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/09/26 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome,ClinVar
+VCV000127821,127821,p.N235S,235,N,S,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376693,376693,p.Y236C,236,Y,C,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/11/23 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000216469,216469,p.Y236H,236,Y,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/25 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000142714,142714,p.M237I,237,M,I,1,Pathogenic,reviewed by expert panel,2021/04/20 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV000376636,376636,p.M237K,237,M,K,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/04/29 00:00,Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376574,376574,p.C238F,238,C,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/27 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376577,376577,p.C238G,238,C,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/09/12 00:00,not provided;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000376576,376576,p.C238R,238,C,R,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/05/09 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376575,376575,p.C238S,238,C,S,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/03/13 00:00,not provided;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000161515,161515,p.C238W,238,C,W,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2020/12/28 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000182935,182935,p.C238Y,238,C,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/01/28 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Hereditary breast ovarian cancer syndrome;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV004189258,4189258,p.N239K,239,N,K,1,Pathogenic,criteria provided; single submitter,2025/09/05 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376637,376637,p.N239S,239,N,S,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/01/27 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV003972460,3972460,p.S240C,240,S,C,1,Likely pathogenic,criteria provided; single submitter,2025/06/10 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000584921,584921,p.S240G,240,S,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/24 00:00,Li-Fraumeni syndrome 1;TP53-related disorder;Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome;Squamous cell carcinoma of the head and neck,ClinVar
+VCV002502882,2502882,p.S240N,240,S,N,1,Pathogenic,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV000376665,376665,p.S241A,241,S,A,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/05 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000177791,177791,p.S241C,241,S,C,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/23 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000012359,12359,p.S241F,241,S,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/08/13 00:00,not provided;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1;Bone marrow failure syndrome 5;Hepatocellular carcinoma;Carcinoma of pancreas;Choroid plexus papilloma;Nasopharyngeal carcinoma;Basal cell carcinoma; susceptibility to; 7;Bone osteosarcoma;Adrenocortical carcinoma; hereditary;Colorectal cancer;Glioma susceptibility 1;Li-Fraumeni syndrome 1;Familial cancer of breast;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000959232,959232,p.S241T,241,S,T,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/07/18 00:00,Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000376663,376663,p.S241Y,241,S,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/06/12 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376580,376580,p.C242W,242,C,W,1,Pathogenic,criteria provided; single submitter,2023/03/09 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000012354,12354,p.C242Y,242,C,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/11/10 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Familial cancer of breast;Li-Fraumeni syndrome,ClinVar
+VCV000458560,458560,p.G244A,244,G,A,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/12/02 00:00,Li-Fraumeni syndrome 1;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000372785,372785,p.G244D,244,G,D,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/01 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000376600,376600,p.G244S,244,G,S,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/06/17 00:00,Adrenocortical carcinoma; hereditary;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000376601,376601,p.G244V,244,G,V,1,Likely pathogenic,criteria provided; single submitter,2024/02/16 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV000012349,12349,p.G245C,245,G,C,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2026/03/13 00:00,Hereditary cancer-predisposing syndrome;not provided;Hereditary breast ovarian cancer syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000012355,12355,p.G245D,245,G,D,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/22 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000012365,12365,p.G245S,245,G,S,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376603,376603,p.G245V,245,G,V,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/26 00:00,Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000480961,480961,p.M246I,246,M,I,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/07/23 00:00,Hereditary cancer-predisposing syndrome;Hereditary breast ovarian cancer syndrome;Li-Fraumeni syndrome;not provided,ClinVar
+VCV000480764,480764,p.M246K,246,M,K,1,Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/09/21 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000100815,100815,p.M246V,246,M,V,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/14 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000184882,184882,p.N247I,247,N,I,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2026/02/04 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000376652,376652,p.R248G,248,R,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/01/26 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Carcinoma of colon;Li-Fraumeni syndrome,ClinVar
+VCV000230253,230253,p.R248L,248,R,L,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000237954,237954,p.R248P,248,R,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/04/15 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000012356,12356,p.R248Q,248,R,Q,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000012347,12347,p.R248W,248,R,W,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000012352,12352,p.R249S,249,R,S,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/11 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome;Squamous cell carcinoma of the head and neck,ClinVar
+VCV000376015,376015,p.R249T,249,R,T,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/02/16 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1,ClinVar
+VCV000420136,420136,p.P250L,250,P,L,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/14 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome,ClinVar
+VCV001518844,1518844,p.I251F,251,I,F,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/03/12 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000182937,182937,p.I251L,251,I,L,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/20 00:00,Gastric cancer;not provided;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000827132,827132,p.T253A,253,T,A,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2022/08/26 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000856299,856299,p.I254N,254,I,N,1,Pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001759844,1759844,p.I254T,254,I,T,1,Pathogenic,reviewed by expert panel,2026/01/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000406605,406605,p.I254V,254,I,V,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000012348,12348,p.E258K,258,E,K,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/07 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV002671888,2671888,p.D259A,259,D,A,1,Pathogenic,no assertion criteria provided,2023/12/04 00:00,Malignant lymphoma; large B-cell; diffuse,ClinVar
+VCV000231033,231033,p.S260Y,260,S,Y,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000141228,141228,p.G262S,262,G,S,0,Likely benign,reviewed by expert panel,2025/04/03 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000827313,827313,p.N263S,263,N,S,0,Likely benign,criteria provided; single submitter,2019/08/29 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000245777,245777,p.L265P,265,L,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/05/20 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000953467,953467,p.L265Q,265,L,Q,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/08/28 00:00,not provided;Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000161516,161516,p.G266E,266,G,E,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/12 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1;Squamous cell carcinoma of the head and neck,ClinVar
+VCV000458566,458566,p.G266R,266,G,R,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2024/04/25 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1,ClinVar
+VCV001761541,1761541,p.R267G,267,R,G,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2023/07/27 00:00,Hereditary cancer-predisposing syndrome;Adrenocortical carcinoma; hereditary,ClinVar
+VCV000428867,428867,p.R267P,267,R,P,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/25 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000141764,141764,p.R267W,267,R,W,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/07/20 00:00,TP53-related disorder;Adrenocortical carcinoma; hereditary;Familial cancer of breast;Glioma susceptibility 1;Bone osteosarcoma;Li-Fraumeni syndrome 1;Basal cell carcinoma; susceptibility to; 7;Nasopharyngeal carcinoma;Carcinoma of pancreas;Choroid plexus papilloma;Carcinoma of colon;Hepatocellular carcinoma;Breast and/or ovarian cancer;Hereditary cancer-predisposing syndrome;Familial cancer of breast;Li-Fraumeni syndrome 1;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome;Familial cancer of breast,ClinVar
+VCV002575177,2575177,p.S269C,269,S,C,0,Benign,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV002575169,2575169,p.S269I,269,S,I,1,Likely pathogenic,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV000634778,634778,p.F270L,270,F,L,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/02/04 00:00,Li-Fraumeni syndrome 1;Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome;Adrenocortical carcinoma; hereditary,ClinVar
+VCV000376598,376598,p.F270V,270,F,V,1,Pathogenic,criteria provided; single submitter,2023/06/07 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003147994,3147994,p.E271V,271,E,V,1,Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/06/12 00:00,Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000574679,574679,p.V272L,272,V,L,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/01/27 00:00,Li-Fraumeni syndrome;Hereditary cancer-predisposing syndrome,ClinVar
+VCV000185814,185814,p.V272M,272,V,M,1,Pathogenic,reviewed by expert panel,2022/03/18 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV000043594,43594,p.R273C,273,R,C,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/05/29 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000634682,634682,p.R273G,273,R,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/03/04 00:00,Adrenocortical carcinoma; hereditary;Glioma susceptibility 1;Colorectal cancer;Familial cancer of breast;Li-Fraumeni syndrome 1;Nasopharyngeal carcinoma;Carcinoma of pancreas;Choroid plexus papilloma;Basal cell carcinoma; susceptibility to; 7;Bone marrow failure syndrome 5;Bone osteosarcoma;Hepatocellular carcinoma;Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000012366,12366,p.R273H,273,R,H,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376655,376655,p.R273L,273,R,L,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/05/11 00:00,Adrenocortical carcinoma; hereditary;Glioma susceptibility 1;Bone osteosarcoma;Basal cell carcinoma; susceptibility to; 7;Nasopharyngeal carcinoma;Bone marrow failure syndrome 5;Familial cancer of breast;Carcinoma of pancreas;Choroid plexus papilloma;Hepatocellular carcinoma;Li-Fraumeni syndrome 1;Colorectal cancer;Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000231060,231060,p.R273P,273,R,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/30 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376656,376656,p.R273S,273,R,S,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/04/24 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV003460325,3460325,p.V274I,274,V,I,0,Benign,criteria provided; single submitter,2024/10/11 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000376582,376582,p.C275F,275,C,F,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2026/01/11 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome,ClinVar
+VCV000215997,215997,p.C275Y,275,C,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/09/07 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000185319,185319,p.A276G,276,A,G,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/29 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome,ClinVar
+VCV002757236,2757236,p.C277G,277,C,G,1,Likely pathogenic,reviewed by expert panel,2025/12/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000232497,232497,p.P278L,278,P,L,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/17 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome,ClinVar
+VCV000376642,376642,p.P278S,278,P,S,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/09 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376643,376643,p.P278T,278,P,T,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/08/10 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000988616,988616,p.R280S,280,R,S,1,Pathogenic,reviewed by expert panel,2026/04/02 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000012368,12368,p.R280T,280,R,T,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/08/27 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000376589,376589,p.D281A,281,D,A,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/03/07 00:00,Hereditary cancer-predisposing syndrome;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome,ClinVar
+VCV000406568,406568,p.D281E,281,D,E,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/30 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome,ClinVar
+VCV000141141,141141,p.D281G,281,D,G,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2024/07/21 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376588,376588,p.D281H,281,D,H,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2024/05/22 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376586,376586,p.D281N,281,D,N,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/12/29 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome,ClinVar
+VCV000182968,182968,p.D281V,281,D,V,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/07/02 00:00,Adrenocortical carcinoma; hereditary;Familial cancer of breast;Glioma susceptibility 1;Li-Fraumeni syndrome 1;Choroid plexus papilloma;Bone marrow failure syndrome 5;Bone osteosarcoma;Basal cell carcinoma; susceptibility to; 7;Familial pancreatic carcinoma;Hepatocellular carcinoma;Nasopharyngeal carcinoma;Colorectal cancer;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;not provided;Li-Fraumeni syndrome,ClinVar
+VCV000376585,376585,p.D281Y,281,D,Y,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/07/01 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000140821,140821,p.R282G,282,R,G,1,Pathogenic,criteria provided; multiple submitters; no conflicts,2025/10/31 00:00,TP53-related disorder;Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000376659,376659,p.R282P,282,R,P,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/09/15 00:00,Nasopharyngeal carcinoma;Adrenocortical carcinoma; hereditary;Bone osteosarcoma;Hepatocellular carcinoma;Li-Fraumeni syndrome 1;Bone marrow failure syndrome 5;Colorectal cancer;Glioma susceptibility 1;Carcinoma of pancreas;Choroid plexus papilloma;Familial cancer of breast;Basal cell carcinoma; susceptibility to; 7;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1;Hereditary cancer-predisposing syndrome;Squamous cell carcinoma of the head and neck,ClinVar
+VCV000012364,12364,p.R282W,282,R,W,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2026/05/29 00:00,Diffuse pediatric-type high-grade glioma; H3-wildtype and IDH-wildtype;Colorectal cancer;Astrocytoma; anaplastic;Pleomorphic xanthoastrocytoma;Hereditary cancer-predisposing syndrome;not provided;Adrenocortical carcinoma; hereditary;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome;Squamous cell carcinoma of the head and neck,ClinVar
+VCV000127824,127824,p.R283C,283,R,C,0,Likely benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000486555,486555,p.R283P,283,R,P,1,Pathogenic,reviewed by expert panel,2026/04/02 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000216471,216471,p.T284I,284,T,I,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000420133,420133,p.E285K,285,E,K,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/01/25 00:00,not provided;Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV000012384,12384,p.E285V,285,E,V,1,Pathogenic,criteria provided; single submitter,2018/12/21 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000376593,376593,p.E286A,286,E,A,1,Likely pathogenic,criteria provided; single submitter,2024/02/21 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV000183752,183752,p.E286K,286,E,K,1,Pathogenic/Likely pathogenic,criteria provided; multiple submitters; no conflicts,2025/07/03 00:00,Hereditary cancer-predisposing syndrome;not provided;Li-Fraumeni syndrome 1;Li-Fraumeni syndrome,ClinVar
+VCV004757808,4757808,p.E287G,287,E,G,0,Likely benign,criteria provided; single submitter,2025/09/10 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001172923,1172923,p.L289P,289,L,P,0,Likely benign,reviewed by expert panel,2021/06/16 00:00,Li-Fraumeni syndrome 1,ClinVar
+VCV000216472,216472,p.R290C,290,R,C,0,Benign,reviewed by expert panel,2026/03/04 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000127825,127825,p.R290H,290,R,H,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000406577,406577,p.K292R,292,K,R,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000127826,127826,p.G293W,293,G,W,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000428862,428862,p.P295S,295,P,S,0,Likely benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000100816,100816,p.H296R,296,H,R,1,Likely pathogenic,no assertion criteria provided,1/01/01 00:00,not provided,ClinVar
+VCV000132973,132973,p.H296Y,296,H,Y,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000141483,141483,p.E298K,298,E,K,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004824211,4824211,p.L299V,299,L,V,0,Likely benign,criteria provided; single submitter,2026/01/28 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001765377,1765377,p.P300L,300,P,L,0,Likely benign,criteria provided; single submitter,2014/12/05 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003328162,3328162,p.G302A,302,G,A,0,Likely benign,criteria provided; single submitter,2024/03/18 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000142332,142332,p.S303G,303,S,G,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000485027,485027,p.A307G,307,A,G,0,Likely benign,criteria provided; single submitter,2025/05/27 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000428879,428879,p.N310K,310,N,K,0,Likely benign,criteria provided; single submitter,2020/10/30 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001766454,1766454,p.N310S,310,N,S,0,Likely benign,criteria provided; single submitter,2020/10/28 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001766672,1766672,p.T312N,312,T,N,0,Likely benign,criteria provided; single submitter,2022/06/07 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000141102,141102,p.T312S,312,T,S,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002450750,2450750,p.S313N,313,S,N,0,Likely benign,criteria provided; single submitter,2023/01/17 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000185212,185212,p.S315T,315,S,T,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000230382,230382,p.P316T,316,P,T,0,Likely benign,reviewed by expert panel,2025/03/04 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000231008,231008,p.Q317K,317,Q,K,0,Benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002575170,2575170,p.P318S,318,P,S,0,Benign,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV003328169,3328169,p.K319T,319,K,T,0,Likely benign,criteria provided; single submitter,2024/05/01 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV002450758,2450758,p.D324E,324,D,E,0,Likely benign,criteria provided; single submitter,2023/03/07 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV002578516,2578516,p.D324N,324,D,N,0,Benign,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV003972458,3972458,p.E326D,326,E,D,0,Likely benign,criteria provided; single submitter,2025/05/23 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV002578514,2578514,p.E326V,326,E,V,1,Likely pathogenic,no assertion criteria provided,1/01/01 00:00,Acute myeloid leukemia,ClinVar
+VCV004865862,4865862,p.L330I,330,L,I,0,Likely benign,criteria provided; single submitter,2026/04/09 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV004189263,4189263,p.I332L,332,I,L,0,Likely benign,criteria provided; single submitter,2025/07/16 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001768732,1768732,p.I332N,332,I,N,1,Likely pathogenic,criteria provided; single submitter,2022/02/04 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000184745,184745,p.R333C,333,R,C,0,Likely benign,reviewed by expert panel,2025/02/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000142273,142273,p.R333H,333,R,H,0,Benign,reviewed by expert panel,2025/03/04 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000428876,428876,p.G334W,334,G,W,1,Likely pathogenic,criteria provided; multiple submitters; no conflicts,2022/06/18 00:00,Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome 1,ClinVar
+VCV000141159,141159,p.R335C,335,R,C,0,Likely benign,reviewed by expert panel,2025/02/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV003328160,3328160,p.R335L,335,R,L,0,Likely benign,criteria provided; single submitter,2024/06/18 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV002450754,2450754,p.E336Q,336,E,Q,0,Likely benign,criteria provided; single submitter,2023/02/03 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000142536,142536,p.R337C,337,R,C,1,Pathogenic,reviewed by expert panel,2025/05/07 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000237938,237938,p.R337G,337,R,G,1,Likely pathogenic,reviewed by expert panel,2025/05/07 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000142828,142828,p.R337L,337,R,L,1,Likely pathogenic,reviewed by expert panel,2025/05/07 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000177879,177879,p.R337P,337,R,P,1,Likely pathogenic,reviewed by expert panel,2025/05/07 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000492644,492644,p.R337Q,337,R,Q,0,Likely benign,criteria provided; single submitter,2017/09/24 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001019612,1019612,p.R337S,337,R,S,1,Likely pathogenic,reviewed by expert panel,2025/05/07 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000141893,141893,p.E339Q,339,E,Q,0,Likely benign,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV003256325,3256325,p.M340I,340,M,I,0,Likely benign,criteria provided; single submitter,2025/03/04 00:00,not specified,ClinVar
+VCV004865879,4865879,p.M340L,340,M,L,0,Likely benign,criteria provided; single submitter,2026/04/28 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV004865872,4865872,p.M340V,340,M,V,0,Likely benign,criteria provided; single submitter,2026/03/31 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV002585878,2585878,p.F341L,341,F,L,0,Likely benign,criteria provided; single submitter,2023/06/26 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV002450748,2450748,p.F341S,341,F,S,1,Likely pathogenic,criteria provided; single submitter,2022/12/29 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000215996,215996,p.R342P,342,R,P,1,Pathogenic,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000233136,233136,p.R342Q,342,R,Q,0,Likely benign,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV003460327,3460327,p.E343D,343,E,D,0,Benign,criteria provided; single submitter,2024/10/24 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000012375,12375,p.L344P,344,L,P,1,Likely pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002758378,2758378,p.L344R,344,L,R,1,Likely pathogenic,reviewed by expert panel,2026/02/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000043587,43587,p.A347D,347,A,D,1,Pathogenic,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV002683739,2683739,p.A347G,347,A,G,0,Likely benign,criteria provided; single submitter,2023/11/14 00:00,Hereditary breast ovarian cancer syndrome,ClinVar
+VCV001775423,1775423,p.E349G,349,E,G,0,Likely benign,criteria provided; single submitter,2020/12/21 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV004189250,4189250,p.L350R,350,L,R,0,Likely benign,criteria provided; single submitter,2025/08/18 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV004865861,4865861,p.A353V,353,A,V,0,Likely benign,criteria provided; single submitter,2026/04/29 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000231485,231485,p.Q354K,354,Q,K,0,Benign,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV003232047,3232047,p.Q354L,354,Q,L,0,Benign,criteria provided; single submitter,2023/12/29 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003328171,3328171,p.Q354P,354,Q,P,0,Likely benign,criteria provided; single submitter,2024/05/08 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003460336,3460336,p.G356E,356,G,E,0,Likely benign,criteria provided; single submitter,2024/11/18 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000234059,234059,p.G356R,356,G,R,0,Likely benign,reviewed by expert panel,2024/09/06 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000142003,142003,p.G360A,360,G,A,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000080708,80708,p.H365Y,365,H,Y,0,Likely benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000135360,135360,p.S366A,366,S,A,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004826639,4826639,p.L369M,369,L,M,0,Likely benign,criteria provided; single submitter,2026/03/09 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000230269,230269,p.G374R,374,G,R,0,Benign,reviewed by expert panel,2024/08/05 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001798385,1798385,p.Q375K,375,Q,K,0,Likely benign,criteria provided; single submitter,2021/01/07 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV003972449,3972449,p.S378T,378,S,T,0,Likely benign,criteria provided; single submitter,2025/04/21 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000246221,246221,p.R379H,379,R,H,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000216463,216463,p.R379L,379,R,L,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000186762,186762,p.R379S,379,R,S,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000406575,406575,p.M384T,384,M,T,0,Benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV000182939,182939,p.M384V,384,M,V,0,Likely benign,reviewed by expert panel,2025/01/16 00:00,Li-Fraumeni syndrome,ClinVar
+VCV001735082,1735082,p.F385L,385,F,L,0,Likely benign,criteria provided; single submitter,2021/12/10 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV002585882,2585882,p.T387P,387,T,P,0,Likely benign,criteria provided; single submitter,2023/08/23 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV000141425,141425,p.E388A,388,E,A,0,Likely benign,reviewed by expert panel,2022/01/10 00:00,Li-Fraumeni syndrome,ClinVar
+VCV004553123,4553123,p.E388D,388,E,D,0,Likely benign,criteria provided; single submitter,2025/12/04 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001737291,1737291,p.E388Q,388,E,Q,0,Likely benign,criteria provided; single submitter,2022/07/11 00:00,Hereditary cancer-predisposing syndrome,ClinVar
+VCV001741120,1741120,p.D393Y,393,D,Y,0,Likely benign,criteria provided; single submitter,2022/07/12 00:00,Hereditary cancer-predisposing syndrome,ClinVar

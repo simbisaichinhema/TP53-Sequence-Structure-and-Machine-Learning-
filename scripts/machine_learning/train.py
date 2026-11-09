@@ -3,7 +3,7 @@
 Protocol (leak-free): stratified 80/20 train/test split (seed 42); scaling
 statistics fit on train only via sklearn Pipeline; 5-fold stratified CV on
 train; final metrics on the held-out test set. Class imbalance handled with
-balanced class weights (232 pathogenic vs 156 benign).
+  balanced class weights (class counts logged from the feature matrix).
 
 Inputs:  data/processed/structural_features/tp53_features.csv
 Outputs: results/machine_learning/model.joblib  (best-F1 pipeline + metadata)

@@ -20,16 +20,25 @@ DEMOS = [("R", 175, "H"), ("R", 248, "Q"), ("R", 248, "W"), ("R", 273, "H"),
 
 def main():
     m = json.loads((REPO / "results/machine_learning/metrics.json").read_text())
+    # Real dataset counts (no hard-coded n)
+    import csv as _csv
+    with open(REPO / "data/processed/mutations/tp53_variant_dataset.csv") as f:
+        vrows = list(_csv.DictReader(f))
+    n = len(vrows)
+    n_pos = sum(int(r["label"]) for r in vrows)
+    n_neg = n - n_pos
     lines = ["# Results: machine-learning evaluation",
              "",
              "Status: COMPLETED (prototype). Target: ClinVar germline "
              "pathogenicity (1 = Pathogenic/Likely pathogenic, 0 = "
              "Benign/Likely benign).",
              "",
-             f"Dataset: n=388 (232 pathogenic-associated, 156 "
+             f"Dataset: n={n} ({n_pos} pathogenic-associated, {n_neg} "
              f"benign-associated), 21 features. Split: stratified 80/20, "
              f"seed {m['seed']} (train={m['n_train']}, test={m['n_test']}). "
-             "Scaling fit on train only (Pipeline). Balanced class weights.",
+             "Scaling fit on train only (Pipeline). Balanced class weights. "
+             "Includes clear ClinVar labels + conflicting majority-vote "
+             "expansion (see data/metadata/variant_sources.csv).",
              "",
              "| Model | CV F1 (5-fold, train) | Test acc | Test prec | "
              "Test rec | Test F1 | Test ROC-AUC |",
@@ -44,17 +53,19 @@ def main():
               f"Selected model: **{m['selected_model']}** "
               f"(higher test F1). Test confusion matrix "
               f"[[TN={cm[0][0]}, FP={cm[0][1]}], [FN={cm[1][0]}, "
-              f"TP={cm[1][1]}]] over n=78 held-out variants.",
+              f"TP={cm[1][1]}]] over n={m['n_test']} held-out variants.",
               "",
               "Top-5 features (association only, not mechanism): "
               + ", ".join(m["feature_importance_ranking"][:5]) + ".",
               "",
-              "Caveats: n=388 is a small academic prototype, not a clinical "
-              "validator. Position carries hotspot signal (expected biology: "
-              "pathogenic missense enriches in the core domain); a "
-              "position-aware split is future work. See figures in "
+              "Caveats: n=" + str(n) + " is a small academic prototype, not a "
+              "clinical validator. Position carries hotspot signal (expected "
+              "biology: pathogenic missense enriches in the core domain); "
+              "random stratified splits can leak same-residue variants — "
+              "see results/machine_learning/position_aware/. See figures in "
               "figures/machine_learning/ (confusion matrix, ROC, feature "
-              "importance, class distribution)."]
+              "importance, class distribution). Multi-model benchmark: "
+              "results/machine_learning/benchmark/."]
     (REPO / "results/machine_learning/evaluation.md").write_text("\n".join(lines) + "\n")
 
     labels = {}

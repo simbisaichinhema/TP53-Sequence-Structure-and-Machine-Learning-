@@ -1,7 +1,7 @@
 """Generate results/mutations/variant_proteins.md from real artefacts.
 
 Contents (nothing hand-written):
-  - mutant protein inventory (388 sequences, lengths, uniqueness)
+  - mutant protein inventory (sequences, lengths, uniqueness)
   - demo variants: WT vs mutant ±7 sequence windows + property shifts
   - test-set error analysis: every misclassified variant with context
 

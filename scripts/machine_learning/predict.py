@@ -4,9 +4,15 @@ Single source of featurization: imports from make_features.py, so training
 and prediction can never diverge. Preprocessing (scaling) comes from the
 saved sklearn Pipeline itself.
 
+Default model: results/machine_learning/model.joblib (baseline RF from
+train.py). Any benchmark artefact can be selected with --model, e.g.
+  python3 scripts/machine_learning/predict.py \
+      --model results/machine_learning/benchmark/models/svm.joblib R 175 H
+
 Usage:
   python3 scripts/machine_learning/predict.py R 175 H
   python3 scripts/machine_learning/predict.py --pos 248 --ref R --alt Q
+  python3 scripts/machine_learning/predict.py --model PATH R 175 H
 Returns JSON on stdout; exit code 2 on invalid input (no stack trace).
 """
 
@@ -27,19 +33,32 @@ AA3_TO_1 = {"Ala": "A", "Arg": "R", "Asn": "N", "Asp": "D", "Cys": "C",
             "Ser": "S", "Thr": "T", "Trp": "W", "Tyr": "Y", "Val": "V"}
 
 REPO = Path(__file__).resolve().parents[2]
-MODEL = REPO / "results/machine_learning/model.joblib"
+DEFAULT_MODEL = REPO / "results/machine_learning/model.joblib"
 WT_FILE = REPO / "data/processed/protein/WT_TP53_ORF1_393aa.fasta"
 WT_CIF = REPO / "structures/alphafold/wt/selected/wt_selected.cif"
 
 VALID_AA = set("ARNDCQEGHILKMFPSTWYV")
 
 
-@lru_cache(maxsize=1)
-def _bundle():
-    b = joblib.load(MODEL)
+@lru_cache(maxsize=4)
+def _bundle_cached(model_path: str):
+    b = joblib.load(model_path)
     wt = read_seq(WT_FILE)
     plddt = read_plddt(WT_CIF)
     return b, wt, plddt
+
+
+def _bundle(model_path=None):
+    if model_path is None:
+        path = Path(DEFAULT_MODEL)
+    else:
+        path = Path(model_path)
+        if not path.is_absolute() and not path.exists():
+            path = REPO / path
+    path = path.resolve()
+    if not path.exists():
+        raise ValueError(f"Model file not found: {path}")
+    return _bundle_cached(str(path))
 
 
 def _norm_aa(s):
@@ -49,9 +68,9 @@ def _norm_aa(s):
     return s.upper()
 
 
-def predict_variant(pos, ref, alt):
+def predict_variant(pos, ref, alt, model_path=None):
     """Returns dict with prediction. Raises ValueError with user-safe message."""
-    bundle, wt, plddt = _bundle()
+    bundle, wt, plddt = _bundle(model_path)
     try:
         pos = int(pos)
     except (TypeError, ValueError):
@@ -80,8 +99,10 @@ def predict_variant(pos, ref, alt):
         "prediction": pred,
         "result": ("Pathogenic-associated" if pred else "Benign-associated"),
         "probability_pathogenic": round(proba, 4),
-        "model": bundle["model_name"],
-        "target": bundle["target"],
+        "model": bundle.get("model_name", "unknown"),
+        "model_stage": bundle.get("stage", "baseline"),
+        "model_path": str(model_path) if model_path else str(DEFAULT_MODEL),
+        "target": bundle.get("target", ""),
         "context": {
             "domain": domain.replace("dom_", ""),
             "in_core": bool(feat["in_core"]),
@@ -105,6 +126,9 @@ def main(argv=None):
     ap.add_argument("--pos", default=None)
     ap.add_argument("--ref", default=None)
     ap.add_argument("--alt", default=None)
+    ap.add_argument("--model", default=None,
+                    help="Path to model.joblib (default: "
+                         "results/machine_learning/model.joblib)")
     a = ap.parse_args(argv)
     if len(a.args) == 3:
         ref, pos, alt = a.args
@@ -114,7 +138,8 @@ def main(argv=None):
         print(json.dumps({"error": "Provide REF POS ALT, e.g. R 175 H."}))
         return 2
     try:
-        print(json.dumps(predict_variant(pos, ref, alt), indent=1))
+        print(json.dumps(predict_variant(pos, ref, alt, model_path=a.model),
+                         indent=1))
         return 0
     except ValueError as e:
         print(json.dumps({"error": str(e)}))

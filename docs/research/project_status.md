@@ -27,19 +27,25 @@ Date of last update: 2026-09-24.
   synthetic rotation-recovery self-test and corrected. Method retained with
   the self-test as regression guard.
 
-## Variant + ML + predictor (COMPLETED 2026-09-24, prototype scope)
+## Variant + ML + predictor (COMPLETED 2026-09-24, prototype scope; expanded 2026-11-09)
 
-- ClinVar TP53 build: 4034 records -> 388 missense (232 P/LP, 156 B/LB),
-  VCV-traceable, WT-verified (`data/processed/mutations/`).
+- ClinVar TP53 build: clear-label base 388 missense + conflicting
+  majority-vote expansion → **818** variants (405 P/LP, 413 B/LB),
+  VCV-traceable, WT-verified (`data/processed/mutations/`;
+  `label_basis` provenance).
 - 21 leak-free features; stratified 80/20 split (seed 42); random forest
-  test acc 0.846 / F1 0.880 / ROC-AUC 0.937 (`results/machine_learning/`).
+  test acc 0.884 / F1 0.886 / ROC-AUC 0.945 (`results/machine_learning/`).
+- 3-model fair benchmark + train-only tuning + position-aware protocol
+  (`results/machine_learning/benchmark/`).
 - Inference + HTML dashboard backed by the real model (`dashboard/`),
   verified end-to-end incl. invalid-input handling.
+- Kaggle notebook upgraded with side-by-side model comparison
+  (`kaggle/TP53_Kaggle_Demo.ipynb`).
 - RQ3-RQ5 answered at prototype scope. Remaining: PyMOL cartoon figures,
-  larger multi-source data, position-aware splits, independent testing.
+  larger multi-source data, independent testing.
 
 ## Pending / next
 
 - PyMOL cross-check of the superposition — PENDING (unchanged)
 - Structural comparison figures — PENDING
-- Variant dataset, mutants, features, ML — NOT STARTED (next workstream)
+- External / multi-source variant validation — NOT STARTED

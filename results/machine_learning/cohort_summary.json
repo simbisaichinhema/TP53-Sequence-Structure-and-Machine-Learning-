@@ -1,107 +1,152 @@
 {
  "train": {
-  "n": 310,
+  "n": 654,
   "accuracy": 1.0,
   "f1": 1.0,
   "roc_auc": 1.0
  },
  "test": {
-  "n": 78,
-  "accuracy": 0.8462,
-  "f1": 0.88,
-  "roc_auc": 0.9369
+  "n": 164,
+  "accuracy": 0.8902,
+  "f1": 0.8929,
+  "roc_auc": 0.9452
  },
  "all": {
-  "n": 388,
-  "accuracy": 0.9691,
-  "f1": 0.9745,
-  "roc_auc": 0.9939
+  "n": 818,
+  "accuracy": 0.978,
+  "f1": 0.9779,
+  "roc_auc": 0.9932
  },
  "misclassified": [
   {
-   "hgvs_p": "p.E326V",
-   "variant_id": "VCV002578514",
+   "hgvs_p": "p.P27L",
+   "variant_id": "VCV000481176",
+   "classification": "Uncertain significance",
+   "split": "test",
+   "proba_pathogenic": 0.0
+  },
+  {
+   "hgvs_p": "p.A119G",
+   "variant_id": "VCV000949408",
    "classification": "Likely pathogenic",
    "split": "test",
-   "proba_pathogenic": 0.0625
+   "proba_pathogenic": 0.09
   },
   {
-   "hgvs_p": "p.L344R",
-   "variant_id": "VCV002758378",
+   "hgvs_p": "p.T211P",
+   "variant_id": "VCV000528235",
+   "classification": "Pathogenic",
+   "split": "test",
+   "proba_pathogenic": 0.2275
+  },
+  {
+   "hgvs_p": "p.R342P",
+   "variant_id": "VCV000215996",
+   "classification": "Pathogenic",
+   "split": "test",
+   "proba_pathogenic": 0.245
+  },
+  {
+   "hgvs_p": "p.G187R",
+   "variant_id": "VCV000635392",
+   "classification": "Pathogenic",
+   "split": "test",
+   "proba_pathogenic": 0.3175
+  },
+  {
+   "hgvs_p": "p.G334W",
+   "variant_id": "VCV000428876",
    "classification": "Likely pathogenic",
    "split": "test",
-   "proba_pathogenic": 0.4725
-  },
-  {
-   "hgvs_p": "p.R337L",
-   "variant_id": "VCV000142828",
-   "classification": "Likely pathogenic",
-   "split": "test",
-   "proba_pathogenic": 0.49
-  },
-  {
-   "hgvs_p": "p.G293W",
-   "variant_id": "VCV000127826",
-   "classification": "Likely benign",
-   "split": "test",
-   "proba_pathogenic": 0.5075
-  },
-  {
-   "hgvs_p": "p.R333C",
-   "variant_id": "VCV000184745",
-   "classification": "Likely benign",
-   "split": "test",
-   "proba_pathogenic": 0.515
-  },
-  {
-   "hgvs_p": "p.C124S",
-   "variant_id": "VCV000182926",
-   "classification": "Likely benign",
-   "split": "test",
-   "proba_pathogenic": 0.66
-  },
-  {
-   "hgvs_p": "p.E287G",
-   "variant_id": "VCV004757808",
-   "classification": "Likely benign",
-   "split": "test",
-   "proba_pathogenic": 0.675
-  },
-  {
-   "hgvs_p": "p.V157I",
-   "variant_id": "VCV000185404",
-   "classification": "Likely benign",
-   "split": "test",
-   "proba_pathogenic": 0.7975
-  },
-  {
-   "hgvs_p": "p.L111V",
-   "variant_id": "VCV001730178",
-   "classification": "Likely benign",
-   "split": "test",
-   "proba_pathogenic": 0.8175
-  },
-  {
-   "hgvs_p": "p.G108S",
-   "variant_id": "VCV000142431",
-   "classification": "Likely benign",
-   "split": "test",
-   "proba_pathogenic": 0.8375
+   "proba_pathogenic": 0.4075
   },
   {
    "hgvs_p": "p.E204D",
    "variant_id": "VCV003460304",
    "classification": "Likely benign",
    "split": "test",
-   "proba_pathogenic": 0.8625
+   "proba_pathogenic": 0.575
   },
   {
-   "hgvs_p": "p.M160I",
-   "variant_id": "VCV000230758",
+   "hgvs_p": "p.V157I",
+   "variant_id": "VCV000185404",
    "classification": "Likely benign",
    "split": "test",
-   "proba_pathogenic": 0.9375
+   "proba_pathogenic": 0.585
+  },
+  {
+   "hgvs_p": "p.D148Y",
+   "variant_id": "VCV000428863",
+   "classification": "Uncertain significance",
+   "split": "test",
+   "proba_pathogenic": 0.6175
+  },
+  {
+   "hgvs_p": "p.L111V",
+   "variant_id": "VCV001730178",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.67
+  },
+  {
+   "hgvs_p": "p.R283C",
+   "variant_id": "VCV000127824",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.6725
+  },
+  {
+   "hgvs_p": "p.P128T",
+   "variant_id": "VCV000480743",
+   "classification": "Uncertain significance",
+   "split": "test",
+   "proba_pathogenic": 0.6825
+  },
+  {
+   "hgvs_p": "p.P222S",
+   "variant_id": "VCV000406592",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.6925
+  },
+  {
+   "hgvs_p": "p.V217M",
+   "variant_id": "VCV000183071",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.7325
+  },
+  {
+   "hgvs_p": "p.L145V",
+   "variant_id": "VCV002774652",
+   "classification": "Uncertain significance",
+   "split": "test",
+   "proba_pathogenic": 0.745
+  },
+  {
+   "hgvs_p": "p.A129D",
+   "variant_id": "VCV001735669",
+   "classification": "Benign",
+   "split": "test",
+   "proba_pathogenic": 0.7575
+  },
+  {
+   "hgvs_p": "p.H214Q",
+   "variant_id": "VCV000140943",
+   "classification": "Likely benign",
+   "split": "test",
+   "proba_pathogenic": 0.885
+  },
+  {
+   "hgvs_p": "p.S269C",
+   "variant_id": "VCV002575177",
+   "classification": "Benign",
+   "split": "test",
+   "proba_pathogenic": 0.9825
   }
  ],
- "n_misclassified": 12
+ "n_misclassified": 18,
+ "n_total": 818,
+ "n_pos": 405,
+ "n_neg": 413
 }

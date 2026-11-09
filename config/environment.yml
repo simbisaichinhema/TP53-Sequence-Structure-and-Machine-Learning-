@@ -10,3 +10,10 @@ dependencies:
   - scikit-learn
   - matplotlib
   - pyyaml
+  - joblib
+  - scipy
+  # Optional boosters used by scripts/machine_learning/benchmark_models.py.
+  # The benchmark skips any model whose package is missing.
+  - xgboost
+  - lightgbm
+  - catboost

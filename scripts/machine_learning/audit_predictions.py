@@ -1,4 +1,4 @@
-"""Full-cohort prediction audit: run the trained model over ALL 388 variants.
+"""Full-cohort prediction audit: run the trained model over ALL variants.
 
 Outputs (all from real model predictions, no hand-written numbers):
   results/machine_learning/all_predictions.csv  (every variant: label, split, pred, proba)
@@ -72,6 +72,9 @@ def main():
     summary["misclassified"] = mis[["hgvs_p", "variant_id", "classification",
                                     "split", "proba_pathogenic"]].to_dict("records")
     summary["n_misclassified"] = len(mis)
+    summary["n_total"] = len(out)
+    summary["n_pos"] = int(out.label.sum())
+    summary["n_neg"] = int(len(out) - out.label.sum())
     (RES_DIR / "cohort_summary.json").write_text(json.dumps(summary, indent=1))
     print(f"all={len(out)} test_acc={summary['test']['accuracy']} "
           f"test_f1={summary['test']['f1']} misclassified={len(mis)}")
@@ -85,7 +88,8 @@ def main():
     ax.bar(xs, frac, color="#1b2a4a")
     ax.set_xlabel("TP53 position")
     ax.set_ylabel("Pathogenic fraction")
-    ax.set_title(f"Pathogenic fraction by position (ClinVar labels, n=388; core 94–292 shaded)")
+    ax.set_title(f"Pathogenic fraction by position (ClinVar labels, "
+                 f"n={len(out)}; core 94–292 shaded)")
     ax.axvspan(94, 292, color="#0e7c7b", alpha=0.12)
     fig.tight_layout()
     fig.savefig(FIG_DIR / "position_enrichment.png", dpi=150)
@@ -94,7 +98,9 @@ def main():
     # Fig 2: pLDDT by class (uses feature matrix values)
     fig, ax = plt.subplots(figsize=(7, 4))
     ax.hist([df[df.label == 1]["plddt_at_pos"], df[df.label == 0]["plddt_at_pos"]],
-            bins=20, label=["Pathogenic (232)", "Benign (156)"],
+            bins=20,
+            label=[f"Pathogenic ({int(df.label.sum())})",
+                   f"Benign ({int((1 - df.label).sum())})"],
             color=["#b4232a", "#1c7a3d"], alpha=0.65)
     ax.set_xlabel("WT pLDDT at variant position")
     ax.set_ylabel("Variants")
@@ -109,7 +115,7 @@ def main():
     fig, ax = plt.subplots(figsize=(8, 4))
     ax.barh([f"{r[0]}→{r[1]}" for r in top.index[::-1]], top.values[::-1], color="#1b2a4a")
     ax.set_xlabel("Variants in dataset")
-    ax.set_title("Most frequent ref→alt substitutions (n=388)")
+    ax.set_title(f"Most frequent ref→alt substitutions (n={len(out)})")
     fig.tight_layout()
     fig.savefig(FIG_DIR / "substitution_counts.png", dpi=150)
     plt.close(fig)
