@@ -38,7 +38,8 @@ tuning → position-aware validation → cohort audit → prediction panel).
 
 - **Table A** — every metric on the held-out test set, ranked by ROC-AUC
 - **Table B** — CV mean±SD and test scores for all models, baseline vs challenger
-- **Table C** — Δ ROC-AUC and Δ F1 versus each baseline
+- **Table C** — Δ ROC-AUC and Δ F1 versus each baseline present in the run
+  (baselines missing from the default 3-model set are skipped)
 - **Section 9** — bar charts, overlay ROC/PR curves, confusion-matrix grid
 
 ## Notes
